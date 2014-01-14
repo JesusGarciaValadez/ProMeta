@@ -622,7 +622,7 @@
                 var screenHeight    = window.innerHeight;
                 $( '#wrapper_background' ).height( screenHeight );
                 var newHeight       = screenHeight - 55;
-                $( '#nav' ).css( 'top', newHeight + 'px' );
+                $( '#home #nav' ).css( 'top', newHeight + 'px' );
                 $( '#header' ).centerWidth();
             }
             calculateHeight();
@@ -633,7 +633,7 @@
             } );
         }
         
-        if ( $( '#nav' ).exists() ) {
+        if ( $( '#home #nav' ).exists() ) {
             
             $( 'a[title="Home"]' ).on( 'click', function ( e ) {
                 

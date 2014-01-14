@@ -105,7 +105,6 @@
     background: #000;
     height: 55px;
     left: 0;
-    position: absolute;
     width: 100%;
     z-index: 10;
     nav{
@@ -158,6 +157,7 @@
                     display: block;
                     height: 16px;
                     margin:1.6em 0 0;
+                    text-indent: -2000em;
                     width: 12px;
                 }
             }
@@ -209,6 +209,82 @@
         a{}
     }
 }
+.intern{
+    
+    #footer{
+        
+        #thick{
+            @extend .light_grey;
+            display: block;
+            height: 32px;
+            width: 100%;
+        }
+        footer{
+            height: 39px;
+            margin: 0 auto;
+            width: 1024px;
+            .contact_ways{
+                @extend .clearfix;
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+                li{
+                    float: left;
+                    display: inline-block;
+                    list-style: none inside;
+                    margin: 0;
+                    padding: 0 23px 0 0;
+                    p, a{
+                        @include font-mask( #5C5A58, em( 12, 16 ), em( 40, 12 ), normal );
+                        display: block;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    p{ }
+                    a{ text-decoration: none; }
+                }
+                .title_footer{
+                    padding: 0 23px 0 0;
+                    p{ color: #FFF; text-transform: uppercase; }
+                }
+            }
+            .social_media_links{
+                float: right;
+                padding: 9px 68px 0 0;
+                li{
+                    background: url("../img/prometa/social_media_images.png") no-repeat scroll 0 0 transparent;
+                    float: left;
+                    height: 22px;
+                    list-style: none inside;
+                    margin: 0 2px 0 0;
+                    padding: 0;
+                    width: 22px;
+                    a{
+                        display: block;
+                        height: 100%;
+                        text-indent: -2000em;
+                        width: 100%;
+                    }
+                }
+                .facebook_profile{ width: 20px; }
+                .twitter_profile{ background-position: -22px 0; }
+                .google_profile{
+                    background-position: -45px 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+hr{
+    border-color: #DFDFDF transparent transparent transparent;
+    border-style: solid none none none;
+    border-width: 1px 0 0 0;
+    display: block;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
 #home{
     overflow: hidden;
     #header{
@@ -219,6 +295,9 @@
                 display: none;
             }
         }
+    }
+    #nav{
+        position: absolute;
     }
     #contact_title{
         height: 155px;
@@ -345,7 +424,7 @@
                             background: url("../img/home/pointer.png") no-repeat scroll 553px 32px transparent;
                             text-indent: 27px;
                             strong{
-                                color: #BD1E2C;
+                                color: $red;
                                 font-weight: bold;
                             }
                         }
@@ -358,7 +437,7 @@
                             display: inline-block;
                             margin: 0;
                             padding: 18px 0 0;
-                            span{ color: #BD1E2C; }
+                            span{ color: $red; }
                         }
                         #location{
                             float: left;
@@ -412,7 +491,7 @@
                             text-decoration: none;
                             text-transform: lowercase;
                         }
-                        span{ color: #BD1E2C; }
+                        span{ color: $red; }
                     }
                 }
             }
@@ -439,9 +518,10 @@
         }
     }
 }
-#pro-meta
+#pro-meta{
+    
     #nav{
-        
+        position: relative;
         nav{
             
             ul{
@@ -465,41 +545,90 @@
             }
         }
     }
-    <div class="wrapper section light_grey" id="pro-meta_title">
-        <section class="information">
-             img{}
-             h1{
-                 
-                 span{}
-             }
-             p{
-                 
-                 span{
-                     
-                 }
-             }
-             ul
-                 <li id="design">
-                     Diseño y planificación comercial
-                 <li id="strategies">
-                     Estrategias y métodos de venta
-                 <li id="manage">
-                     Gestión comercial
-    <div class="wrapper section white" id="pro-meta_description">
-        <section class="information">
-            <ul>
-                <li>
-                    <img src="" width="" height="" alt="Misión" />
-                    <h2>Misión</h2>
-                    <p>Satisfacer a nuestros clientes brindándoles Soluciones innovadoras de alto valor agregado a través de Tecnología de vanguardia.</p>
-    <div class="wrapper" id="footer">
-        <div id="thick"></div>
-        <footer>
-            <ul class="contact_ways">
-                <li class="title_footer">
-                    <p>Contáctanos</p>
-                <li>
-                    <a href="mailto:hello@prometa.com" title="hello@prometa.com" target="_blank">hello@prometa.com</a>
-                <li>
-                    <p>(720) 907-3833</p>
-            <ul class="social_media_links">
+    #pro-meta_title{
+        
+        .information{
+            padding:32px 55px 0;
+            width: 914px;
+            img{
+                padding: 0 0 42px;
+                vertical-align: top;
+            }
+            h1{
+                @include font-mask( #000, em( 21, 16 ), em( 22, 21 ), normal );
+                margin: 0;
+                padding: 0 0 30px;
+                text-align: center;
+                span{ color: $red; }
+            }
+            hr{ width: 100%; }
+            p{
+                @include font-mask( #000, em( 13, 16 ), em( 13, 13 ), normal );
+                margin: 0;
+                padding: 27px 0 0;
+                text-align: center;
+                span{ font-size: em( 21, 13 ); line-height: em( 21, 21 ); }
+            }
+            ul{
+                display: block;
+                height: 29px;
+                margin: 19px auto 0;
+                padding: 0 0 40px;
+                width: 685px;
+                li{
+                    @include font-mask( #000, em( 13, 16 ), em( 29, 13 ), normal );
+                    background: url("../img/prometa/bullet.png") no-repeat scroll 0 0 transparent;
+                    display: inline-block;
+                    float: left;
+                    list-style: none inside;
+                    margin: 0;
+                    padding: 0;
+                    text-indent: 51px;
+                }
+                #design{ padding: 0 25px 0 0; }
+                #strategies{ padding: 0 43px 0 0; }
+                #manage{}
+            }
+        }
+    }
+    #pro-meta_description{
+        
+        .information{
+            @extend .clearfix;
+            ul{
+                @extend .clearfix;
+                display: block;
+                margin: 0 auto 37px;
+                padding: 22px 0 0 10px;
+                width: 857px;
+                li{
+                    display: inline-block;
+                    float: left;
+                    list-style: none inside;
+                    margin: 0;
+                    width: 208px;
+                    img{}
+                    h2{
+                        @include font-mask( $red, em( 21, 16 ), em( 16, 21 ), normal );
+                        display: block;
+                        text-align: center;
+                        margin: 0;
+                        padding: 30px 0 21px;
+                    }
+                    hr{
+                        width: 100%;
+                    }
+                    p{
+                        @include font-mask( #000, em( 13, 16 ), em( 16, 13 ), normal );
+                        margin: 0;
+                        padding: 20px 0 0;
+                        text-align: center;
+                    }
+                }
+                #mission{ padding: 0 114px 0 0; }
+                #vision{ padding: 0 119px 0 0; }
+                #values{}
+            }
+        }
+    }
+}
