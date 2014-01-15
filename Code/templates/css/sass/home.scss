@@ -93,11 +93,11 @@
             position: absolute;
             width:48px;
         }
-        .left{
+        .left{ left: 326px; }
+        .right{
             background-position:-48px 0px;
-            left: 326px;
+            left: 374px;
         }
-        .right{ left: 374px; }
     }
 }
 #nav{
@@ -586,8 +586,8 @@ hr{
                     text-indent: 51px;
                 }
                 #design{ padding: 0 25px 0 0; }
-                #strategies{ padding: 0 43px 0 0; }
-                #manage{}
+                #strategies{ background-position:0 -28px; padding: 0 43px 0 0; }
+                #manage{ background-position:0px -55px; }
             }
         }
     }
