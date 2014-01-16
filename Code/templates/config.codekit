@@ -709,16 +709,6 @@
 
   ],
   "files" : {
-    "\/img\/prometa\/bullet.png" : {
-      "inputAbbreviatedPath" : "\/img\/prometa\/bullet.png",
-      "outputAbbreviatedPath" : "\/img\/prometa\/bullet.png",
-      "outputPathIsSetByUser" : 0,
-      "processed" : 1,
-      "ignore" : 0,
-      "initialSize" : 1893,
-      "ignoreWasSetByUser" : 0,
-      "fileType" : 32768
-    },
     "\/img\/prometa\/valores.png" : {
       "inputAbbreviatedPath" : "\/img\/prometa\/valores.png",
       "outputAbbreviatedPath" : "\/img\/prometa\/prometa_imgn_3.png",
@@ -726,6 +716,16 @@
       "processed" : 1,
       "ignore" : 0,
       "initialSize" : 59557,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
+    "\/img\/prometa\/bullet.png" : {
+      "inputAbbreviatedPath" : "\/img\/prometa\/bullet.png",
+      "outputAbbreviatedPath" : "\/img\/prometa\/bullet.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 1,
+      "ignore" : 0,
+      "initialSize" : 1893,
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
     },
@@ -739,16 +739,6 @@
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
     },
-    "\/js\/plugins.js" : {
-      "syntaxCheckerStyle" : 1,
-      "inputAbbreviatedPath" : "\/js\/plugins.js",
-      "outputAbbreviatedPath" : "\/js\/plugins-ck.js",
-      "outputPathIsSetByUser" : 1,
-      "ignore" : 0,
-      "ignoreWasSetByUser" : 0,
-      "fileType" : 64,
-      "outputStyle" : 1
-    },
     "\/img\/prometa\/prometa_logo_interna.png" : {
       "inputAbbreviatedPath" : "\/img\/prometa\/prometa_logo_interna.png",
       "outputAbbreviatedPath" : "\/img\/prometa\/prometa_logo_interna.png",
@@ -758,6 +748,16 @@
       "initialSize" : 11397,
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
+    },
+    "\/js\/plugins.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/plugins.js",
+      "outputAbbreviatedPath" : "\/js\/plugins-ck.js",
+      "outputPathIsSetByUser" : 1,
+      "ignore" : 0,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
     },
     "\/img\/home\/prometa_logo.png" : {
       "inputAbbreviatedPath" : "\/img\/home\/prometa_logo.png",
@@ -817,14 +817,6 @@
       "fileType" : 64,
       "outputStyle" : 1
     },
-    "\/noticias.html" : {
-      "inputAbbreviatedPath" : "\/noticias.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "outputPathIsSetByUser" : 0,
-      "ignore" : 0,
-      "ignoreWasSetByUser" : 0,
-      "fileType" : 8192
-    },
     "\/js\/vendor\/jquery.form.js" : {
       "syntaxCheckerStyle" : 1,
       "inputAbbreviatedPath" : "\/js\/vendor\/jquery.form.js",
@@ -834,6 +826,14 @@
       "ignoreWasSetByUser" : 0,
       "fileType" : 64,
       "outputStyle" : 1
+    },
+    "\/noticias.html" : {
+      "inputAbbreviatedPath" : "\/noticias.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 0,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 8192
     },
     "\/css\/sass\/normalize.min.scss" : {
       "inputAbbreviatedPath" : "\/css\/sass\/normalize.min.scss",
@@ -930,6 +930,16 @@
       "fileType" : 64,
       "outputStyle" : 1
     },
+    "\/img\/services\/linea_servicios.png" : {
+      "inputAbbreviatedPath" : "\/img\/services\/linea_servicios.png",
+      "outputAbbreviatedPath" : "\/img\/services\/linea_servicios.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 0,
+      "ignore" : 0,
+      "initialSize" : 1017,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
     "\/css\/sass\/home.scss" : {
       "inputAbbreviatedPath" : "\/css\/sass\/home.scss",
       "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/css\/home.css",
@@ -975,6 +985,16 @@
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
     },
+    "\/img\/home\/indicator.png" : {
+      "inputAbbreviatedPath" : "\/img\/home\/indicator.png",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/indicator.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 1,
+      "ignore" : 0,
+      "initialSize" : 1025,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
     "\/img\/services\/logo_prometa_servicios.png" : {
       "inputAbbreviatedPath" : "\/img\/services\/logo_prometa_servicios.png",
       "outputAbbreviatedPath" : "\/img\/services\/logo_prometa_servicios.png",
@@ -1002,16 +1022,6 @@
       "processed" : 1,
       "ignore" : 0,
       "initialSize" : 931,
-      "ignoreWasSetByUser" : 0,
-      "fileType" : 32768
-    },
-    "\/img\/home\/indicator.png" : {
-      "inputAbbreviatedPath" : "\/img\/home\/indicator.png",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/indicator.png",
-      "outputPathIsSetByUser" : 0,
-      "processed" : 1,
-      "ignore" : 0,
-      "initialSize" : 1025,
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
     },
@@ -1110,14 +1120,6 @@
       "fileType" : 64,
       "outputStyle" : 1
     },
-    "\/pro-meta.html" : {
-      "inputAbbreviatedPath" : "\/pro-meta.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "outputPathIsSetByUser" : 0,
-      "ignore" : 0,
-      "ignoreWasSetByUser" : 0,
-      "fileType" : 8192
-    },
     "\/img\/home\/social_media_images.png" : {
       "inputAbbreviatedPath" : "\/img\/home\/social_media_images.png",
       "outputAbbreviatedPath" : "\/img\/home\/social_media_images.png",
@@ -1127,6 +1129,14 @@
       "initialSize" : 4775,
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
+    },
+    "\/pro-meta.html" : {
+      "inputAbbreviatedPath" : "\/pro-meta.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 0,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 8192
     },
     "\/img\/prometa\/vision.png" : {
       "inputAbbreviatedPath" : "\/img\/prometa\/vision.png",
@@ -1176,6 +1186,14 @@
       "ignoreWasSetByUser" : 0,
       "fileType" : 8192
     },
+    "\/css\/main.css" : {
+      "inputAbbreviatedPath" : "\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 16
+    },
     "\/js\/main-ck.js" : {
       "syntaxCheckerStyle" : 1,
       "inputAbbreviatedPath" : "\/js\/main-ck.js",
@@ -1185,14 +1203,6 @@
       "ignoreWasSetByUser" : 0,
       "fileType" : 64,
       "outputStyle" : 1
-    },
-    "\/css\/main.css" : {
-      "inputAbbreviatedPath" : "\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "outputPathIsSetByUser" : 0,
-      "ignore" : 1,
-      "ignoreWasSetByUser" : 0,
-      "fileType" : 16
     }
   }
 }
