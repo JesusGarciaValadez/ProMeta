@@ -637,17 +637,22 @@ hr{
     #services_title{
         
         .information{
-            
-            hr{}
+            padding: 38px 0 37px;
+            hr{ display:block; margin: 0 auto; width: 917px; }
             h1{
                 @include font-mask( $red, em( 29.58, 16 ), em( 61, 29.58 ), bold );
+                margin: 0;
                 text-align: center;
             }
             ul{
-                
+                display: block;
+                margin: 0 auto;
+                padding: 0 0 17px;
                 li{
-                    
-                    span{}
+                    @include font-mask( #000, em( 13, 16 ), em( 14, 13 ), bold );
+                    list-style: none inside;
+                    text-align: center;
+                    span{ color: $red; }
                 }
             }
         }
@@ -655,15 +660,30 @@ hr{
     #services_subtitle{
         
         .information{
-            
+            height: 215px;
             .items{
-                
+                height: 100%;
+                width: 2000em;
                 div{
-                    
-                    h2{}
+                    height: 77px;
+                    margin: 0;
+                    padding: 87px 0 51px;
+                    width: 1024px;
+                    h2,h3{
+                        display: block;
+                        margin: 0;
+                        padding: 0;
+                        width: 100%;
+                    }
+                    h2{
+                        @include font-mask( #000, em( 50, 16 ), em( 35, 50 ), normal );
+                        padding: 0 0 24px;
+                        text-align: center;
+                    }
                     h3{
-                        
-                        strong{}
+                        @include font-mask( #BBB, em( 21, 16 ), em( 17, 21 ), normal );
+                        text-align: center;
+                        strong{ color: #FFF; }
                     }
                 }
             }
@@ -671,32 +691,97 @@ hr{
         .scrollable{}
     }
     #services_descriptions{
-        
+        position: relative;
         .information{
-            
-            a.browser{}
-            .prev{}
-            .next{}
+            background: url("../img/services/linea_servicios.png") no-repeat scroll center center transparent;
+            overflow: hidden;
+            width: 880px;
+            a.browser{
+                background: url("../img/home/arrows.png") no-repeat scroll 0 0px transparent;
+                cursor: pointer;
+                display: inline-block;
+                height:30px;
+                position: absolute;
+                top: 30px;
+                width:19px;
+            }
+            .prev{ background-position:-100px 0px !important; left: 31px; }
+            .next{ background-position:-119px 0px !important; right: 31px; }
             .items{
-                
+                height: 300px;
+                margin: 0 auto;
+                padding: 30px 0 0;
+                width: 2000em;
                 div{
-                    
+                    float: left;
+                    height: 100%;
+                    width: 880px;
                     ul{
-                        
+                        @extend .clearfix;
+                        display: block;
+                        height: 108px;
+                        margin: 0 auto;
+                        padding: 0;
+                        width: 880px;
                         li{
-                            
+                            @extend .clearfix;
+                            background: url("../img/services/short_line.png") no-repeat scroll right bottom transparent;
+                            float: left;
+                            height: 100%;
+                            list-style: none inside;
+                            position: relative;
+                            width: 33.3%;
+                            &:last-child{ background: none; }
+                            &:nth-child( 0n + 3 ){ background: none; }
                             h4{
-                                
-                                span{}
+                                @include font-mask( $red, em( 21, 16 ), em( 21, 21 ), normal );
+                                display: block;
+                                margin: 0 auto;
+                                padding: 0 74px;
+                                text-align: center;
+                                width: 140px;
+                                span{ color: #BBB; }
                             }
                             ul{
-                                
-                                li{}
+                                display: block;
+                                margin: 0 auto;
+                                padding: 20px  0 0 34px;
+                                width: 155px;
+                                li{
+                                    @include font-mask( #000, em( 13, 16 ), em( 16, 16 ), normal );
+                                    background: url("../img/services/bullet.png") no-repeat scroll 0 3px transparent !important;
+                                    clear: both;
+                                    float: none;
+                                    height: 16px;
+                                    list-style: none outside;
+                                    margin: 0;
+                                    padding: 0 0 0 10px;
+                                    position: static;
+                                    text-align: left;
+                                    width: 100%;
+                                }
                             }
-                            .more_information{}
+                            .more_information{
+                                background: url("../img/home/arrows.png") no-repeat scroll -138px 0px transparent;
+                                bottom: 0;
+                                cursor: pointer;
+                                display: inline-block;
+                                height:15px;
+                                position: absolute;
+                                right: 10px;
+                                width:14px;
+                            }
                             p{
-                                
+                                @include font-mask( #000, em( 13, 16 ), em( 16, 16 ), normal );
+                                display: block;
+                                text-align: center;
+                                margin: 0;
+                                padding: 30px 34px 0;
+                                width: 220px;
                                 strong{}
+                            }
+                            .aditional{
+                                padding: 0 34px;
                             }
                             .content{
                                 
@@ -704,7 +789,30 @@ hr{
                             }
                         }
                     }
+                    #continue{
+                        display: block;
+                        margin: 0 auto;
+                        padding: 35px 0 0;
+                        width: 576px;
+                        li{
+                            width:288px;
+                        }
+                    }
                 }
+                #services_for_constructions{}
+                #consultancy{
+                    
+                    h4{ width: 160px; }
+                    ul{ 
+                        height: 240px;
+                        ul{
+                            @extend .clearfix;
+                            height: auto;
+                            .double{ height: 31px; }
+                        }
+                    }
+                }
+                #services_of_energy{}
             }
         }
         .scrollable{}
@@ -713,9 +821,20 @@ hr{
         
         .information{
             
-            p{}
-            hr{}
-            img{}
+            p{
+                @include font-mask( #000, em( 13, 16 ), em( 70, 13 ), normal );
+                display: block;
+                margin: 0 auto;
+                padding: 0;
+                text-align: center;
+                width: 917px;
+            }
+            hr{
+                display: block;
+                margin: 0 auto;
+                width: 1024px;
+            }
+            img{ float: right; padding: 35px 52px 0 0; }
         }
     }
 }
