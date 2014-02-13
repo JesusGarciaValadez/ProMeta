@@ -1013,9 +1013,9 @@
         }
         
         //  Carruseles y efectos del Home
-        if ( $( '#one' ).exists() ) {
-            
-            Prometa.inicializeCarrousel( '#header_scrollable', {
+        if ( $( '#services' ).exists() ) {
+            console.log( 'hi' );
+            Prometa.inicializeCarrousel( '#services_subtitle .information.scrollable', {
                 speed: 1000, 
                 circular: true, 
                 keyboard: false, 
@@ -1032,7 +1032,7 @@
                 autoplay: true, 
                 autopause: true
             } );
-            Prometa.inicializeCarrousel( '#tips_scrollable', {
+            Prometa.inicializeCarrousel( '#services_descriptions .information.scrollable', {
                 speed: 1000, 
                 circular: true, 
                 keyboard: false, 
