@@ -142,7 +142,7 @@
         "active" : 1
       }
     },
-    "coffeeAutoOutputPathStyle" : 0,
+    "coffeeAutoOutputPathStyle" : 2,
     "javascriptCreateSourceMap" : 1,
     "javascriptOutputSuffix" : "-ck",
     "typescriptDisallowBool" : 0,
@@ -375,7 +375,6 @@
     "typescriptDisallowImportModule" : 0,
     "lessOutputStyle" : 0,
     "stylusAutoOutputPathReplace2" : "css",
-    "externalServerPort" : 80,
     "sassDebugStyle" : 0,
     "stylusAutoOutputPathReplace1" : "stylus",
     "sassOutputStyle" : 3,
@@ -402,6 +401,7 @@
     "javascriptOutputStyle" : 1,
     "lessCreateSourceMap" : 0,
     "slimRailsCompatible" : 0,
+    "externalServerPreviewPathAddition" : "",
     "sassAutoOutputPathStyle" : 2,
     "sassAutoOutputPathRelativePath" : "..\/",
     "lessStrictImports" : 0,
@@ -670,7 +670,7 @@
     "javascriptAutoOutputPathReplace1" : "",
     "javascriptAutoOutputPathReplace2" : "",
     "websiteRelativeRoot" : "",
-    "coffeeAutoOutputPathRelativePath" : "",
+    "coffeeAutoOutputPathRelativePath" : "..\/",
     "typescriptCreateDeclarationFile" : 0,
     "hamlUseDoubleQuotes" : 0,
     "lessAllowInsecureImports" : 0,
@@ -694,8 +694,8 @@
     "lessRelativeURLS" : 0,
     "hamlEscapeHTMLCharacters" : 0
   },
-  "lastSavedByUser" : "Jesús Antonio García Valadez",
-  "creatorBuild" : "16100",
+  "lastSavedByUser" : "Jesús García Valadez",
+  "creatorBuild" : "16377",
   "manualImportLinks" : {
 
   },
@@ -703,18 +703,18 @@
     "displayValueWasSetByUser" : 1,
     "displayValue" : "Pro-Meta Code",
     "bowerAbbreviatedPath" : "",
-    "iconImageName" : "meme-facepalm"
+    "iconImageName" : "meme-wonka"
   },
   "hooks" : [
 
   ],
   "files" : {
-    "\/js\/vendor\/jquery.form.js" : {
+    "\/js\/vendor\/prefixfree.min.js" : {
       "syntaxCheckerStyle" : 1,
-      "inputAbbreviatedPath" : "\/js\/vendor\/jquery.form.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/vendor\/jquery.form-ck.js",
+      "inputAbbreviatedPath" : "\/js\/vendor\/prefixfree.min.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/prefixfree.min-ck.js",
       "outputPathIsSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "ignoreWasSetByUser" : 0,
       "fileType" : 64,
       "outputStyle" : 1
@@ -723,7 +723,7 @@
       "inputAbbreviatedPath" : "\/css\/sass\/main.scss",
       "outputAbbreviatedPath" : "\/css\/main.css",
       "outputPathIsSetByUser" : 1,
-      "shouldRunAutoprefixer" : 1,
+      "shouldRunAutoprefixer" : 0,
       "ignore" : 0,
       "createSourceMap" : 0,
       "decimalPrecision" : 2,
@@ -744,15 +744,15 @@
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
     },
-    "\/img\/home\/social_media_images.png" : {
-      "inputAbbreviatedPath" : "\/img\/home\/social_media_images.png",
-      "outputAbbreviatedPath" : "\/img\/home\/social_media_images.png",
+    "\/js\/vendor\/jquery.validate.min.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery.validate.min.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery.validate.min-ck.js",
       "outputPathIsSetByUser" : 0,
-      "processed" : 0,
       "ignore" : 0,
-      "initialSize" : 4775,
       "ignoreWasSetByUser" : 0,
-      "fileType" : 32768
+      "fileType" : 64,
+      "outputStyle" : 1
     },
     "\/img\/home\/prometa_logo.png" : {
       "inputAbbreviatedPath" : "\/img\/home\/prometa_logo.png",
@@ -764,6 +764,16 @@
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
     },
+    "\/js\/plugins-ck.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/plugins-ck.js",
+      "outputAbbreviatedPath" : "\/js\/plugins-ck-ck.js",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
     "\/img\/home\/red_background_weak.png" : {
       "inputAbbreviatedPath" : "\/img\/home\/red_background_weak.png",
       "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/red_background_weak.png",
@@ -773,16 +783,6 @@
       "initialSize" : 931,
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
-    },
-    "\/js\/plugins-ck.js" : {
-      "syntaxCheckerStyle" : 1,
-      "inputAbbreviatedPath" : "\/js\/plugins-ck.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/plugins-ck-ck.js",
-      "outputPathIsSetByUser" : 0,
-      "ignore" : 1,
-      "ignoreWasSetByUser" : 0,
-      "fileType" : 64,
-      "outputStyle" : 1
     },
     "\/js\/plugins.js" : {
       "syntaxCheckerStyle" : 1,
@@ -817,7 +817,7 @@
     "\/js\/vendor\/jquery.tools.custom.min.js" : {
       "syntaxCheckerStyle" : 1,
       "inputAbbreviatedPath" : "\/js\/vendor\/jquery.tools.custom.min.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/vendor\/jquery.tools.custom.min-ck.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery.tools.custom.min-ck.js",
       "outputPathIsSetByUser" : 0,
       "ignore" : 1,
       "ignoreWasSetByUser" : 0,
@@ -835,7 +835,7 @@
     "\/js\/vendor\/modernizr-2.6.2.min.js" : {
       "syntaxCheckerStyle" : 1,
       "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2.min.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/vendor\/modernizr-2.6.2.min-ck.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2.min-ck.js",
       "outputPathIsSetByUser" : 0,
       "ignore" : 0,
       "ignoreWasSetByUser" : 0,
@@ -855,7 +855,7 @@
     "\/js\/vendor\/jquery.validate.js" : {
       "syntaxCheckerStyle" : 1,
       "inputAbbreviatedPath" : "\/js\/vendor\/jquery.validate.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/vendor\/jquery.validate-ck.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery.validate-ck.js",
       "outputPathIsSetByUser" : 0,
       "ignore" : 1,
       "ignoreWasSetByUser" : 0,
@@ -865,47 +865,9 @@
     "\/js\/main-ck.js" : {
       "syntaxCheckerStyle" : 1,
       "inputAbbreviatedPath" : "\/js\/main-ck.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/main-ck-ck.js",
+      "outputAbbreviatedPath" : "\/js\/main-ck-ck.js",
       "outputPathIsSetByUser" : 0,
       "ignore" : 1,
-      "ignoreWasSetByUser" : 0,
-      "fileType" : 64,
-      "outputStyle" : 1
-    },
-    "\/img\/prometa\/bullet.png" : {
-      "inputAbbreviatedPath" : "\/img\/prometa\/bullet.png",
-      "outputAbbreviatedPath" : "\/img\/prometa\/bullet.png",
-      "outputPathIsSetByUser" : 0,
-      "processed" : 1,
-      "ignore" : 0,
-      "initialSize" : 1893,
-      "ignoreWasSetByUser" : 0,
-      "fileType" : 32768
-    },
-    "\/img\/home\/red_background.png" : {
-      "inputAbbreviatedPath" : "\/img\/home\/red_background.png",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/red_background.png",
-      "outputPathIsSetByUser" : 0,
-      "processed" : 1,
-      "ignore" : 0,
-      "initialSize" : 943,
-      "ignoreWasSetByUser" : 0,
-      "fileType" : 32768
-    },
-    "\/pro-meta.html" : {
-      "inputAbbreviatedPath" : "\/pro-meta.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "outputPathIsSetByUser" : 0,
-      "ignore" : 0,
-      "ignoreWasSetByUser" : 0,
-      "fileType" : 8192
-    },
-    "\/js\/main.js" : {
-      "syntaxCheckerStyle" : 1,
-      "inputAbbreviatedPath" : "\/js\/main.js",
-      "outputAbbreviatedPath" : "\/js\/main-ck.js",
-      "outputPathIsSetByUser" : 1,
-      "ignore" : 0,
       "ignoreWasSetByUser" : 0,
       "fileType" : 64,
       "outputStyle" : 1
@@ -920,20 +882,48 @@
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
     },
-    "\/img\/home\/indicator.png" : {
-      "inputAbbreviatedPath" : "\/img\/home\/indicator.png",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/indicator.png",
+    "\/img\/home\/red_background.png" : {
+      "inputAbbreviatedPath" : "\/img\/home\/red_background.png",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/red_background.png",
       "outputPathIsSetByUser" : 0,
       "processed" : 1,
       "ignore" : 0,
-      "initialSize" : 1025,
+      "initialSize" : 943,
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
+    },
+    "\/js\/main.js" : {
+      "syntaxCheckerStyle" : 1,
+      "inputAbbreviatedPath" : "\/js\/main.js",
+      "outputAbbreviatedPath" : "\/js\/main-ck.js",
+      "outputPathIsSetByUser" : 1,
+      "ignore" : 0,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 64,
+      "outputStyle" : 1
+    },
+    "\/img\/prometa\/bullet.png" : {
+      "inputAbbreviatedPath" : "\/img\/prometa\/bullet.png",
+      "outputAbbreviatedPath" : "\/img\/prometa\/bullet.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 1,
+      "ignore" : 0,
+      "initialSize" : 1893,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
+    "\/pro-meta.html" : {
+      "inputAbbreviatedPath" : "\/pro-meta.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "outputPathIsSetByUser" : 0,
+      "ignore" : 0,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 8192
     },
     "\/js\/vendor\/additional-methods.js" : {
       "syntaxCheckerStyle" : 1,
       "inputAbbreviatedPath" : "\/js\/vendor\/additional-methods.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/vendor\/additional-methods-ck.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/additional-methods-ck.js",
       "outputPathIsSetByUser" : 0,
       "ignore" : 1,
       "ignoreWasSetByUser" : 0,
@@ -950,6 +940,16 @@
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
     },
+    "\/img\/home\/black_background.png" : {
+      "inputAbbreviatedPath" : "\/img\/home\/black_background.png",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/black_background.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 1,
+      "ignore" : 0,
+      "initialSize" : 925,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
     "\/img\/home\/energy_team_footer_logo.png" : {
       "inputAbbreviatedPath" : "\/img\/home\/energy_team_footer_logo.png",
       "outputAbbreviatedPath" : "\/img\/home\/energy_clean_footer_logo.png",
@@ -960,13 +960,13 @@
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
     },
-    "\/img\/home\/black_background.png" : {
-      "inputAbbreviatedPath" : "\/img\/home\/black_background.png",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/black_background.png",
+    "\/img\/home\/indicator.png" : {
+      "inputAbbreviatedPath" : "\/img\/home\/indicator.png",
+      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/indicator.png",
       "outputPathIsSetByUser" : 0,
       "processed" : 1,
       "ignore" : 0,
-      "initialSize" : 925,
+      "initialSize" : 1025,
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
     },
@@ -993,7 +993,7 @@
     "\/js\/vendor\/jquery.scrollTo-1.4.3.1.js" : {
       "syntaxCheckerStyle" : 1,
       "inputAbbreviatedPath" : "\/js\/vendor\/jquery.scrollTo-1.4.3.1.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/vendor\/jquery.scrollTo-1.4.3.1-ck.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery.scrollTo-1.4.3.1-ck.js",
       "outputPathIsSetByUser" : 0,
       "ignore" : 1,
       "ignoreWasSetByUser" : 0,
@@ -1002,9 +1002,9 @@
     },
     "\/css\/sass\/home.scss" : {
       "inputAbbreviatedPath" : "\/css\/sass\/home.scss",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/css\/home.css",
+      "outputAbbreviatedPath" : "\/css\/home.css",
       "outputPathIsSetByUser" : 0,
-      "shouldRunAutoprefixer" : 1,
+      "shouldRunAutoprefixer" : 0,
       "ignore" : 1,
       "createSourceMap" : 0,
       "decimalPrecision" : 2,
@@ -1018,7 +1018,7 @@
     "\/js\/vendor\/jquery-1.9.0.min.js" : {
       "syntaxCheckerStyle" : 1,
       "inputAbbreviatedPath" : "\/js\/vendor\/jquery-1.9.0.min.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/vendor\/jquery-1.9.0.min-ck.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.9.0.min-ck.js",
       "outputPathIsSetByUser" : 0,
       "ignore" : 0,
       "ignoreWasSetByUser" : 0,
@@ -1056,7 +1056,7 @@
     "\/js\/vendor\/jquery-1.8.3.min.js" : {
       "syntaxCheckerStyle" : 1,
       "inputAbbreviatedPath" : "\/js\/vendor\/jquery-1.8.3.min.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/vendor\/jquery-1.8.3.min-ck.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-1.8.3.min-ck.js",
       "outputPathIsSetByUser" : 0,
       "ignore" : 0,
       "ignoreWasSetByUser" : 0,
@@ -1066,7 +1066,7 @@
     "\/js\/vendor\/jquery.tools.min.js" : {
       "syntaxCheckerStyle" : 1,
       "inputAbbreviatedPath" : "\/js\/vendor\/jquery.tools.min.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/vendor\/jquery.tools.min-ck.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery.tools.min-ck.js",
       "outputPathIsSetByUser" : 0,
       "ignore" : 0,
       "ignoreWasSetByUser" : 0,
@@ -1085,9 +1085,9 @@
     },
     "\/css\/sass\/normalize.min.scss" : {
       "inputAbbreviatedPath" : "\/css\/sass\/normalize.min.scss",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/css\/normalize.min.css",
+      "outputAbbreviatedPath" : "\/css\/normalize.min.css",
       "outputPathIsSetByUser" : 0,
-      "shouldRunAutoprefixer" : 1,
+      "shouldRunAutoprefixer" : 0,
       "ignore" : 1,
       "createSourceMap" : 0,
       "decimalPrecision" : 2,
@@ -1101,7 +1101,7 @@
     "\/js\/vendor\/jquery.scrollTo-1.4.3.1-min.js" : {
       "syntaxCheckerStyle" : 1,
       "inputAbbreviatedPath" : "\/js\/vendor\/jquery.scrollTo-1.4.3.1-min.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/vendor\/jquery.scrollTo-1.4.3.1-min-ck.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery.scrollTo-1.4.3.1-min-ck.js",
       "outputPathIsSetByUser" : 0,
       "ignore" : 0,
       "ignoreWasSetByUser" : 0,
@@ -1118,6 +1118,16 @@
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
     },
+    "\/img\/home\/social_media_images.png" : {
+      "inputAbbreviatedPath" : "\/img\/home\/social_media_images.png",
+      "outputAbbreviatedPath" : "\/img\/home\/social_media_images.png",
+      "outputPathIsSetByUser" : 0,
+      "processed" : 0,
+      "ignore" : 0,
+      "initialSize" : 4775,
+      "ignoreWasSetByUser" : 0,
+      "fileType" : 32768
+    },
     "\/img\/home\/pointer.png" : {
       "inputAbbreviatedPath" : "\/img\/home\/pointer.png",
       "outputAbbreviatedPath" : "\/img\/home\/pointer.png",
@@ -1128,22 +1138,12 @@
       "ignoreWasSetByUser" : 0,
       "fileType" : 32768
     },
-    "\/js\/vendor\/jquery.validate.min.js" : {
+    "\/js\/vendor\/jquery.form.js" : {
       "syntaxCheckerStyle" : 1,
-      "inputAbbreviatedPath" : "\/js\/vendor\/jquery.validate.min.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/vendor\/jquery.validate.min-ck.js",
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery.form.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery.form-ck.js",
       "outputPathIsSetByUser" : 0,
-      "ignore" : 0,
-      "ignoreWasSetByUser" : 0,
-      "fileType" : 64,
-      "outputStyle" : 1
-    },
-    "\/js\/vendor\/prefixfree.min.js" : {
-      "syntaxCheckerStyle" : 1,
-      "inputAbbreviatedPath" : "\/js\/vendor\/prefixfree.min.js",
-      "outputAbbreviatedPath" : "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/js\/vendor\/prefixfree.min-ck.js",
-      "outputPathIsSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "ignoreWasSetByUser" : 0,
       "fileType" : 64,
       "outputStyle" : 1
