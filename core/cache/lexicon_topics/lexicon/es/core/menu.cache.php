@@ -1,0 +1,18 @@
+<?php  return array (
+  'lexicon_key' => 'Clave del Léxico',
+  'menu_create' => 'Crear Menu',
+  'menu_confirm_remove' => 'Estás seguro de que quieres remover esta acción del menú?',
+  'menu_err_ae' => 'Ya existe un menú con ese nombre.  Por favor especifíca un valor de text diferente.',
+  'menu_err_nf' => 'Menú no encontrado!',
+  'menu_err_ns' => 'Menú no especificado!',
+  'menu_err_remove' => 'Ocurrió un error mientras se trataba de remover la acción del menú.',
+  'menu_err_save' => 'Ocurrió un error mientra se trataba de asignar la acción al menú.',
+  'menu_parent' => 'Menú Padre',
+  'menu_parent_err_ns' => 'Menú Padre no especificado!',
+  'menu_parent_err_nf' => 'Menú Padre no encontrado!',
+  'menu_remove' => 'Remover Artículo del Menú',
+  'menu_top' => 'Menú Superior',
+  'menu_update' => 'Actualizar Menú',
+  'topmenu' => 'Menú Superior',
+  'topmenu_desc' => 'Esto te permite asociar acciones con artículos del menú en la barra del menú superior del administrador de MODX.  Simplemente coloca acciones donde quieras que vayan rn su posisión de menú respectiva.',
+);

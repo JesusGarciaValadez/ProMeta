@@ -1,0 +1,16 @@
+<?php  return array (
+  'namespace' => 'Espacio de Nombres',
+  'namespace_create' => 'Crear Espacio de Nombres',
+  'namespace_err_create' => 'Ocurrió un error mientra se trataba de crear el espacio de nombres.',
+  'namespace_err_nf' => 'Espacio de Nombres no encontrado.',
+  'namespace_err_nfs' => 'No se encontro el Espacio de Nombres con nombre: %s',
+  'namespace_err_ns' => 'Espacio de Nombres no especificado.',
+  'namespace_err_remove' => 'Ocurrió un error mientras se trataba de remover el espacio de nombres.',
+  'namespace_err_save' => 'Ocurrió un error mientras se trataba de guardar el espacio de nombres.',
+  'namespace_path_desc' => 'Especifíca un nombre de ruta absoluta aquí: (ejemplo: MODX_CORE_PATH . "assets/democomponent")',
+  'namespace_remove' => 'Remover Espacio de Nombres',
+  'namespace_remove_confirm' => 'Estás seguro de que quieres remover este espacio de nombres y todo el contenido relacionado?',
+  'namespace_update' => 'Actualizar Espacio de Nombres',
+  'namespaces' => 'Espacio de Nombres',
+  'namespaces_desc' => 'Los Espacios de Nombres son identificadores globales para paquetes y componentes, registrando juntos todos sus vehículos, entradas de léxico y recursos.',
+);

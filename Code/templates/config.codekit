@@ -1,17 +1,7 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16534",
+"creatorBuild": "16546",
 "files": {
-	"\/Applications\/XAMPP\/xamppfiles\/htdocs\/ProMeta\/Code\/templates\/js\/main.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/ProMeta\/Code\/templates\/js\/main.min.js",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/ProMeta\/Code\/templates\/js\/main.min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
 	"\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -21,14 +11,14 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/css\/sass\/home.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/home.scss",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/css\/home.css",
+		"outputAbbreviatedPath": "\/css\/css\/home.css",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
@@ -51,14 +41,14 @@
 		"useLibsass": 0
 		},
 	"\/css\/sass\/normalize.min.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 2,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/normalize.min.scss",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/css\/normalize.min.css",
+		"outputAbbreviatedPath": "\/css\/css\/normalize.min.css",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
@@ -71,9 +61,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4359,
 		"inputAbbreviatedPath": "\/img\/home\/arrows.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/arrows.png",
+		"outputAbbreviatedPath": "\/img\/home\/arrows.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/bg_home_1.jpg": {
 		"fileType": 16384,
@@ -81,9 +71,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.87594e+06,
 		"inputAbbreviatedPath": "\/img\/home\/bg_home_1.jpg",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/bg_home_1.jpg",
+		"outputAbbreviatedPath": "\/img\/home\/bg_home_1.jpg",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/black_background.png": {
 		"fileType": 32768,
@@ -91,9 +81,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 921,
 		"inputAbbreviatedPath": "\/img\/home\/black_background.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/black_background.png",
+		"outputAbbreviatedPath": "\/img\/home\/black_background.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/energy_team_footer_logo.png": {
 		"fileType": 32768,
@@ -101,9 +91,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2824,
 		"inputAbbreviatedPath": "\/img\/home\/energy_team_footer_logo.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/energy_team_footer_logo.png",
+		"outputAbbreviatedPath": "\/img\/home\/energy_team_footer_logo.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/indicator.png": {
 		"fileType": 32768,
@@ -111,9 +101,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1025,
 		"inputAbbreviatedPath": "\/img\/home\/indicator.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/indicator.png",
+		"outputAbbreviatedPath": "\/img\/home\/indicator.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/logo.png": {
 		"fileType": 32768,
@@ -121,9 +111,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4113,
 		"inputAbbreviatedPath": "\/img\/home\/logo.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/logo.png",
+		"outputAbbreviatedPath": "\/img\/home\/logo.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/logo_prometa_contacto.png": {
 		"fileType": 32768,
@@ -131,9 +121,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3022,
 		"inputAbbreviatedPath": "\/img\/home\/logo_prometa_contacto.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/logo_prometa_contacto.png",
+		"outputAbbreviatedPath": "\/img\/home\/logo_prometa_contacto.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/magnifier.png": {
 		"fileType": 32768,
@@ -141,9 +131,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1196,
 		"inputAbbreviatedPath": "\/img\/home\/magnifier.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/magnifier.png",
+		"outputAbbreviatedPath": "\/img\/home\/magnifier.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/pointer.png": {
 		"fileType": 32768,
@@ -151,9 +141,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1458,
 		"inputAbbreviatedPath": "\/img\/home\/pointer.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/pointer.png",
+		"outputAbbreviatedPath": "\/img\/home\/pointer.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/prometa_logo.png": {
 		"fileType": 32768,
@@ -161,9 +151,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 9099,
 		"inputAbbreviatedPath": "\/img\/home\/prometa_logo.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/prometa_logo.png",
+		"outputAbbreviatedPath": "\/img\/home\/prometa_logo.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/red_background.png": {
 		"fileType": 32768,
@@ -171,9 +161,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 935,
 		"inputAbbreviatedPath": "\/img\/home\/red_background.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/red_background.png",
+		"outputAbbreviatedPath": "\/img\/home\/red_background.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/red_background_strong.png": {
 		"fileType": 32768,
@@ -181,9 +171,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 926,
 		"inputAbbreviatedPath": "\/img\/home\/red_background_strong.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/red_background_strong.png",
+		"outputAbbreviatedPath": "\/img\/home\/red_background_strong.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/red_background_weak.png": {
 		"fileType": 32768,
@@ -191,9 +181,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 926,
 		"inputAbbreviatedPath": "\/img\/home\/red_background_weak.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/red_background_weak.png",
+		"outputAbbreviatedPath": "\/img\/home\/red_background_weak.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/select_background.png": {
 		"fileType": 32768,
@@ -201,9 +191,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1068,
 		"inputAbbreviatedPath": "\/img\/home\/select_background.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/select_background.png",
+		"outputAbbreviatedPath": "\/img\/home\/select_background.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/home\/social_media_images.png": {
 		"fileType": 32768,
@@ -211,9 +201,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3636,
 		"inputAbbreviatedPath": "\/img\/home\/social_media_images.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/home\/social_media_images.png",
+		"outputAbbreviatedPath": "\/img\/home\/social_media_images.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/prometa\/bullet.png": {
 		"fileType": 32768,
@@ -221,9 +211,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4470,
 		"inputAbbreviatedPath": "\/img\/prometa\/bullet.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/prometa\/bullet.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/bullet.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/prometa\/circle.png": {
 		"fileType": 32768,
@@ -231,9 +221,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4097,
 		"inputAbbreviatedPath": "\/img\/prometa\/circle.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/prometa\/circle.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/circle.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/prometa\/mision.png": {
 		"fileType": 32768,
@@ -241,9 +231,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 42915,
 		"inputAbbreviatedPath": "\/img\/prometa\/mision.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/prometa\/mision.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/mision.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/prometa\/prometa_logo_interna.png": {
 		"fileType": 32768,
@@ -251,9 +241,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 8162,
 		"inputAbbreviatedPath": "\/img\/prometa\/prometa_logo_interna.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/prometa\/prometa_logo_interna.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/prometa_logo_interna.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/prometa\/social_media_images.png": {
 		"fileType": 32768,
@@ -261,9 +251,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1948,
 		"inputAbbreviatedPath": "\/img\/prometa\/social_media_images.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/prometa\/social_media_images.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/social_media_images.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/prometa\/valores.png": {
 		"fileType": 32768,
@@ -271,9 +261,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 59557,
 		"inputAbbreviatedPath": "\/img\/prometa\/valores.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/prometa\/valores.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/valores.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/prometa\/vision.png": {
 		"fileType": 32768,
@@ -281,19 +271,19 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 54916,
 		"inputAbbreviatedPath": "\/img\/prometa\/vision.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/prometa\/vision.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/vision.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/services\/bullet.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 985,
+		"initialSize": 956,
 		"inputAbbreviatedPath": "\/img\/services\/bullet.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/services\/bullet.png",
+		"outputAbbreviatedPath": "\/img\/services\/bullet.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/services\/linea_servicios.png": {
 		"fileType": 32768,
@@ -301,9 +291,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1422,
 		"inputAbbreviatedPath": "\/img\/services\/linea_servicios.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/services\/linea_servicios.png",
+		"outputAbbreviatedPath": "\/img\/services\/linea_servicios.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/services\/logo_prometa_servicios.png": {
 		"fileType": 32768,
@@ -311,9 +301,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2964,
 		"inputAbbreviatedPath": "\/img\/services\/logo_prometa_servicios.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/services\/logo_prometa_servicios.png",
+		"outputAbbreviatedPath": "\/img\/services\/logo_prometa_servicios.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/img\/services\/short_line.png": {
 		"fileType": 32768,
@@ -321,9 +311,9 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 991,
 		"inputAbbreviatedPath": "\/img\/services\/short_line.png",
-		"outputAbbreviatedPath": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/prometa\/Code\/templates\/img\/services\/short_line.png",
+		"outputAbbreviatedPath": "\/img\/services\/short_line.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -346,7 +336,7 @@
 	"\/js\/main.min.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/main.min.js",
 		"outputAbbreviatedPath": "\/js\/main.min.min.js",
 		"outputPathIsSetByUser": 0,
@@ -366,7 +356,7 @@
 	"\/js\/plugins.min.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/plugins.min.js",
 		"outputAbbreviatedPath": "\/js\/plugins.min.min.js",
 		"outputPathIsSetByUser": 0,
@@ -437,11 +427,8 @@
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-
 		"inputAbbreviatedPath": "\/js\/vendor\/jquery.tools.custom.min.js",
-
 		"outputAbbreviatedPath": "\/js\/vendor\/jquery.tools.custom.min.min.js",
-
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
@@ -533,14 +520,14 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Jesús Antonio García Valadez",
+"lastSavedByUser": "Jesús García Valadez",
 "manualImportLinks": {
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "Pro-Meta Templates",
+	"displayValue": "templates",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-facepalm"
+	"iconImageName": "meme-fry"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
@@ -549,11 +536,11 @@
 	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
 	"browserRefreshDelay": 0,
-	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathRelativePath": "..\/",
 	"coffeeAutoOutputPathReplace1": "",
 	"coffeeAutoOutputPathReplace2": "",
-	"coffeeAutoOutputPathStyle": 0,
-	"coffeeCreateSourceMap": 0,
+	"coffeeAutoOutputPathStyle": 2,
+	"coffeeCreateSourceMap": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
 			"active": 0,
@@ -643,41 +630,39 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost\/ProMeta\/",
-	"externalServerPreviewPathAddition": "Code\/templates\/",
+	"externalServerAddress": "http:\/\/localhost:80\/ProMeta",
+	"externalServerPreviewPathAddition": "\/Code\/templates\/",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 0,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 2,
+	"javascriptOutputSuffix": ".min",
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "jQuery,$,_,Prometa,_Prometa,console",
 	"jsHintFlags2": {
-
+		"asi": {
 			"active": 0,
 			"flagValue": -1
-
 			},
 		"bitwise": {
 			"active": 1,
@@ -685,20 +670,19 @@
 			},
 		"boss": {
 			"active": 0,
-
-
-
-
+			"flagValue": -1
+			},
+		"browser": {
 			"active": 1,
 			"flagValue": -1
 			},
-
-
-
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
 			},
-
-
-
+		"couch": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"curly": {
 			"active": 1,
@@ -713,8 +697,8 @@
 			"flagValue": -1
 			},
 		"dojo": {
-
-
+			"active": 0,
+			"flagValue": -1
 			},
 		"eqeqeq": {
 			"active": 1,
@@ -741,22 +725,23 @@
 			"flagValue": -1
 			},
 		"forin": {
-
-
-
-
-
-
+			"active": 0,
+			"flagValue": -1
 			},
-
-
-
-
-
-
-
-
-
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"gcl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"immed": {
@@ -768,23 +753,23 @@
 			"flagValue": 4
 			},
 		"iterator": {
-
-
-
-
-
-
+			"active": 0,
+			"flagValue": -1
 			},
-
-
-
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
 			},
-
-
-
-
-
-
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"laxcomma": {
@@ -851,9 +836,9 @@
 			"active": 1,
 			"flagValue": -1
 			},
-
-
-
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"notypeof": {
 			"active": 1,
@@ -875,9 +860,9 @@
 			"active": 0,
 			"flagValue": -1
 			},
-
-
-
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"proto": {
 			"active": 0,
@@ -899,9 +884,9 @@
 			"active": 0,
 			"flagValue": -1
 			},
-
-
-
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"shelljs": {
 			"active": 0,
@@ -911,29 +896,29 @@
 			"active": 0,
 			"flagValue": -1
 			},
-
-
-
+		"strict": {
+			"active": 0,
+			"flagValue": -1
 			},
-
-
-
-
-
-
-
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"trailing": {
 			"active": 1,
 			"flagValue": -1
 			},
-
-
-
-
-
-
-
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"unused": {
 			"active": 1,
@@ -959,42 +944,43 @@
 			"active": 0,
 			"flagValue": -1
 			}
-
-
-
+		},
+	"jsLintFlags2": {
+		"ass": {
 			"active": 0,
-
+			"flagValue": -1
 			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"browser": {
-
-
+			"active": 1,
+			"flagValue": -1
 			},
 		"closure": {
-
-
-
-
-			"active": 0,
-
-			},
-
 			"active": 0,
 			"flagValue": -1
-
-
-
-
-
-
-
 			},
-
-
-
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeq": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"forin": {
 			"active": 0,
@@ -1008,28 +994,28 @@
 			"active": 0,
 			"flagValue": 150
 			},
-
-
-
-
-
-
+		"newcap": {
+			"active": 0,
 			"flagValue": -1
 			},
-
-
-
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"plusplus": {
-
-
+			"active": 0,
+			"flagValue": -1
 			},
 		"properties": {
-
-
-
-
-
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"rhino": {
@@ -1041,20 +1027,20 @@
 			"flagValue": -1
 			},
 		"stupid": {
-
-
-
-
-
+			"active": 0,
 			"flagValue": -1
 			},
-
-
-
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"unparam": {
-
-
+			"active": 0,
+			"flagValue": -1
 			},
 		"vars": {
 			"active": 0,
@@ -1071,45 +1057,45 @@
 	"kitAutoOutputPathStyle": 0,
 	"lessAllowInsecureImports": 0,
 	"lessAutoOutputPathRelativePath": "..\/css",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownEnableFootnotes": 0,
+	"markdownEnableSmartyPants": 1,
+	"markdownExpandTabs": 1,
+	"reloadFileURLs": 1,
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 1,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 2,
+	"sassOutputStyle": 3,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 1,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
 	"slimAutoOutputPathRelativePath": "",
-
-
-
-
-
-
-
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathRelativePath": "..\/css",
 	"stylusAutoOutputPathReplace1": "stylus",
 	"stylusAutoOutputPathReplace2": "css",
@@ -1126,7 +1112,6 @@
 	"typescriptCreateSourceMap": 0,
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
-
 	"typescriptNoImplicitAny": 0,
 	"typescriptNoResolve": 0,
 	"typescriptRemoveComments": 0,
@@ -1141,9 +1126,9 @@
 			"active": 1,
 			"flagValue": -1
 			},
-
-
-
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"cascade": {
 			"active": 1,
@@ -1155,7 +1140,7 @@
 			},
 		"comparisons": {
 			"active": 1,
-
+			"flagValue": -1
 			},
 		"compress": {
 			"active": 1,
@@ -1181,13 +1166,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-
+		"hoist_funs": {
 			"active": 1,
 			"flagValue": -1
 			},
 		"hoist_vars": {
-
-
+			"active": 0,
+			"flagValue": -1
 			},
 		"if_return": {
 			"active": 1,
@@ -1207,7 +1192,7 @@
 			},
 		"join_vars": {
 			"active": 1,
-
+			"flagValue": -1
 			},
 		"loops": {
 			"active": 1,
@@ -1230,44 +1215,44 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-
-
-
-
-
-
+			"active": 0,
+			"flagValue": -1
 			},
-
-
-
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
 			},
-
-
-
-
-
-
-
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
-
-
-
-
-
+		"unsafe": {
 			"active": 0,
 			"flagValue": -1
 			},
-
+		"unused": {
 			"active": 0,
-
+			"flagValue": -1
 			},
-
-
-
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
 			}
 		},
 	"uglifyReservedNamesString": "$",
