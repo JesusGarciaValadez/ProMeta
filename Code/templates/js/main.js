@@ -50,7 +50,10 @@
          *
          */
         //  !Método inicializador
-        init:   function ( ) {}, 
+        init:   function ( ) {
+            
+            Prometa.obtainActualDocument();
+        }, 
         /**
          *
          *  @function:  !makesUniform
@@ -82,25 +85,25 @@
          *
          */
         //  !Ancla el menú cuando a una altura determinada mediante css
-        anchorMenu: function ( selectorToApply, offsetTop, classToFix, classToDeFix ) {
+        anchorMenu: function ( selectorToApply, offsetTop, cssToFix, cssToDeFix ) {
             
             Prometa.tool = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
             
-            _selector       = ( typeof( selector ) == "undefined" ) ? "*" : selector;
+            _selector       = ( typeof( selectorToApply ) == "undefined" ) ? "*" : selectorToApply;
             _selector       = ( typeof( _selector ) == "object" ) ? _selector : $( _selector );
             
             _offsetTop      = ( offsetTop == "" ) ? 0 : offsetTop;
             _offsetTop      = ( typeof( _offsetTop ) == "string" ) ? parseInt( _offsetTop ) : ( typeof( _offsetTop ) == "number" ) ? _offsetTop : parseInt( _offsetTop );
             
-            _classToFix     = ( typeof( _classToFix ) == "object" ) ? classToFix : {};
-            _classToDeFix   = ( typeof( _classToDeFix ) == "object" ) ? classToDeFix : {};
+            _cssToFix     = ( typeof( cssToFix ) == "object" ) ? cssToFix : {};
+            _cssToDeFix   = ( typeof( cssToDeFix ) == "object" ) ? cssToDeFix : {};
             
             if ( Prometa.tool >= _offsetTop ) {
                 
-                _selectorToApply.css( toFix );
+                _selector.css( _cssToFix );
             } else {
                 
-                _selectorToApply.css( toDeFix );
+                _selector.css( _cssToDeFix );
             }
         },
         /**
@@ -144,7 +147,7 @@
                 animation: google.maps.Animation.DROP, 
                 position: point,
                 map: googleMap, 
-                icon:'Code/templates/img/markerBig.png'
+                icon:'img/home/pointer.png'
             });
             
             var infoWindow  = new google.maps.InfoWindow({
@@ -472,6 +475,43 @@
                 
                 _selector.toggleClass( _class );
             }
+        },
+        /**
+         *
+         *  @function:  !obtainActualDocument
+         *  @description:   Obtain name of the section from the url and puts an 
+         *                  active state in the correspondant link
+         *  @author: @_Chucho_
+         *
+         */
+        //  !Obtiene el nombre de la sección de la url y pone una clase al link correspondiente
+        obtainActualDocument:   function ( ) {
+            
+            //  obtain url and determine wich function execute on base at name sectionn.
+            var absolutePath        = self.location.href;
+            var lastSlashPosition   = absolutePath.lastIndexOf( "/" ); 
+            var relativePath        = absolutePath.substring( lastSlashPosition + "/".length , absolutePath.length );
+            var waste               = relativePath.substring( relativePath.lastIndexOf( '.' ), relativePath.length );
+            relativePath            = relativePath.replace( waste, '' );
+            var _section            = new RegExp( "pro-meta|servicios|noticias|index*[^-]", "gi" );
+            var _nameSection        = String( relativePath.match( _section ) );
+            $( '#nav nav ul li.active' ).removeClass( 'active' );
+            
+            switch ( _nameSection ) {
+                case "pro-meta": 
+                    $( '#nav nav ul li' ).eq( 1 ).addClass( 'active' );
+                    break;
+                case "servicios": 
+                    $( '#nav nav ul li' ).eq( 2 ).addClass( 'active' );
+                    break;
+                case "noticias": 
+                    $( '#nav nav ul li' ).eq( 3 ).addClass( 'active' );
+                    break;
+                case "index":
+                default: 
+                    $( '#nav nav ul li' ).eq( 0 ).addClass( 'active' );
+                    break;
+            }
         }, 
     };
     
@@ -486,6 +526,8 @@
     
     //  When DOM is loaded
     $( function ( ) {
+        
+        Prometa.init();
         
         if ( $( ".loader" ).exists() ) {
             
@@ -615,16 +657,18 @@
     $( document ).on( 'ready', function ( e ) {
         
         //  Arregla tamaños del background al iniciar y al redimensionar la ventana
+        var screenHeight, newHeight
+        var calculateHeight = function ( ) {
+            
+            screenHeight    = window.innerHeight;
+            $( '#wrapper_background' ).height( screenHeight );
+            newHeight       = screenHeight - 55;
+            $( '#home #nav' ).css( 'top', newHeight + 'px' );
+            $( '#header' ).centerWidth();
+        }
+        
         if ( $( '#wrapper_background' ).exists() ) {
             
-            var calculateHeight = function () {
-                
-                var screenHeight    = window.innerHeight;
-                $( '#wrapper_background' ).height( screenHeight );
-                var newHeight       = screenHeight - 55;
-                $( '#home #nav' ).css( 'top', newHeight + 'px' );
-                $( '#header' ).centerWidth();
-            }
             calculateHeight();
             
             $( window ).on( 'resize', function ( e ) {
@@ -644,6 +688,10 @@
                 
                 $( 'nav ul li' ).removeClass( 'active' );
                 Prometa.toggleClass( $( e.currentTarget ).parent(), 'active' );
+                
+                $( '#home' ).css( {
+                    overflow: "hidden"
+                } );
             } );
             $( 'a[title="Contacto"]' ).on( 'click', function ( e ) {
                 
@@ -655,7 +703,64 @@
                 
                 $( 'nav ul li' ).removeClass( 'active' );
                 Prometa.toggleClass( $( e.currentTarget ).parent(), 'active' );
+                
+                $( '#home' ).css( {
+                    overflow: "auto"
+                } );
             } );
+            
+            /**
+             *
+             *  Anchor the menu when at loadpage it is in to certain Y coord while doing scroll
+             *
+             */
+            //  !Ancla el menú si al cargar la página el documento esta en cierta coordenada.
+            Prometa.anchorMenu( '#home #nav', newHeight, {
+                position:   'fixed', 
+                top:        '0px'
+            }, {
+                position:   'absolute', 
+                top:        newHeight + 'px'
+            } );
+            
+            Prometa.anchorMenu( '#home', newHeight, {
+                overflow: "auto"
+            }, {
+                overflow: "hidden"
+            } );
+            
+            /**
+             *
+             *  Anchor the menu when the screen is up to certain Y coord while doing scroll
+             *
+             */
+            //  !Ancla el menú cuando pasa de cierta coordenada Y al hacer scroll
+            $( window ).on( 'scroll', function ( e ) {
+                
+                Prometa.anchorMenu( '#home #nav', newHeight, {
+                    position:   'fixed', 
+                    top:        '0px'
+                }, {
+                    position:   'absolute', 
+                    top:        newHeight + 'px'
+                } );
+                
+                if ( Prometa.tool == 0 ) {
+                    
+                    $( '#home' ).css( {
+                        overflow: "hidden"
+                    } );
+                    $( 'a[title="Home"]' ).parent().addClass( 'active' );
+                    $( 'a[title="Contacto"]' ).parent().removeClass( 'active' );
+                } else if ( Prometa.tool >= newHeight ) {
+                    
+                    $( '#home' ).css( {
+                        overflow: "auto"
+                    } );
+                    $( 'a[title="Home"]' ).parent().removeClass( 'active' );
+                    $( 'a[title="Contacto"]' ).parent().addClass( 'active' );
+                }
+            });
         }
         
         //  Construye el Google Maps
@@ -908,9 +1013,9 @@
         }
         
         //  Carruseles y efectos del Home
-        if ( $( '#one' ).exists() ) {
-            
-            Prometa.inicializeCarrousel( '#header_scrollable', {
+        if ( $( '#services' ).exists() ) {
+            console.log( 'hi' );
+            Prometa.inicializeCarrousel( '#services_subtitle .information.scrollable', {
                 speed: 1000, 
                 circular: true, 
                 keyboard: false, 
@@ -927,7 +1032,7 @@
                 autoplay: true, 
                 autopause: true
             } );
-            Prometa.inicializeCarrousel( '#tips_scrollable', {
+            Prometa.inicializeCarrousel( '#services_descriptions .information.scrollable', {
                 speed: 1000, 
                 circular: true, 
                 keyboard: false, 
