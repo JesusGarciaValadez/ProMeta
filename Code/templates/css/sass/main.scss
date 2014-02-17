@@ -78,15 +78,16 @@ textarea {
     font-style: normal;
 }
 
-$helveticaNeueLT: 'helvetica_neue_lt_std',Helvetica,Arial,'sans-serif';
-@mixin font-mask($color,$size,$height,$weight) {
+$helveticaNeueLT:   'helvetica_neue_lt_std',Helvetica,Arial,'sans-serif';
+$red:               #BD1E2C;
+$text_gray:         #5C5A58;
+@mixin font-mask( $color,$size,$height,$weight,$font:$helveticaNeueLT) {
     color: $color;
-    font-family: $helveticaNeueLT;
     font-size: $size;
     line-height: $height;
     font-weight: $weight;
+    font-family: $font;
 }
-$red: #BD1E2C;
 
 a,input,div,p,span,strong,em,form,fieldset,textarea,hr,img,select,option,button,
 header,body,aside,video,audio,footer,section,article,code,canvas,ul,ol,li,menu,

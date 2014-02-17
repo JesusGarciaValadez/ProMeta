@@ -178,7 +178,7 @@
                     this.defaultShowErrors();
                 },*/
                 errorPlacement: function(error, element) {
-                    error.prependTo( element.parent() );
+                    error.appendTo( element.parent() );
                 },
                 //debug:true,
                 rules: _rule,
@@ -763,19 +763,19 @@
                 speed: 'normal',
                 fixed: false,
                 onBeforeLoad: function ( e ) {
-                   
-                    $( '.alert_background' ).height( '100%' );
+                    
+                    //$( '.alert_background' ).height( '100%' );
                     $( '.alert_box' ).centerWidth();
                     $( '.alert_box' ).centerHeight();
                 },
                 onLoad: function() {
-                    $( '.alert_background' ).fadeIn( 100 );
+                    //$( '.alert_background' ).fadeIn( 100 );
                 },
                 onBeforeClose:  function ( ){
-                   
+                    
                     $( '.alert_box' ).fadeOut( 10, function ( ) {
-                       
-                        $( '.alert_background' ).fadeOut( 10 );
+                        
+                        //$( '.alert_background' ).fadeOut( 10 );
                         $( '.alert_box h4' ).text( '' );
                         $( '.alert_box p' ).remove( );
                         $( '.alert_box form' ).remove( );
@@ -786,13 +786,13 @@
                     } );
                 },
                 onClose: function ( e ) {
-                   
+                    
                 }
             } );
            
             Prometa.overlay    = $( '.alert_trigger' ).data( 'overlay' );
            
-            $( '.alert_background' ).height( $( 'body' ).height() );
+            //$( '.alert_background' ).height( $( 'body' ).height() );
         }
        
         //  Crea una instancia de jQuery Overlay para el home de descubreone.mx
@@ -900,79 +900,46 @@
                 }
             } );
         }
-       
+        
         // Validación de los formularios
         if ( $( 'form' ).exists() ) {
-           
+            
             Prometa.makesUniform( 'select' );
-           
-            Prometa.toggleValue( '#contact_name', 'Nombre' );
-            Prometa.toggleValue( '#contact_business', 'Empresa' );
-            Prometa.toggleValue( '#contact_phone', 'Teléfono' );
-            Prometa.toggleValue( '#contact_mail', 'Email' );
-           
+            
             var rules   = {
-                    one: {
-                        required: true
+                    contact_name:       {
+                        required:   true,
+                        maxlength:  255
                     },
-                    two: {
-                        required: true
+                    contact_business:   {
+                        required:   true,
+                        maxlength:  255
                     },
-                    three: {
-                        required: true
+                    contact_phone:      {
+                        required:   true,
+                        number:     true,
+                        digits:     true,
+                        maxlength:  15
                     },
-                    four: {
-                        required: true
+                    contact_mail:       {
+                        required:   true,
+                        email:      true
                     },
-                    five: {
-                        required: true
+                    contact_area:       {
+                        required:   true
                     },
-                    six: {
-                        required: true
-                    },
-                    seven: {
-                        required: true
-                    },
-                    eight: {
-                        required: true
-                    },
-                    nine: {
-                        required: true
-                    },
-                    ten: {
-                        required: false,
-                        maxlength: 255
-                    },
-                    eleven: {
-                        required: true
-                    },
-                    twelve: {
-                        required: true
-                    },
-                    thirteen: {
-                        required: true
-                    },
-                    fourteen: {
-                        required: false,
-                        maxlength: 255
+                    contact_message:    {
+                        required:   true,
+                        maxlength:  512
                     }
                 };
             var messages    = {
-                    one: "Por favor, selecciona una opción",
-                    two: "Por favor, selecciona una opción",
-                    three: "Por favor, selecciona una opción",
-                    four: "Por favor, selecciona una opción",
-                    five: "Por favor, selecciona una opción",
-                    six: "Por favor, selecciona una opción",
-                    seven: "Por favor, selecciona una opción",
-                    eight: "Por favor, selecciona una opción",
-                    nine: "Por favor, selecciona una opción",
-                    ten: "Por favor, selecciona una opción",
-                    eleven: "Por favor, selecciona una opción",
-                    twelve: "Por favor, selecciona una opción",
-                    thirteen: "Por favor, selecciona una opción",
-                    fourteen: "Por favor, selecciona una opción",
-                    required: "Por favor, selecciona una opción",
+                    contact_name:       "Por favor, escribe tu nombre",
+                    contact_business:   "Por favor, escribe el nombre de tu empresa",
+                    contact_phone:      "Por favor, escribe tu teléfono",
+                    contact_mail:       "Por favor, escribe tu email",
+                    contact_area:       "Por favor, selecciona una opción",
+                    contact_message:    "Por favor, escribe un mensaje",
                     minlength: "Por favor, haga su respuesta más amplia.",
                     maxlength: "Por favor, acorte su respuesta",
                     email: "Escriba un email válido",

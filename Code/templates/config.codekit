@@ -18,7 +18,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/home.scss",
-		"outputAbbreviatedPath": "\/css\/css\/home.css",
+		"outputAbbreviatedPath": "\/css\/home.css",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
@@ -48,7 +48,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/normalize.min.scss",
-		"outputAbbreviatedPath": "\/css\/css\/normalize.min.css",
+		"outputAbbreviatedPath": "\/css\/normalize.min.css",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
@@ -63,7 +63,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/arrows.png",
 		"outputAbbreviatedPath": "\/img\/home\/arrows.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/bg_home_1.jpg": {
 		"fileType": 16384,
@@ -73,7 +73,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/bg_home_1.jpg",
 		"outputAbbreviatedPath": "\/img\/home\/bg_home_1.jpg",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/black_background.png": {
 		"fileType": 32768,
@@ -83,7 +83,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/black_background.png",
 		"outputAbbreviatedPath": "\/img\/home\/black_background.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/energy_team_footer_logo.png": {
 		"fileType": 32768,
@@ -93,7 +93,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/energy_team_footer_logo.png",
 		"outputAbbreviatedPath": "\/img\/home\/energy_team_footer_logo.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/indicator.png": {
 		"fileType": 32768,
@@ -103,7 +103,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/indicator.png",
 		"outputAbbreviatedPath": "\/img\/home\/indicator.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/logo.png": {
 		"fileType": 32768,
@@ -113,7 +113,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/logo.png",
 		"outputAbbreviatedPath": "\/img\/home\/logo.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/logo_prometa_contacto.png": {
 		"fileType": 32768,
@@ -123,7 +123,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/logo_prometa_contacto.png",
 		"outputAbbreviatedPath": "\/img\/home\/logo_prometa_contacto.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/magnifier.png": {
 		"fileType": 32768,
@@ -133,7 +133,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/magnifier.png",
 		"outputAbbreviatedPath": "\/img\/home\/magnifier.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/pointer.png": {
 		"fileType": 32768,
@@ -143,7 +143,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/pointer.png",
 		"outputAbbreviatedPath": "\/img\/home\/pointer.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/prometa_logo.png": {
 		"fileType": 32768,
@@ -153,7 +153,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/prometa_logo.png",
 		"outputAbbreviatedPath": "\/img\/home\/prometa_logo.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/red_background.png": {
 		"fileType": 32768,
@@ -163,7 +163,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/red_background.png",
 		"outputAbbreviatedPath": "\/img\/home\/red_background.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/red_background_strong.png": {
 		"fileType": 32768,
@@ -173,7 +173,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/red_background_strong.png",
 		"outputAbbreviatedPath": "\/img\/home\/red_background_strong.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/red_background_weak.png": {
 		"fileType": 32768,
@@ -183,7 +183,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/red_background_weak.png",
 		"outputAbbreviatedPath": "\/img\/home\/red_background_weak.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/select_background.png": {
 		"fileType": 32768,
@@ -193,7 +193,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/select_background.png",
 		"outputAbbreviatedPath": "\/img\/home\/select_background.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/social_media_images.png": {
 		"fileType": 32768,
@@ -203,7 +203,7 @@
 		"inputAbbreviatedPath": "\/img\/home\/social_media_images.png",
 		"outputAbbreviatedPath": "\/img\/home\/social_media_images.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/prometa\/bullet.png": {
 		"fileType": 32768,
@@ -213,7 +213,7 @@
 		"inputAbbreviatedPath": "\/img\/prometa\/bullet.png",
 		"outputAbbreviatedPath": "\/img\/prometa\/bullet.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/prometa\/circle.png": {
 		"fileType": 32768,
@@ -223,7 +223,77 @@
 		"inputAbbreviatedPath": "\/img\/prometa\/circle.png",
 		"outputAbbreviatedPath": "\/img\/prometa\/circle.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/prometa\/divider.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 931,
+		"inputAbbreviatedPath": "\/img\/prometa\/divider.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/divider.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/prometa\/logo-cinco.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4688,
+		"inputAbbreviatedPath": "\/img\/prometa\/logo-cinco.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/logo-cinco.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/prometa\/logo-cuatro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3965,
+		"inputAbbreviatedPath": "\/img\/prometa\/logo-cuatro.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/logo-cuatro.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/prometa\/logo-dos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4644,
+		"inputAbbreviatedPath": "\/img\/prometa\/logo-dos.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/logo-dos.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/prometa\/logo-seis.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5174,
+		"inputAbbreviatedPath": "\/img\/prometa\/logo-seis.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/logo-seis.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/prometa\/logo-tres.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4997,
+		"inputAbbreviatedPath": "\/img\/prometa\/logo-tres.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/logo-tres.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/prometa\/logo-uno.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3558,
+		"inputAbbreviatedPath": "\/img\/prometa\/logo-uno.png",
+		"outputAbbreviatedPath": "\/img\/prometa\/logo-uno.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/prometa\/mision.png": {
 		"fileType": 32768,
@@ -233,7 +303,7 @@
 		"inputAbbreviatedPath": "\/img\/prometa\/mision.png",
 		"outputAbbreviatedPath": "\/img\/prometa\/mision.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/prometa\/prometa_logo_interna.png": {
 		"fileType": 32768,
@@ -243,7 +313,7 @@
 		"inputAbbreviatedPath": "\/img\/prometa\/prometa_logo_interna.png",
 		"outputAbbreviatedPath": "\/img\/prometa\/prometa_logo_interna.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/prometa\/social_media_images.png": {
 		"fileType": 32768,
@@ -253,7 +323,7 @@
 		"inputAbbreviatedPath": "\/img\/prometa\/social_media_images.png",
 		"outputAbbreviatedPath": "\/img\/prometa\/social_media_images.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/prometa\/valores.png": {
 		"fileType": 32768,
@@ -263,7 +333,7 @@
 		"inputAbbreviatedPath": "\/img\/prometa\/valores.png",
 		"outputAbbreviatedPath": "\/img\/prometa\/valores.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/prometa\/vision.png": {
 		"fileType": 32768,
@@ -273,7 +343,7 @@
 		"inputAbbreviatedPath": "\/img\/prometa\/vision.png",
 		"outputAbbreviatedPath": "\/img\/prometa\/vision.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/bullet.png": {
 		"fileType": 32768,
@@ -283,7 +353,7 @@
 		"inputAbbreviatedPath": "\/img\/services\/bullet.png",
 		"outputAbbreviatedPath": "\/img\/services\/bullet.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/linea_servicios.png": {
 		"fileType": 32768,
@@ -293,7 +363,7 @@
 		"inputAbbreviatedPath": "\/img\/services\/linea_servicios.png",
 		"outputAbbreviatedPath": "\/img\/services\/linea_servicios.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/logo_prometa_servicios.png": {
 		"fileType": 32768,
@@ -303,7 +373,7 @@
 		"inputAbbreviatedPath": "\/img\/services\/logo_prometa_servicios.png",
 		"outputAbbreviatedPath": "\/img\/services\/logo_prometa_servicios.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/services\/short_line.png": {
 		"fileType": 32768,
@@ -313,7 +383,7 @@
 		"inputAbbreviatedPath": "\/img\/services\/short_line.png",
 		"outputAbbreviatedPath": "\/img\/services\/short_line.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -520,14 +590,14 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Jesús García Valadez",
+"lastSavedByUser": "Jesús Antonio García Valadez",
 "manualImportLinks": {
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "templates",
+	"displayValue": "Pro-Meta Templates",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-fry"
+	"iconImageName": "meme-facepalm"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
@@ -1076,7 +1146,7 @@
 	"markdownEnableSmartyPants": 1,
 	"markdownExpandTabs": 1,
 	"reloadFileURLs": 1,
-	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathRelativePath": "..\/",
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 2,
