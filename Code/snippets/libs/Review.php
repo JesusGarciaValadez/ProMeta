@@ -18,16 +18,18 @@ class Review extends Model {
         
         //  Validación de los datos
         $parameters = array(
-            'agentName' => array(
-                'requerido' => 1, 'validador' => 'esAlfaNumerico', 'mensaje' => utf8_encode( 'La primera pregunta es obligatoria.' ) ),
-            'agente' => array(
-                'requerido' => 1 ,'validador' => 'esEmail', 'mensaje' => utf8_encode( 'La segunda pregunta es obligatoria.' ) ),
-            'client' => array(
-                'requerido' => 1, 'validador' => 'esAlfaNumerico', 'mensaje' => utf8_encode( 'La tercera pregunta es obligatoria.' ) ),
-            'clientMail' => array( 
-                'requerido' => 1, 'validador' => 'esEmail', 'mensaje' => utf8_encode( 'La cuarta pregunta es obligatoria.' ) ),
-            'email' => array(
-                'requerido' => 0, 'validador' => 'esEmail', 'mensaje' => utf8_encode( 'La quinta pregunta es obligatoria.' ) ),
+            'contact_name' => array(
+                'requerido' => 1, 'validador' => 'esAlfaNumerico', 'mensaje' => utf8_encode( 'El nombre es obligatorio.' ) ),
+            'contact_business' => array(
+                'requerido' => 1 ,'validador' => 'esAlfaNumerico', 'mensaje' => utf8_encode( 'La empresa es obligatoria.' ) ),
+            'contact_phone' => array(
+                'requerido' => 1, 'validador' => 'esAlfaNumerico', 'mensaje' => utf8_encode( 'El teléfono es obligatoria.' ) ),
+            'contact_mail' => array( 
+                'requerido' => 1, 'validador' => 'esEmail', 'mensaje' => utf8_encode( 'El mail es obligatoria.' ) ),
+            'contact_area' => array(
+                'requerido' => 0, 'validador' => 'esAlfaNumerico', 'mensaje' => utf8_encode( 'El área es obligatoria.' ) ),
+            'contact_message' => array(
+                'requerido' => 0, 'validador' => 'esAlfaNumerico', 'mensaje' => utf8_encode( 'El mensaje es obligatoria.' ) ),
         );
         
         $form = new Validator( $info, $parameters );
@@ -75,10 +77,12 @@ class Review extends Model {
                     }
                     
                     $vars = array(
-                            'agentName'         => $_SESSION[ 'agentName' ], 
-                            'client'            => $_SESSION[ 'client' ], 
-                            'clientMail'        => $_SESSION[ 'clientMail' ], 
-                            'email'             => $_SESSION[ 'email' ]
+                            'contact_name'      => $info[ 'contact_name' ],
+                            'contact_business'  => $info[ 'contact_business' ],
+                            'contact_phone'     => $info[ 'contact_phone' ],
+                            'contact_mail'      => $info[ 'contact_mail' ],
+                            'contact_area'      => $info[ 'contact_area' ],
+                            'contact_message'   => $info[ 'contact_message' ]
                         );
                     $tpl = ParserTemplate::parseTemplate( $template, $vars );
                     
@@ -88,7 +92,7 @@ class Review extends Model {
                         
                         $response       = array (
                             'success' => 'true',
-                            'message' => utf8_encode( 'Muchas gracias por contestar esta encuesta.' )
+                            'message' => utf8_encode( 'Muchas gracias por ponerse en contacto con nosotros.' )
                         );
                     } else {
                         
