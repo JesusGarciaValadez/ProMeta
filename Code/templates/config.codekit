@@ -59,11 +59,11 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 923,
+		"initialSize": 921,
 		"inputAbbreviatedPath": "\/img\/background_lightbox.png",
 		"outputAbbreviatedPath": "\/img\/background_lightbox.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/home\/arrows.png": {
 		"fileType": 32768,
@@ -94,16 +94,6 @@
 		"outputAbbreviatedPath": "\/img\/home\/black_background.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 1
-		},
-	"\/img\/home\/close-button.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2345,
-		"inputAbbreviatedPath": "\/img\/home\/close-button.png",
-		"outputAbbreviatedPath": "\/img\/home\/close-button.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/img\/home\/energy_team_footer_logo.png": {
 		"fileType": 32768,
@@ -365,6 +355,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/services\/banner_servicios.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 343825,
+		"inputAbbreviatedPath": "\/img\/services\/banner_servicios.jpg",
+		"outputAbbreviatedPath": "\/img\/services\/banner_servicios.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/img\/services\/bullet.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -372,6 +372,16 @@
 		"initialSize": 956,
 		"inputAbbreviatedPath": "\/img\/services\/bullet.png",
 		"outputAbbreviatedPath": "\/img\/services\/bullet.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/services\/energy_team_negro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2677,
+		"inputAbbreviatedPath": "\/img\/services\/energy_team_negro.png",
+		"outputAbbreviatedPath": "\/img\/services\/energy_team_negro.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -392,6 +402,16 @@
 		"initialSize": 2964,
 		"inputAbbreviatedPath": "\/img\/services\/logo_prometa_servicios.png",
 		"outputAbbreviatedPath": "\/img\/services\/logo_prometa_servicios.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/services\/prometa_servicios.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2964,
+		"inputAbbreviatedPath": "\/img\/services\/prometa_servicios.png",
+		"outputAbbreviatedPath": "\/img\/services\/prometa_servicios.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
