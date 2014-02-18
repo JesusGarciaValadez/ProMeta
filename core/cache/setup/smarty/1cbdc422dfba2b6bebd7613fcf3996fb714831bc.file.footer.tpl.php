@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.4, created on 2014-01-06 22:19:37
-         compiled from "/Applications/XAMPP/xamppfiles/htdocs/prometa/setup/templates/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:137378020252cb1de9321362-03321668%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.0.4, created on 2014-02-19 00:02:11
+         compiled from "/Applications/XAMPP/xamppfiles/htdocs/ProMeta/setup/templates/footer.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:2302088865303e6737e4d16-41768864%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '772d4864b47aee08089067f44bd6b5f819300b91' => 
+    '1cbdc422dfba2b6bebd7613fcf3996fb714831bc' => 
     array (
-      0 => '/Applications/XAMPP/xamppfiles/htdocs/prometa/setup/templates/footer.tpl',
-      1 => 1381179234,
+      0 => '/Applications/XAMPP/xamppfiles/htdocs/ProMeta/setup/templates/footer.tpl',
+      1 => 1390331166,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '137378020252cb1de9321362-03321668',
+  'nocache_hash' => '2302088865303e6737e4d16-41768864',
   'function' => 
   array (
   ),

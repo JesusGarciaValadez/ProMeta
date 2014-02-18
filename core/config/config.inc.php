@@ -5,7 +5,7 @@
 $database_type = 'mysql';
 $database_server = 'localhost';
 $database_user = 'pr0m374';
-$database_password = 'YE(U2o24[qMBjHpX6,N*tJ';
+$database_password = 'RyUa6Aj@nEA#qho/6T7m6,';
 $database_connection_charset = 'utf8';
 $dbase = 'prometa_web';
 $table_prefix = 'modx_';
@@ -15,36 +15,36 @@ $config_options = array (
 $driver_options = array (
 );
 
-$lastInstallTime = 1389043157;
+$lastInstallTime = 1392764526;
 
-$site_id = 'modx52cb1dd5c136c1.74245532';
-$site_sessionname = 'SN52cb1d3768236';
+$site_id = 'modx5303e66eeb4df7.21885199';
+$site_sessionname = 'SN5303e25dbef76';
 $https_port = '443';
-$uuid = '8681eee6-e236-4519-884b-a240f5a9fa89';
+$uuid = '6a03ad9b-5839-452d-8054-ce1200ef907b';
 
 if (!defined('MODX_CORE_PATH')) {
-    $modx_core_path= '/Applications/XAMPP/xamppfiles/htdocs/prometa/core/';
+    $modx_core_path= '/Applications/XAMPP/xamppfiles/htdocs/ProMeta/core/';
     define('MODX_CORE_PATH', $modx_core_path);
 }
 if (!defined('MODX_PROCESSORS_PATH')) {
-    $modx_processors_path= '/Applications/XAMPP/xamppfiles/htdocs/prometa/core/model/modx/processors/';
+    $modx_processors_path= '/Applications/XAMPP/xamppfiles/htdocs/ProMeta/core/model/modx/processors/';
     define('MODX_PROCESSORS_PATH', $modx_processors_path);
 }
 if (!defined('MODX_CONNECTORS_PATH')) {
-    $modx_connectors_path= '/Applications/XAMPP/xamppfiles/htdocs/prometa/connectors/';
-    $modx_connectors_url= '/prometa/connectors/';
+    $modx_connectors_path= '/Applications/XAMPP/xamppfiles/htdocs/ProMeta/connectors/';
+    $modx_connectors_url= '/ProMeta/connectors/';
     define('MODX_CONNECTORS_PATH', $modx_connectors_path);
     define('MODX_CONNECTORS_URL', $modx_connectors_url);
 }
 if (!defined('MODX_MANAGER_PATH')) {
-    $modx_manager_path= '/Applications/XAMPP/xamppfiles/htdocs/prometa/manager/';
-    $modx_manager_url= '/prometa/manager/';
+    $modx_manager_path= '/Applications/XAMPP/xamppfiles/htdocs/ProMeta/manager/';
+    $modx_manager_url= '/ProMeta/manager/';
     define('MODX_MANAGER_PATH', $modx_manager_path);
     define('MODX_MANAGER_URL', $modx_manager_url);
 }
 if (!defined('MODX_BASE_PATH')) {
-    $modx_base_path= '/Applications/XAMPP/xamppfiles/htdocs/prometa/';
-    $modx_base_url= '/prometa/';
+    $modx_base_path= '/Applications/XAMPP/xamppfiles/htdocs/ProMeta/';
+    $modx_base_url= '/ProMeta/';
     define('MODX_BASE_PATH', $modx_base_path);
     define('MODX_BASE_URL', $modx_base_url);
 }
@@ -75,8 +75,8 @@ if (!defined('MODX_SITE_URL')) {
     define('MODX_SITE_URL', $site_url);
 }
 if (!defined('MODX_ASSETS_PATH')) {
-    $modx_assets_path= '/Applications/XAMPP/xamppfiles/htdocs/prometa/assets/';
-    $modx_assets_url= '/prometa/assets/';
+    $modx_assets_path= '/Applications/XAMPP/xamppfiles/htdocs/ProMeta/assets/';
+    $modx_assets_url= '/ProMeta/assets/';
     define('MODX_ASSETS_PATH', $modx_assets_path);
     define('MODX_ASSETS_URL', $modx_assets_url);
 }
