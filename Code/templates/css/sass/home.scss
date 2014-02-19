@@ -792,7 +792,8 @@ hr{
         }
     }
     #services_subtitle{
-        
+        background: url("../img/services/banner_servicios.jpg") repeat-x scroll 0 0 transparent;
+        background-size: 100% 100%;
         .information{
             height: 215px;
             .items{
@@ -812,12 +813,12 @@ hr{
                         width: 100%;
                     }
                     h2{
-                        @include font-mask( #000, em( 50, 16 ), em( 35, 50 ), normal );
+                        @include font-mask( #FFF, em( 50, 16 ), em( 35, 50 ), normal );
                         padding: 0 0 24px;
                         text-align: center;
                     }
                     h3{
-                        @include font-mask( #BBB, em( 21, 16 ), em( 17, 21 ), normal );
+                        @include font-mask( #FFF, em( 21, 16 ), em( 17, 21 ), normal );
                         text-align: center;
                         strong{ color: #FFF; }
                     }

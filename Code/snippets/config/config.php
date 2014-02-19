@@ -5,8 +5,8 @@ ini_set('display_errors','On');
 date_default_timezone_set('America/Mexico_City');
 
 define( 'BASE_PATH', dirname(dirname(dirname((dirname(__FILE__))))) . DIRECTORY_SEPARATOR );
-define( 'SITE_URL', 'http://www.boletinaxa.com.mx/' );
-define( 'BASE_URL', 'http://www.boletinaxa.com.mx/' );
+define( 'SITE_URL', 'http://www.pro-meta.com.mx/' );
+define( 'BASE_URL', 'http://www.pro-meta.com.mx/' );
 define( 'CODE_PATH', BASE_PATH . 'Code' . DIRECTORY_SEPARATOR );
 define( 'SNIPPETS_PATH', CODE_PATH . 'snippets' . DIRECTORY_SEPARATOR );
 define( 'CLASSES_PATH', SNIPPETS_PATH . 'classes'. DIRECTORY_SEPARATOR );

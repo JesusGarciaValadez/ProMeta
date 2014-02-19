@@ -52,9 +52,10 @@ if ( ! empty( $_GET['action'] ) ) {
                 $doInsert   = new Review( $dbh, '' );
                 $doInsert   = $doInsert->insertInit( 
                     $toPass, 
-                    "template_click.html", 
-                    "Tu cliente " . $_POST[ 'client' ] ." está interesado", 
-                    $_POST[ 'agent' ] . ", referido@boletinaxa.com" );
+                    "template_mailing.html", 
+                    $_POST[ 'contact_name' ] . " está interesado en pedir información", 
+                    "m.marighi@pro-meta.com.mx", 
+                    $cc );
                 $data       = json_encode ( $doInsert );
                 
                 break;

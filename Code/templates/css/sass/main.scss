@@ -96,9 +96,10 @@ menuitem,nav,iframe,embed,object,*{
 }
 .alert_background {
     background: url('../img/background_lightbox.png') repeat scroll 0 0 transparent;
-    display: block;
+    display: none;
     height: 100%;
     min-height: em( 1720, 16 );
+    top:0;
     position: absolute;
     width: 100%;
     z-index: 16;
@@ -111,7 +112,7 @@ menuitem,nav,iframe,embed,object,*{
     display: none;
     margin: 0 auto;
     padding: 30px;
-    position: relative;
+    position: fixed !important;
     /*width: 502px;*/
     z-index: 17;
     h2{
@@ -122,13 +123,15 @@ menuitem,nav,iframe,embed,object,*{
         padding: 0 46px 0 0;
         text-transform: uppercase;
     }
-    a{
+    a.close{
+        background: url('../img/home/close-button.png') no-repeat scroll 0 0 transparent;
         cursor: pointer;
         height: 35px;
         overflow: hidden;
         position: absolute;
-        right: 20px;
-        top: 20px;
+        right: -17px;
+        text-indent: -2000em;
+        top: -17px;
         width: 35px;
         img{
             
