@@ -37,6 +37,7 @@
   'compress_js' => '1',
   'compress_js_max_files' => '10',
   'compress_js_groups' => '',
+  'confirm_navigation' => '1',
   'container_suffix' => '/',
   'context_tree_sort' => '',
   'context_tree_sortby' => 'rank',
@@ -52,7 +53,7 @@
   'default_content_type' => '1',
   'editor_css_path' => '',
   'editor_css_selectors' => '',
-  'emailsender' => 'jgarciav@cmvasfalto.com.mx',
+  'emailsender' => 'jgarcia@cmvasfalto.com.mx',
   'emailsubject' => 'Your login details',
   'enable_dragdrop' => '1',
   'error_page' => '1',
@@ -91,7 +92,7 @@
   'friendly_alias_trim_chars' => '/.-_',
   'friendly_alias_word_delimiter' => '-',
   'friendly_alias_word_delimiters' => '-_',
-  'friendly_urls' => '1',
+  'friendly_urls' => '0',
   'friendly_urls_strict' => '0',
   'global_duplicate_uri_check' => '0',
   'hidemenu_default' => '0',
@@ -195,7 +196,7 @@
     <p>Once you log into the MODX Manager at [[+surl]], you can change your password.</p>
 
     <p>Regards,<br />Site Administrator</p>',
-  'site_name' => 'Pro-Meta',
+  'site_name' => 'MODX Revolution',
   'site_start' => '1',
   'site_status' => '1',
   'site_unavailable_message' => 'The site is currently unavailable',
@@ -248,7 +249,6 @@
   'which_editor' => '',
   'which_element_editor' => '',
   'xhtml_urls' => '1',
-  'settings_version' => '2.2.10-pl',
+  'settings_version' => '2.2.12-pl',
   'settings_distro' => 'traditional',
-  'access_policies_version' => '1.0',
 );

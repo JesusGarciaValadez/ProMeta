@@ -9,10 +9,6 @@
       0 => 1,
     ),
   ),
-  'aliasMap' => 
-  array (
-    'index.html' => 1,
-  ),
   'webLinkMap' => 
   array (
   ),
