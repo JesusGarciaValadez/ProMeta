@@ -2,7 +2,7 @@
 /*
  * MODX Revolution
  *
- * Copyright 2006-2013 by MODX, LLC.
+ * Copyright 2006-2014 by MODX, LLC.
  * All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify it under
@@ -43,7 +43,7 @@ class modPackageBuilder {
     */
     public $filename;
     /**
-    * @var string The xPDOTransport package object.
+    * @var xPDOTransport The xPDOTransport package object.
     * @access public
     */
     public $package;

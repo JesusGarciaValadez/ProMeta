@@ -5,7 +5,7 @@
 $database_type = 'mysql';
 $database_server = 'localhost';
 $database_user = 'pr0m374';
-$database_password = 'RyUa6Aj@nEA#qho/6T7m6,';
+$database_password = 'KcBfs^2uR4LN^7.WCusu>4';
 $database_connection_charset = 'utf8';
 $dbase = 'prometa_web';
 $table_prefix = 'modx_';
@@ -15,12 +15,12 @@ $config_options = array (
 $driver_options = array (
 );
 
-$lastInstallTime = 1392764526;
+$lastInstallTime = 1392854573;
 
-$site_id = 'modx5303e66eeb4df7.21885199';
-$site_sessionname = 'SN5303e25dbef76';
+$site_id = 'modx5305462d1fe998.87927116';
+$site_sessionname = 'SN530544c616c8d';
 $https_port = '443';
-$uuid = '6a03ad9b-5839-452d-8054-ce1200ef907b';
+$uuid = '2c905106-6a35-47a5-8d67-6e052f0e6cf3';
 
 if (!defined('MODX_CORE_PATH')) {
     $modx_core_path= '/Applications/XAMPP/xamppfiles/htdocs/ProMeta/core/';

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6abb8144e763c360aa6ec5c9c68cbdf5',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'dbdb58da10c9e90e752ea05323c346bb',
+  'native_key' => 'OnMediaSourceBeforeFormSave',
+  'object' => '{"name":"OnMediaSourceBeforeFormSave","service":1,"groupname":"Media Sources"}',
+);
