@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16820",
+"creatorBuild": "16828",
 "files": {
 	"\/apple-touch-icon-114x114-precomposed.png": {
 		"fileType": 32768,
@@ -730,6 +730,22 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/templates\/index-raw.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/index-raw.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/templates\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/templates\/jade\/alert_box.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -780,6 +796,56 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/Code\/templates\/jade\/inner_footer.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/jade\/inner_footer.jade",
+		"outputAbbreviatedPath": "\/Code\/templates\/inner_footer.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/Code\/templates\/jade\/inner_navigation.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/jade\/inner_navigation.jade",
+		"outputAbbreviatedPath": "\/Code\/templates\/inner_navigation.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/Code\/templates\/jade\/noticias.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/jade\/noticias.jade",
+		"outputAbbreviatedPath": "\/Code\/templates\/noticias.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/Code\/templates\/jade\/pro-meta.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/jade\/pro-meta.jade",
+		"outputAbbreviatedPath": "\/Code\/templates\/pro-meta.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/Code\/templates\/jade\/servicios.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/jade\/servicios.jade",
+		"outputAbbreviatedPath": "\/Code\/templates\/servicios.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/Code\/templates\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -810,19 +876,19 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Code\/templates\/noticias.html": {
+	"\/Code\/templates\/noticias-raw.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Code\/templates\/noticias.html",
+		"inputAbbreviatedPath": "\/Code\/templates\/noticias-raw.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/Code\/templates\/pro-meta.html": {
+	"\/Code\/templates\/pro-meta-raw.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Code\/templates\/pro-meta.html",
+		"inputAbbreviatedPath": "\/Code\/templates\/pro-meta-raw.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -871,11 +937,11 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Code\/templates\/servicios.html": {
+	"\/Code\/templates\/servicios-raw.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Code\/templates\/servicios.html",
+		"inputAbbreviatedPath": "\/Code\/templates\/servicios-raw.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -1719,6 +1785,22 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/content_type.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/content_type.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/context.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/context.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/dashboard.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1732,14 +1814,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/default.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/element.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/element.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -1759,27 +1833,11 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/propertyset.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/propertyset.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/resource.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/resource.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/system_events.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/system_events.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -1823,11 +1881,27 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/cache\/mgr\/smarty\/default\/49a4d2b687702077cf304c70588415d8f18295d8.file.tvs.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/49a4d2b687702077cf304c70588415d8f18295d8.file.tvs.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/cache\/mgr\/smarty\/default\/5e0762e955b65868c74ff2c991b3cb03e88c5657.file.header.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/5e0762e955b65868c74ff2c991b3cb03e88c5657.file.header.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/mgr\/smarty\/default\/90e375b5f449487555d87aee4bb5fcb7bd3506f4.file.update.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/90e375b5f449487555d87aee4bb5fcb7bd3506f4.file.update.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},

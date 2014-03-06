@@ -561,8 +561,8 @@ FileETag None
 # You may choose to make your URLs non-case-sensitive by adding a NC directive
 # to your rule: RewriteRule ^(.*)$ index.php?q=$1 [L,QSA,NC]
 
-RewriteEngine On
-RewriteBase /
+#RewriteEngine On
+#RewriteBase /
 
 # Rewrite www.domain.com -> domain.com -- used with SEO Strict URLs plugin
 #RewriteCond %{HTTP_HOST} .
