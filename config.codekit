@@ -610,6 +610,54 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/Code\/chunks\/alert-box.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/alert-box.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/chunks\/footer.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/footer.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/chunks\/head.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/head.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/chunks\/html-end-home.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/html-end-home.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/chunks\/html-end.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/html-end.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/chunks\/navigation.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/navigation.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/snippets\/config\/config.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -722,14 +770,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/Code\/templates\/footer_home.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Code\/templates\/footer_home.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/Code\/templates\/index-raw.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -806,13 +846,13 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/Code\/templates\/jade\/inner_navigation.jade": {
+	"\/Code\/templates\/jade\/navigation.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Code\/templates\/jade\/inner_navigation.jade",
-		"outputAbbreviatedPath": "\/Code\/templates\/inner_navigation.html",
+		"inputAbbreviatedPath": "\/Code\/templates\/jade\/navigation.jade",
+		"outputAbbreviatedPath": "\/Code\/templates\/navigation.html",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
@@ -876,6 +916,38 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/Code\/templates\/kit\/index.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/index.kit",
+		"outputAbbreviatedPath": "\/Code\/templates\/index.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/templates\/kit\/noticias.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/noticias.kit",
+		"outputAbbreviatedPath": "\/Code\/templates\/noticias.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/templates\/kit\/pro-meta.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/pro-meta.kit",
+		"outputAbbreviatedPath": "\/Code\/templates\/pro-meta.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/templates\/kit\/servicios.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/kit\/servicios.kit",
+		"outputAbbreviatedPath": "\/Code\/templates\/servicios.html",
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/templates\/noticias-raw.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -884,11 +956,27 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/Code\/templates\/noticias.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/noticias.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/Code\/templates\/pro-meta-raw.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/pro-meta-raw.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/templates\/pro-meta.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/pro-meta.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -942,6 +1030,14 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/servicios-raw.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/templates\/servicios.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/templates\/servicios.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -1737,14 +1833,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/action_map\/mgr\/actions.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/action_map\/mgr\/actions.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/auto_publish\/auto_publish.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1769,102 +1857,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/action.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/action.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/category.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/category.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/content_type.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/content_type.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/context.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/context.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/dashboard.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/dashboard.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/default.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/default.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/file.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/file.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/menu.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/menu.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/resource.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/resource.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/template.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/template.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/topmenu.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/topmenu.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/menu\/mgr\/menus\/en.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/menu\/mgr\/menus\/en.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/mgr\/smarty\/default\/26e02ebd223b2e51a0226b0e7ed09a1786b97443.file.update.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1881,6 +1873,14 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/cache\/mgr\/smarty\/default\/47c2c06f5bf583960230713a914e88757852c62b.file.create.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/47c2c06f5bf583960230713a914e88757852c62b.file.create.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/cache\/mgr\/smarty\/default\/49a4d2b687702077cf304c70588415d8f18295d8.file.tvs.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1894,6 +1894,22 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/5e0762e955b65868c74ff2c991b3cb03e88c5657.file.header.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/mgr\/smarty\/default\/6aea37edd1c010f89a136dfb9a1a8a32959d77a3.file.create.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/6aea37edd1c010f89a136dfb9a1a8a32959d77a3.file.create.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/mgr\/smarty\/default\/790dae6211a95def410f751296ba31976bb7ccb9.file.update.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/790dae6211a95def410f751296ba31976bb7ccb9.file.update.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -1926,6 +1942,14 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/d232cb474baf6fa3fcf0c040e8ab0cb64eec8d83.file.login.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/mgr\/smarty\/default\/dc16cd024e3862c4334cb0f2ddb27ca99b9bad9e.file.create.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/dc16cd024e3862c4334cb0f2ddb27ca99b9bad9e.file.create.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -24001,10 +24025,10 @@
 			"flagValue": -1
 			}
 		},
-	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathRelativePath": "..\/",
 	"kitAutoOutputPathReplace1": "",
 	"kitAutoOutputPathReplace2": "",
-	"kitAutoOutputPathStyle": 0,
+	"kitAutoOutputPathStyle": 2,
 	"lessAllowInsecureImports": 0,
 	"lessAutoOutputPathRelativePath": "..\/css",
 	"lessAutoOutputPathReplace1": "less",
