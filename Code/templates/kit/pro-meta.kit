@@ -1,52 +1,8 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="es" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="es" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="es" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="es" class="no-js"> <!--<![endif]-->
-    <head>
-        <title>..:: [[++site_name]] :: [[*pagetitle]] ::..</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=11,IE=edge,chrome=1" />
-        <meta http-equiv="pragma" content="no-cache" />
-        <meta name="description" content="" />
-        <meta name="robots" content="all" />
-        
-        <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=yes" />
-        
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="favicon.png" type="image/png" />
-        
-        <link rel="stylesheet" href="[[++site_url]]css/main.css" type="text/css" media="screen" />
-        
-        <script type="text/javascript" src="[[++site_url]]js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    
+<!-- @include "../../chunks/head.html" -->
+
     <body id="pro-meta" class="intern">
-        <div class="wrapper" id="nav">
-            <nav>
-                <ul>
-                    <li class="active">
-                        <a href="[[++site_url]]index.html" title="Home">HOME</a>
-                    </li>
-                    <li>
-                        <a href="[[++site_url]]pro-meta.html" title="Pro-Meta">PRO-META</a>
-                    </li>
-                    <li>
-                        <a href="[[++site_url]]servicios.html" title="Servicios">SERVICIOS</a>
-                    </li>
-                    <li>
-                        <a href="[[++site_url]]contacto.html" title="Contacto">CONTACTO</a>
-                    </li>
-                    <li class="notices">
-                        <a href="[[++site_url]]noticias.html" title="Noticias">NOTICIAS</a>
-                    </li>
-                    <li class="search">
-                        <a title="Buscar">Buscar</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+<!-- @include "../../chunks/navigation.html" -->
+
         <div class="wrapper section light_grey" id="pro-meta_title">
             <section class="information">
                 <img src="[[++site_url]]img/prometa/prometa_logo_interna.png" alt="Pro-Meta Soluciones" width="400" height="78">
@@ -128,43 +84,6 @@
                 </ul>
             </section>
         </div>
-        <div class="wrapper section black" id="footer">
-            <div id="thick"></div>
-            <footer>
-                <ul class="contact_ways">
-                    <li class="title_footer">
-                        <p>Contáctanos</p>
-                    </li>
-                    <li>
-                        <a href="mailto:info@pro-meta.com.mx" title="info@pro-meta.com.mx" target="_blank">info@pro-meta.com.mx</a>
-                    </li>
-                    <li>
-                        <p>(720) 907-3833</p>
-                    </li>
-                </ul>
-                <ul class="disclaimers">
-                    <li>
-                        <a href="[[++site_url]]aviso-de-privacidad.html" title="Aviso de Privacidad" target="_blank">Aviso de Privacidad</a>
-                    </li>
-                    <li>
-                        <p>Pro-Meta 2014 - Todos los Derechos Reservados</p>
-                    </li>
-                </ul>
-            </footer>
-        </div>
-        
-        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="[[++site_url]]js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-        <script type="text/javascript" src="[[++site_url]]js/plugins-ck.js"></script>
-        <script type="text/javascript" src="[[++site_url]]js/main.js"></script>
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
-</html>
+<!-- @include "../../chunks/internal_footer.html" -->
+
+<!-- @include "../../chunks/footer.html" -->

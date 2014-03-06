@@ -1,10 +1,4 @@
-doctype html
-//[if lt IE 7]>      <html lang="es" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]
-//[if IE 7]>         <html lang="es" class="no-js lt-ie9 lt-ie8"> <![endif]
-//[if IE 8]>         <html lang="es" class="no-js lt-ie9"> <![endif]
-//[if gt IE 8]><!
-html(lang="es" class="no-js") <!--<![endif]-->
-    include head
+include head
     
     body#home
         a(href="#" title="Abrir Respuesta" target="_self" rel=".alert_box").alert_trigger
@@ -22,21 +16,7 @@ html(lang="es" class="no-js") <!--<![endif]-->
                 p. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 a(href=".left" title="Anterior")
                 a(href=".right" title="Siguiente")
-        div.wrapper#nav
-            nav
-                ul
-                    li.active
-                        a(href="index.html" title="Home"). HOME
-                    li
-                        a(href="pro-meta.html" title="Pro-Meta"). PRO-META
-                    li
-                        a(href="servicios.html" title="Servicios"). SERVICIOS
-                    li
-                        a(href="contacto.html" title="Contacto"). CONTACTO
-                    li.notices
-                        a(href="noticias.html" title="Noticias"). NOTICIAS
-                    li.search
-                        a(title="Buscar"). Buscar
+        include navigation
         div.wrapper.section.light_grey#contact_title
             section.information
                 img(src="img/prometa/prometa_logo_interna.png" alt="Pro-Meta Soluciones" width="400" height="78")
@@ -84,6 +64,5 @@ html(lang="es" class="no-js") <!--<![endif]-->
         div.wrapper.black#footer
             footer
                 img(src="img/home/logo_prometa_contacto.png" alt="Pro-Meta Logo" width="167" height="32").pro_meta_footer_logo
-        
         include alert_box
         include footer_home

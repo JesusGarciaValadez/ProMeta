@@ -1,455 +1,130 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16546",
+"creatorBuild": "16828",
 "files": {
-	"\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
+	"\/index-raw.html": {
+		"fileType": 8192,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/main.css",
+		"inputAbbreviatedPath": "\/index-raw.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/sass\/home.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 2,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/sass\/home.scss",
-		"outputAbbreviatedPath": "\/css\/home.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/css\/sass\/main.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 2,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/sass\/main.scss",
-		"outputAbbreviatedPath": "\/css\/main.css",
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/css\/sass\/normalize.min.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 2,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/sass\/normalize.min.scss",
-		"outputAbbreviatedPath": "\/css\/normalize.min.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/img\/background_lightbox.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 921,
-		"inputAbbreviatedPath": "\/img\/background_lightbox.png",
-		"outputAbbreviatedPath": "\/img\/background_lightbox.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/arrows.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4359,
-		"inputAbbreviatedPath": "\/img\/home\/arrows.png",
-		"outputAbbreviatedPath": "\/img\/home\/arrows.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/bg_home_1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.87594e+06,
-		"inputAbbreviatedPath": "\/img\/home\/bg_home_1.jpg",
-		"outputAbbreviatedPath": "\/img\/home\/bg_home_1.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/black_background.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 921,
-		"inputAbbreviatedPath": "\/img\/home\/black_background.png",
-		"outputAbbreviatedPath": "\/img\/home\/black_background.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/energy_team_footer_logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2824,
-		"inputAbbreviatedPath": "\/img\/home\/energy_team_footer_logo.png",
-		"outputAbbreviatedPath": "\/img\/home\/energy_team_footer_logo.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/indicator.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1025,
-		"inputAbbreviatedPath": "\/img\/home\/indicator.png",
-		"outputAbbreviatedPath": "\/img\/home\/indicator.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4113,
-		"inputAbbreviatedPath": "\/img\/home\/logo.png",
-		"outputAbbreviatedPath": "\/img\/home\/logo.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/logo_prometa_contacto.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3022,
-		"inputAbbreviatedPath": "\/img\/home\/logo_prometa_contacto.png",
-		"outputAbbreviatedPath": "\/img\/home\/logo_prometa_contacto.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/magnifier.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1196,
-		"inputAbbreviatedPath": "\/img\/home\/magnifier.png",
-		"outputAbbreviatedPath": "\/img\/home\/magnifier.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/pointer.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1458,
-		"inputAbbreviatedPath": "\/img\/home\/pointer.png",
-		"outputAbbreviatedPath": "\/img\/home\/pointer.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/prometa_logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9099,
-		"inputAbbreviatedPath": "\/img\/home\/prometa_logo.png",
-		"outputAbbreviatedPath": "\/img\/home\/prometa_logo.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/red_background.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 935,
-		"inputAbbreviatedPath": "\/img\/home\/red_background.png",
-		"outputAbbreviatedPath": "\/img\/home\/red_background.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/red_background_strong.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 926,
-		"inputAbbreviatedPath": "\/img\/home\/red_background_strong.png",
-		"outputAbbreviatedPath": "\/img\/home\/red_background_strong.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/red_background_weak.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 926,
-		"inputAbbreviatedPath": "\/img\/home\/red_background_weak.png",
-		"outputAbbreviatedPath": "\/img\/home\/red_background_weak.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/select_background.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1068,
-		"inputAbbreviatedPath": "\/img\/home\/select_background.png",
-		"outputAbbreviatedPath": "\/img\/home\/select_background.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/home\/social_media_images.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3636,
-		"inputAbbreviatedPath": "\/img\/home\/social_media_images.png",
-		"outputAbbreviatedPath": "\/img\/home\/social_media_images.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/bullet.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4470,
-		"inputAbbreviatedPath": "\/img\/prometa\/bullet.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/bullet.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/circle.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4097,
-		"inputAbbreviatedPath": "\/img\/prometa\/circle.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/circle.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/divider.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 931,
-		"inputAbbreviatedPath": "\/img\/prometa\/divider.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/divider.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/logo-cinco.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4688,
-		"inputAbbreviatedPath": "\/img\/prometa\/logo-cinco.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/logo-cinco.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/logo-cuatro.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3965,
-		"inputAbbreviatedPath": "\/img\/prometa\/logo-cuatro.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/logo-cuatro.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/logo-dos.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4644,
-		"inputAbbreviatedPath": "\/img\/prometa\/logo-dos.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/logo-dos.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/logo-seis.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5174,
-		"inputAbbreviatedPath": "\/img\/prometa\/logo-seis.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/logo-seis.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/logo-tres.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4997,
-		"inputAbbreviatedPath": "\/img\/prometa\/logo-tres.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/logo-tres.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/logo-uno.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3558,
-		"inputAbbreviatedPath": "\/img\/prometa\/logo-uno.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/logo-uno.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/mision.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 42915,
-		"inputAbbreviatedPath": "\/img\/prometa\/mision.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/mision.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/prometa_logo_interna.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8162,
-		"inputAbbreviatedPath": "\/img\/prometa\/prometa_logo_interna.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/prometa_logo_interna.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/social_media_images.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1948,
-		"inputAbbreviatedPath": "\/img\/prometa\/social_media_images.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/social_media_images.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/valores.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 59557,
-		"inputAbbreviatedPath": "\/img\/prometa\/valores.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/valores.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/prometa\/vision.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 54916,
-		"inputAbbreviatedPath": "\/img\/prometa\/vision.png",
-		"outputAbbreviatedPath": "\/img\/prometa\/vision.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/services\/banner_servicios.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 343825,
-		"inputAbbreviatedPath": "\/img\/services\/banner_servicios.jpg",
-		"outputAbbreviatedPath": "\/img\/services\/banner_servicios.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/services\/bullet.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 956,
-		"inputAbbreviatedPath": "\/img\/services\/bullet.png",
-		"outputAbbreviatedPath": "\/img\/services\/bullet.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/services\/energy_team_negro.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2677,
-		"inputAbbreviatedPath": "\/img\/services\/energy_team_negro.png",
-		"outputAbbreviatedPath": "\/img\/services\/energy_team_negro.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/services\/linea_servicios.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1422,
-		"inputAbbreviatedPath": "\/img\/services\/linea_servicios.png",
-		"outputAbbreviatedPath": "\/img\/services\/linea_servicios.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/services\/logo_prometa_servicios.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2964,
-		"inputAbbreviatedPath": "\/img\/services\/logo_prometa_servicios.png",
-		"outputAbbreviatedPath": "\/img\/services\/logo_prometa_servicios.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/services\/prometa_servicios.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2964,
-		"inputAbbreviatedPath": "\/img\/services\/prometa_servicios.png",
-		"outputAbbreviatedPath": "\/img\/services\/prometa_servicios.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/services\/short_line.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 991,
-		"inputAbbreviatedPath": "\/img\/services\/short_line.png",
-		"outputAbbreviatedPath": "\/img\/services\/short_line.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/index.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
+		},
+	"\/jade\/alert_box.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/alert_box.jade",
+		"outputAbbreviatedPath": "\/alert_box.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/jade\/footer.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/footer.jade",
+		"outputAbbreviatedPath": "\/footer.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/jade\/footer_home.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/footer_home.jade",
+		"outputAbbreviatedPath": "\/footer_home.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/jade\/head.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/head.jade",
+		"outputAbbreviatedPath": "\/head.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/jade\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/index.jade",
+		"outputAbbreviatedPath": "\/index.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/jade\/inner_footer.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/inner_footer.jade",
+		"outputAbbreviatedPath": "\/inner_footer.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/jade\/navigation.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/navigation.jade",
+		"outputAbbreviatedPath": "\/navigation.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/jade\/noticias.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/noticias.jade",
+		"outputAbbreviatedPath": "\/noticias.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/jade\/pro-meta.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/pro-meta.jade",
+		"outputAbbreviatedPath": "\/pro-meta.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/jade\/servicios.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/servicios.jade",
+		"outputAbbreviatedPath": "\/servicios.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/main.js",
-		"outputAbbreviatedPath": "\/js\/main.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/main.min.js",
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/main.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/main.min.js",
-		"outputAbbreviatedPath": "\/js\/main.min.min.js",
-		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
@@ -458,18 +133,8 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/plugins.js",
-		"outputAbbreviatedPath": "\/js\/plugins.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/plugins.min.js",
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/plugins.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/plugins.min.js",
-		"outputAbbreviatedPath": "\/js\/plugins.min.min.js",
-		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
@@ -478,170 +143,115 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/Prometa.js",
-		"outputAbbreviatedPath": "\/js\/Prometa.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/Prometa.min.js",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/Prometa.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/Prometa.min.js",
-		"outputAbbreviatedPath": "\/js\/Prometa.min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/additional-methods.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/additional-methods.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/additional-methods.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/jquery-1.8.3.min.js": {
-		"fileType": 64,
+	"\/kit\/index.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/jquery-1.8.3.min.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/jquery-1.8.3.min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
+		"inputAbbreviatedPath": "\/kit\/index.kit",
+		"outputAbbreviatedPath": "\/index.html",
+		"outputPathIsSetByUser": 0
 		},
-	"\/js\/vendor\/jquery-1.9.0.min.js": {
-		"fileType": 64,
+	"\/kit\/pro-meta.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/jquery-1.9.0.min.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/jquery-1.9.0.min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
+		"inputAbbreviatedPath": "\/kit\/pro-meta.kit",
+		"outputAbbreviatedPath": "\/pro-meta.html",
+		"outputPathIsSetByUser": 0
 		},
-	"\/js\/vendor\/jquery.form.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/jquery.form.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/jquery.form.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/jquery.scrollTo-1.4.3.1-min.js": {
-		"fileType": 64,
+	"\/noticias-raw.html": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/jquery.scrollTo-1.4.3.1-min.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/jquery.scrollTo-1.4.3.1-min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/jquery.scrollTo-1.4.3.1.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/jquery.scrollTo-1.4.3.1.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/jquery.scrollTo-1.4.3.1.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/jquery.tools.custom.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/jquery.tools.custom.min.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/jquery.tools.custom.min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/jquery.tools.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/jquery.tools.min.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/jquery.tools.min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/jquery.uniform.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/jquery.uniform.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/jquery.uniform.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/jquery.validate.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/jquery.validate.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/jquery.validate.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/jquery.validate.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/jquery.validate.min.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/jquery.validate.min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/modernizr-2.6.2.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/modernizr-2.6.2.min.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/modernizr-2.6.2.min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/vendor\/prefixfree.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/prefixfree.min.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/prefixfree.min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
+		"inputAbbreviatedPath": "\/noticias-raw.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
 		},
 	"\/noticias.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/noticias.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/pro-meta.html": {
+	"\/pro-meta-raw.html": {
 		"fileType": 8192,
 		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pro-meta-raw.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/pro-meta.html": {
+		"fileType": 8192,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/pro-meta.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/servicios.html": {
+	"\/scss\/home.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/home.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/home.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/main.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/main.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/main.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/normalize.min.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/normalize.min.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/normalize.min.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/servicios-raw.html": {
 		"fileType": 8192,
 		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/servicios-raw.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/servicios.html": {
+		"fileType": 8192,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/servicios.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -666,10 +276,10 @@
 	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
 	"browserRefreshDelay": 0,
-	"coffeeAutoOutputPathRelativePath": "..\/",
+	"coffeeAutoOutputPathRelativePath": "assets\/js\/",
 	"coffeeAutoOutputPathReplace1": "",
 	"coffeeAutoOutputPathReplace2": "",
-	"coffeeAutoOutputPathStyle": 2,
+	"coffeeAutoOutputPathStyle": 1,
 	"coffeeCreateSourceMap": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -679,6 +289,10 @@
 		"camel_case_classes": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
 			},
 		"cyclomatic_complexity": {
 			"active": 0,
@@ -704,9 +318,17 @@
 			"active": 0,
 			"flagValue": 150
 			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"newlines_after_classes": {
 			"active": 0,
 			"flagValue": 3
+			},
+		"no-unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"no_backticks": {
 			"active": 1,
@@ -774,16 +396,16 @@
 	"hamlUseCDATA": 0,
 	"hamlUseDoubleQuotes": 0,
 	"hamlUseUnixNewlines": 0,
-	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathRelativePath": "..\/",
 	"jadeAutoOutputPathReplace1": "",
 	"jadeAutoOutputPathReplace2": "",
-	"jadeAutoOutputPathStyle": 0,
+	"jadeAutoOutputPathStyle": 2,
 	"jadeCompileDebug": 1,
-	"jadeOutputStyle": 0,
-	"javascriptAutoOutputPathRelativePath": "\/min",
+	"jadeOutputStyle": 1,
+	"javascriptAutoOutputPathRelativePath": "assets\/js\/",
 	"javascriptAutoOutputPathReplace1": "",
 	"javascriptAutoOutputPathReplace2": "",
-	"javascriptAutoOutputPathStyle": 0,
+	"javascriptAutoOutputPathStyle": 1,
 	"javascriptCreateSourceMap": 1,
 	"javascriptOutputStyle": 2,
 	"javascriptOutputSuffix": ".min",
@@ -1184,7 +806,7 @@
 	"kitAutoOutputPathRelativePath": "",
 	"kitAutoOutputPathReplace1": "",
 	"kitAutoOutputPathReplace2": "",
-	"kitAutoOutputPathStyle": 0,
+	"kitAutoOutputPathStyle": 1,
 	"lessAllowInsecureImports": 0,
 	"lessAutoOutputPathRelativePath": "..\/css",
 	"lessAutoOutputPathReplace1": "less",
@@ -1206,10 +828,10 @@
 	"markdownEnableSmartyPants": 1,
 	"markdownExpandTabs": 1,
 	"reloadFileURLs": 1,
-	"sassAutoOutputPathRelativePath": "..\/",
+	"sassAutoOutputPathRelativePath": "assets\/css\/",
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
-	"sassAutoOutputPathStyle": 2,
+	"sassAutoOutputPathStyle": 1,
 	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 2,
