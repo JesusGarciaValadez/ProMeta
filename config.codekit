@@ -9047,6 +9047,14 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/cache\/action_map\/mgr\/actions.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/action_map\/mgr\/actions.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/cache\/auto_publish\/auto_publish.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9068,6 +9076,198 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/context_settings\/web\/context.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/includes\/elements\/modplugin\/1.include.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/includes\/elements\/modplugin\/1.include.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/includes\/elements\/modsnippet\/1.include.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/includes\/elements\/modsnippet\/1.include.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/action.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/action.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/category.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/category.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/content_type.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/content_type.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/context.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/context.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/dashboard.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/dashboard.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/default.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/default.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/element.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/element.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/file.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/file.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/menu.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/menu.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/namespace.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/namespace.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/propertyset.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/propertyset.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/resource.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/resource.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/setting.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/setting.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/source.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/source.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/system_events.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/system_events.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/template.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/template.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/topmenu.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/topmenu.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/tv_widget.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/tv_widget.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/workspace.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/workspace.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/tinymce\/default.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/tinymce\/default.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/media_sources\/web\/source.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/media_sources\/web\/source.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/menu\/mgr\/menus\/en.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/menu\/mgr\/menus\/en.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -9742,6 +9942,22 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/undefined-sort.msg.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/scripts\/elements\/modplugin\/1.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/scripts\/elements\/modplugin\/1.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/scripts\/elements\/modsnippet\/1.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/scripts\/elements\/modsnippet\/1.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
