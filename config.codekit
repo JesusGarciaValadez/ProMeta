@@ -7834,7 +7834,7 @@
 		},
 	"\/Code\/chunks\/footer.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/chunks\/footer.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -7842,7 +7842,7 @@
 		},
 	"\/Code\/chunks\/head.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/chunks\/head.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -7858,7 +7858,7 @@
 		},
 	"\/Code\/chunks\/html-end.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/chunks\/html-end.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -7866,7 +7866,7 @@
 		},
 	"\/Code\/chunks\/navigation.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/chunks\/navigation.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -9071,22 +9071,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/includes\/elements\/modsnippet\/1.include.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/includes\/elements\/modsnippet\/1.include.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/media_sources\/web\/source.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/media_sources\/web\/source.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/mgr\/smarty\/0db105ee057c2471e6ed9273ed54d12235a64676.file.url.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9271,6 +9255,14 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/cache\/mgr\/smarty\/default\/b59d1a38a11376fff3d94b8b42e775e889c0d444.file.email.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/b59d1a38a11376fff3d94b8b42e775e889c0d444.file.email.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/cache\/mgr\/smarty\/default\/c17c4c7c4218b6a9576e79879adfe86b6d9a311b.file.create.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9284,6 +9276,14 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/c791d1651b3e670907b18dea530cf4be0921a668.file.update.tpl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/mgr\/smarty\/default\/d0475b7bed3137a836f3b9abc1a931dbaf6ae1eb.file.textarea.tpl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/d0475b7bed3137a836f3b9abc1a931dbaf6ae1eb.file.textarea.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -9641,6 +9641,46 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-10.msg.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-10.msg.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-11.msg.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-11.msg.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-2.msg.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-2.msg.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-3.msg.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-3.msg.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-4.msg.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-4.msg.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-5.msg.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9673,6 +9713,14 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-9.msg.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-9.msg.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-undefined.msg.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9694,22 +9742,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/undefined-sort.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/resource\/web\/resources\/1.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/resource\/web\/resources\/1.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/scripts\/elements\/modsnippet\/1.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/scripts\/elements\/modsnippet\/1.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
