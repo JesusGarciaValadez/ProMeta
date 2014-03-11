@@ -9945,6 +9945,14 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/cache\/resource\/web\/resources\/1.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/resource\/web\/resources\/1.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/cache\/scripts\/elements\/modplugin\/1.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
