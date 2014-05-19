@@ -207,6 +207,7 @@
     }
 }
 .social_media_links{
+    display: none;
     margin: 0;
     padding: 0;
     li{
@@ -863,7 +864,7 @@ hr{
                         width: 880px;
                         li{
                             @extend .clearfix;
-                            background: url("../img/services/short_line.png") no-repeat scroll right bottom transparent;
+                            background: url("../img/services/short_line.png") no-repeat scroll right center transparent;
                             float: left;
                             min-height: 108px;
                             list-style: none inside;
@@ -942,11 +943,16 @@ hr{
                     
                     h4{ width: 160px; }
                     ul{ 
+                        @extend .clearfix;
                         height: 240px;
-                        ul{
-                            @extend .clearfix;
-                            height: auto;
-                            .double{ height: 31px; }
+                        >li {
+                            min-height: 200px !important;
+                            ul{
+                                @extend .clearfix;
+                                height: auto;
+                                .double{ height: 31px; }
+                                li{ min-height: inherit !important; }
+                            }
                         }
                     }
                 }
@@ -965,6 +971,49 @@ hr{
                     img{
                         display: block;
                         margin: 0 auto;
+                    }
+                    .distribuitors,
+                    .presentation_links{
+                        display: inline-block;
+                        height: 21px;
+                        margin: 13px 0;
+                        width: 50%;
+                        p{
+                            @include font-mask( $text_gray, em( 13, 16 ), em( 21, 13 ), normal );
+                            margin: 0;
+                        }
+                    }
+                    .distribuitors{
+                        text-align: left;
+                        p{ float: left; width: auto !important; }
+                        a{
+                            float: left;
+                            margin: 0 0 0 20px;
+                            img{}
+                        }
+                    }
+                    .presentation_links{
+                        
+                        p{ float: right; }
+                        ul{
+                            float: right;
+                            height: 100% !important;
+                            margin: 0;
+                            min-height: 21px !important;
+                            padding: 0;
+                            width: 60px;
+                            li{
+                                background: none;
+                                display: inline-block;
+                                float: left;
+                                height: 21px;
+                                margin: 0 5px;
+                                min-height: 21px !important;
+                                padding: 0;
+                                text-align: center;
+                                a{ @include font-mask( $red, em( 13, 16 ), em( 13, 13 ), normal ); }
+                            }
+                        }
                     }
                 }
             }

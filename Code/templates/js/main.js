@@ -251,11 +251,11 @@
         //  Construye el Google Maps
         if ( $( '#map' ).exists() ) {
            
-            Prometa.makeMapForContact( 19.434381, -99.19723, $( '#map' ) );
+            Prometa.makeMapForContact( 19.405234, -99.171704, $( '#map' ) );
            
             $( window ).on( 'resize', function ( e ) {
                
-                Prometa.makeMapForContact( 19.434381, -99.19723, $( '#map' ) );
+                Prometa.makeMapForContact( 19.405234, -99.171704, $( '#map' ) );
             } );
         }
         
