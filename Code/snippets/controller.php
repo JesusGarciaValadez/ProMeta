@@ -54,7 +54,8 @@ if ( ! empty( $_GET['action'] ) ) {
                     $toPass, 
                     "template_mailing.html", 
                     $_POST[ 'contact_name' ] . " está interesado en pedir información", 
-                    "m.marighi@pro-meta.com.mx", 
+                    //"m.marighi@pro-meta.com.mx", 
+                    "info@pro-meta.com.mx",
                     $cc );
                 $data       = json_encode ( $doInsert );
                 

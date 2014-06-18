@@ -20,65 +20,91 @@
             $( ".loader" ).fadeOut( 300 );
         }
         
+        //  Pone la clase current en el primer texto del home
+        if ( $( "#home header" ).exists() ) {
+            
+            $( "#home header div article" ).first().addClass( 'current' );
+        }
+        
         //  Control del background
         if ( $( "#wrapper_background" ).exists() ) {
            
             var layers  = $( '#wrapper_background figure' ),
                 controllers = $( 'header a' ),
+                notices = $( 'header div article' ),
                 timeCounter = 0,
-                currentTab,
-                tabLength;
-           
+                currentTab, tabLength;
+            
             layers.eq(0).addClass( 'current' );
-           
-            currentTab  = $( '#wrapper_background figure.current' ).index();
-           
+            
+            currentTab  = 0;
+            tabLength   = layers.length;
+            
             //  Controla el cambio de background por medio de las flechas
             $( controllers ).on( 'click', function ( e ) {
-               
+                
                 e.preventDefault();
                 e.stopPropagation();
-               
+                
                 currentTab  = $( '#wrapper_background figure.current' ).index();
-               
+                
                 $( '#wrapper_background figure.current' ).fadeOut( 300, function () {
-                   
+                    
                     $( this ).toggleClass( 'current' );
                 });
-                tabLength   = $( '#wrapper_background figure' ).length;
-               
+                
                 if ( $( e.currentTarget ).hasClass( 'left' ) ) {
-                   
+                    
                     if ( currentTab <= 1 ) {
-                       
+                        
                         layers.eq( 0 ).fadeIn( 300, function () {
-                           
+                            
                             layers.eq( tabLength - 2 ).addClass( 'current' );
                         });
+                        notices.eq( 0 ).fadeIn( 300, function () {
+                            
+                            notices.removeClass( 'current' ).removeAttr( 'class' );
+                            notices.eq( tabLength - 2 ).addClass( 'current' ).removeAttr( 'style' );
+                        });
                     } else {
-                       
+                        
                         layers.eq( currentTab - 2 ).fadeIn( 300, function () {
-                           
+                            
                             layers.eq( currentTab - 2 ).addClass( 'current' );
+                        });
+                        notices.eq( currentTab - 2 ).fadeIn( 300, function () {
+                            
+                            notices.removeClass( 'current' ).removeAttr( 'class' );
+                            notices.eq( currentTab - 2 ).addClass( 'current' ).removeAttr( 'style' );
                         });
                     }
                 } else if ( $( e.currentTarget ).hasClass( 'right' ) ) {
-                   
+                    
                     if ( currentTab >= tabLength ) {
-                       
+                        
                         layers.eq( 0 ).fadeIn( 300, function () {
-                           
+                            
                             layers.eq( 0 ).addClass( 'current' );
                         });
+                        notices.eq( 0 ).fadeIn( 300, function () {
+                            
+                            notices.removeClass( 'current' ).removeAttr( 'class' );
+                            notices.eq( 0 ).addClass( 'current' ).removeAttr( 'style' );
+                        });
                     } else {
-                       
+                        
                         layers.eq( currentTab ).fadeIn( 300, function () {
-                           
+                            
                             layers.eq( currentTab ).addClass( 'current' );
+                        });
+                        notices.eq( currentTab ).fadeIn( 300, function () {
+                            
+                            notices.removeClass( 'current' ).removeAttr( 'class' );
+                            notices.eq( currentTab ).addClass( 'current' ).removeAttr( 'style' );
                         });
                     }
                 }
-               
+                
                 $( '#counter' ).css( 'width', 0 + 'px' );
                 timeCounter = 0;
                
@@ -97,41 +123,50 @@
                 $( '#wrapper_background figure.current img' ).attr( 'src', name );
                 */
             });
-           
+            
             if ( $( '#timer' ).exists() ) {
-               
+                
                 //  Controla el cambio de background aprox. cada 10 segundos.
                 var interval   = setInterval( function ( ) {
-                   
+                    
                     if ( timeCounter <= 100 ) {
-                       
+                        
                         timeCounter += 0.1055;  //Sin Math.round
                         //timeCounter += 0.150465;  // Con Math.round
                     } else if ( timeCounter > 100 )  {
-                       
+                        
                         currentTab  = $( '#wrapper_background figure.current' ).index();
                         $( '#wrapper_background figure.current' ).fadeOut( 300, function () {
-                           
+                            
                             $( this ).toggleClass( 'current' );
                         });
-                        tabLength   = $( '#wrapper_background figure' ).length;
-                       
+                        
                         if ( currentTab >= tabLength ) {
-                           
+                            
                             layers.eq( 0 ).fadeIn( 300, function () {
-                               
+                                
                                 layers.eq( 0 ).addClass( 'current' );
                             });
+                            notices.eq( 0 ).fadeIn( 300, function () {
+                                
+                                notices.removeClass( 'current' ).removeAttr( 'class' );
+                                notices.eq( 0 ).addClass( 'current' ).removeAttr( 'style' );
+                            });
                         } else {
-                           
                             layers.eq( currentTab ).fadeIn( 300, function () {
-                               
+                                
+                                
                                 layers.eq( currentTab ).addClass( 'current' );
+                            });
+                            notices.eq( currentTab ).fadeIn( 300, function () {
+                                
+                                notices.removeClass( 'current' ).removeAttr( 'class' );
+                                notices.eq( currentTab ).addClass( 'current' ).removeAttr( 'style' );
                             });
                         }
                         timeCounter = 0;
                     }
-                   
+                    
                     $( '#counter' ).css( 'width', timeCounter + '%' );
                 }, 10 );
             }
@@ -142,22 +177,22 @@
     $( document ).on( 'ready', function ( e ) {
         
         //  Arregla tamaños del background al iniciar y al redimensionar la ventana
-        var screenHeight, newHeight
+        var screenHeight, newHeight;
         var calculateHeight = function ( ) {
-           
+            
             screenHeight    = window.innerHeight;
             $( '#wrapper_background' ).height( screenHeight );
             newHeight       = screenHeight - 55;
             $( '#home #nav' ).css( 'top', newHeight + 'px' );
             $( '#header' ).centerWidth();
-        }
+        };
         
         if ( $( '#wrapper_background' ).exists() ) {
-           
+            
             calculateHeight();
-           
+            
             $( window ).on( 'resize', function ( e ) {
-               
+                
                 calculateHeight();
             } );
         }
@@ -165,15 +200,14 @@
         if ( $( '#home #nav' ).exists() ) {
             
             $( 'a[title="Home"]' ).on( 'click', function ( e ) {
-               
                 e.preventDefault();
                 e.stopPropagation();
-               
+                
                 Prometa.smoothScroll( '#home', 300 );
-               
+                
                 $( 'nav ul li' ).removeClass( 'active' );
                 Prometa.toggleClass( $( e.currentTarget ).parent(), 'active' );
-               
+                
                 $( '#home' ).css( {
                     overflow: "hidden"
                 } );
@@ -230,7 +264,7 @@
                     top:        newHeight + 'px'
                 } );
                
-                if ( Prometa.tool == 0 ) {
+                if ( Prometa.tool === 0 ) {
                    
                     $( '#home' ).css( {
                         overflow: "hidden"
@@ -372,7 +406,7 @@
                     email: "Escriba un email válido",
                     number: "Escriba solo números",
                     digits: "Escriba solo números",
-                }
+                };
            
             Prometa.validateForms( rules, messages );
         }
@@ -421,7 +455,6 @@
                 autoplay: true,
                 autopause: true
             } );
-           
         }
         
         //  Carruseles y efectos de sección Servicios
@@ -477,10 +510,9 @@
                         
                         carrouselTitle.prev( 1000 );
                     }
-                }, 200 )
+                }, 200 );
             } );
         }
-        
     } );
     
 })( jQuery, window, document );

@@ -345,8 +345,18 @@ hr{
         
         header{
             
-            h1{
-                display: none;
+            h1{ display: none; }
+            div{
+                height: 65px;
+                overflow: hidden;
+                article{
+                    display: none;
+                    height: 65px;
+                    position: absolute;
+                    width: 100%;
+                    p{}
+                    &.current{ display: block; }
+                }
             }
         }
     }
@@ -420,18 +430,24 @@ hr{
                         
                         input[type="text"], textarea{
                             border: 0 none transparent;
-                            @include font-mask( #C9C9C8, em( 13, 16 ), em( 13, 13 ), bold );
+                            @include font-mask( #5C5A58, em( 13, 16 ), em( 13, 13 ), normal );
                             height: em( 28, 13);
                             margin: 0 0 14px; 
                             text-indent: em( 10, 13 );
                             width: 100%;
+                        }
+                        input[placeholder],
+                        ::-moz-placeholder,/* firefox 19+ */
+                        input:-moz-placeholder {
+                            color: #5C5A58;
+                            text-overflow: ellipsis;
                         }
                         .selector{}
                         #uniform-contact_area{
                             cursor: pointer;
                             position: relative;
                             span{
-                                @include font-mask( #C9C9C8, em( 13, 16 ), em( 30, 13 ), normal );
+                                @include font-mask( #5C5A58, em( 13, 16 ), em( 30, 13 ), normal );
                                 background: url("../img/home/select_background.png") no-repeat scroll 130px center #FFF;
                                 cursor: pointer;
                                 display: table;
@@ -453,9 +469,7 @@ hr{
                                 width: 160px;
                                 z-index: 1;
                             }
-                            .error{
-                                right: -478px;
-                            }
+                            .error{ right: -478px; }
                         }
                         textarea{ 
                             height: 179px; 
@@ -779,13 +793,14 @@ hr{
                 margin: 0;
                 text-align: center;
             }
-            ul{
+            ul,dl{
                 display: block;
                 margin: 0 auto;
                 padding: 0 0 17px;
-                li{
+                li,dt,dd{
                     @include font-mask( #000, em( 13, 16 ), em( 14, 13 ), bold );
                     list-style: none inside;
+                    margin: 5px 0;
                     text-align: center;
                     span{ color: $red; }
                 }
@@ -821,7 +836,29 @@ hr{
                     h3{
                         @include font-mask( #FFF, em( 21, 16 ), em( 17, 21 ), normal );
                         text-align: center;
-                        strong{ color: #FFF; }
+                        strong{
+                            clear: both;
+                            color: #FFF;
+                            display: block;
+                            margin: 10px 0;
+                        }
+                    }
+                    ul{
+                        display: block;
+                        margin: 0 auto 5px;
+                        padding: 0 0 0 20px;
+                        width: 365px;
+                        li{
+                            @include font-mask( #FFF, em( 18, 16 ), em( 21, 28 ), normal );
+                            margin: 5px 0;
+                            text-align: left;
+                            strong{
+                                clear: both;
+                                color: #FFF;
+                                display: block;
+                                margin: 10px 0;
+                            }
+                        }
                     }
                 }
             }
@@ -846,7 +883,7 @@ hr{
             .prev{ background-position:-100px 0px !important; left: 31px; }
             .next{ background-position:-119px 0px !important; right: 31px; }
             .items{
-                height: 450px;
+                height: 567px;
                 margin: 0 auto;
                 padding: 30px 0 0;
                 position: relative;
@@ -886,7 +923,7 @@ hr{
                                 display: block;
                                 min-height: 0 !important;
                                 margin: 0 auto;
-                                padding: 20px  0 0 34px;
+                                padding: 10px  0 0 34px;
                                 width: 155px;
                                 li{
                                     @include font-mask( #000, em( 13, 16 ), em( 15, 12 ), normal );
@@ -902,6 +939,12 @@ hr{
                                     width: 100%;
                                 }
                             }
+                            span{
+                                @include font-mask( #000, em( 13, 16 ), em( 15, 12 ), normal );
+                                display: block;
+                                margin: 10px auto 0;
+                                width: 80%;
+                            }
                             .more_information{
                                 background: url("../img/home/arrows.png") no-repeat scroll -138px 0px transparent;
                                 bottom: 0;
@@ -912,12 +955,12 @@ hr{
                                 right: 10px;
                                 width:14px;
                             }
-                            p{
-                                @include font-mask( #000, em( 13, 16 ), em( 16, 16 ), normal );
+                            p,h5{
+                                @include font-mask( #000, em( 13, 16 ), em( 16, 16 ), bold );
                                 display: block;
                                 text-align: center;
                                 margin: 0;
-                                padding: 30px 34px 0;
+                                padding: 10px 34px 0;
                                 width: 220px;
                                 strong{}
                             }
@@ -938,7 +981,6 @@ hr{
                         }
                     }
                 }
-                #services_for_constructions{}
                 #consultancy{
                     
                     h4{ width: 160px; }
@@ -947,6 +989,9 @@ hr{
                         height: 240px;
                         >li {
                             min-height: 200px !important;
+                            span{
+                                
+                            }
                             ul{
                                 @extend .clearfix;
                                 height: auto;
@@ -961,11 +1006,20 @@ hr{
                     ul{
                         min-height: em( 148, 16 ) !important;
                         li{
+                            list-style: none inside;
+                            margin: 0;
                             min-height: em( 127, 16 ) !important;
                             ul{
                                 min-height: em( 0, 16 ) !important;
-                                li{ min-height: em( 0, 16 ) !important; }
+                                li{
+                                    background: none !important;
+                                    list-style: none inside;
+                                    margin: 10px 0;
+                                    padding: 0;
+                                    min-height: em( 0, 16 ) !important;
+                                }
                             }
+                            .large_title{ padding: 0; width: 65%; }
                         }
                     }
                     img{
@@ -993,24 +1047,29 @@ hr{
                         }
                     }
                     .presentation_links{
-                        
+                        float: right;
+                        height: auto;
                         p{ float: right; }
                         ul{
+                            clear: both;
+                            display: block;
                             float: right;
                             height: 100% !important;
                             margin: 0;
                             min-height: 21px !important;
                             padding: 0;
-                            width: 60px;
+                            width: auto;
                             li{
                                 background: none;
-                                display: inline-block;
-                                float: left;
+                                clear: both;
+                                display: block;
+                                float: none !important;
                                 height: 21px;
                                 margin: 0 5px;
                                 min-height: 21px !important;
                                 padding: 0;
-                                text-align: center;
+                                text-align: right;
+                                width: auto !important;
                                 a{ @include font-mask( $red, em( 13, 16 ), em( 13, 13 ), normal ); }
                             }
                         }

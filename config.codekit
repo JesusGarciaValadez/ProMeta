@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16921",
+"creatorBuild": "17018",
 "files": {
 	"\/apple-touch-icon-114x114-precomposed.png": {
 		"fileType": 32768,
@@ -8055,6 +8055,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/fondos\/bg_home_5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 554671,
+		"inputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_5.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/fondos\/mountain_lake-wide_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8418,6 +8429,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/services\/energy_team_glow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6038,
+		"inputAbbreviatedPath": "\/assets\/img\/services\/energy_team_glow.png",
+		"outputAbbreviatedPath": "\/assets\/img\/services\/energy_team_glow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/services\/energy_team_negro.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8425,6 +8447,83 @@
 		"initialSize": 2677,
 		"inputAbbreviatedPath": "\/assets\/img\/services\/energy_team_negro.png",
 		"outputAbbreviatedPath": "\/assets\/img\/services\/energy_team_negro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/services\/Imagen1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7163,
+		"inputAbbreviatedPath": "\/assets\/img\/services\/Imagen1.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/services\/Imagen1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/services\/Imagen1b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5779,
+		"inputAbbreviatedPath": "\/assets\/img\/services\/Imagen1b.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/services\/Imagen1b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/services\/Imagen2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6423,
+		"inputAbbreviatedPath": "\/assets\/img\/services\/Imagen2.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/services\/Imagen2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/services\/Imagen2b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6509,
+		"inputAbbreviatedPath": "\/assets\/img\/services\/Imagen2b.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/services\/Imagen2b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/services\/Imagen3a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5366,
+		"inputAbbreviatedPath": "\/assets\/img\/services\/Imagen3a.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/services\/Imagen3a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/services\/Imagen3b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4711,
+		"inputAbbreviatedPath": "\/assets\/img\/services\/Imagen3b.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/services\/Imagen3b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/services\/Imagen4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5040,
+		"inputAbbreviatedPath": "\/assets\/img\/services\/Imagen4.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/services\/Imagen4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -8663,6 +8762,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/chunks\/background-images-item.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Code\/chunks\/content-home-item.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Code\/chunks\/content-home-item.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8974,7 +9082,7 @@
 		"outputAbbreviatedPath": "\/assets\/js\/main.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/Code\/templates\/js\/plugins.js": {
@@ -10064,15 +10172,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/includes\/elements\/modsnippet\/2.include.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/includes\/elements\/modsnippet\/2.include.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/default.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -10114,15 +10213,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/tv_widget.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/media_sources\/web\/source.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/media_sources\/web\/source.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -10579,6 +10669,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/core\/cache\/phpthumb\/localhost__src884fc7fd995a0472be2fb484fcfd77b7_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1403016932.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12432,
+		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src884fc7fd995a0472be2fb484fcfd77b7_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1403016932.png",
+		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src884fc7fd995a0472be2fb484fcfd77b7_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1403016932.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/core\/cache\/phpthumb\/localhost__src884fc7fd995a0472be2fb484fcfd77b7_paradf896d45f319fa323d889e84ccb98c5_dat1403016932.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4147,
+		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src884fc7fd995a0472be2fb484fcfd77b7_paradf896d45f319fa323d889e84ccb98c5_dat1403016932.jpeg",
+		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src884fc7fd995a0472be2fb484fcfd77b7_paradf896d45f319fa323d889e84ccb98c5_dat1403016932.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/core\/cache\/phpthumb\/localhost__src8f5c25bf81a1109ff09cc11cb9887bfa_par71afcac92ca706582b97329357996be7_dat1390256401.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -10777,6 +10889,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/core\/cache\/registry\/state\/ys\/user-1\/ext-gen177-tree.msg.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/ext-gen177-tree.msg.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/cache\/registry\/state\/ys\/user-1\/ext-gen339-tree.msg.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -10957,29 +11078,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/resource\/web\/resources\/1.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/resource\/web\/resources\/1.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/resource\/web\/resources\/3.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/resource\/web\/resources\/3.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/scripts\/elements\/modsnippet\/2.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/scripts\/elements\/modsnippet\/2.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -45806,7 +45909,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Jesús Antonio García Valadez",
+"lastSavedByUser": "Jesús García Valadez",
 "manualImportLinks": {
 	},
 "projectAttributes": {
@@ -45872,10 +45975,6 @@
 			"active": 0,
 			"flagValue": 3
 			},
-		"no-unnecessary_fat_arrows": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"no_backticks": {
 			"active": 1,
 			"flagValue": -1
@@ -45930,6 +46029,10 @@
 			},
 		"no_unnecessary_double_quotes": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"non_empty_constructor_needs_parens": {
