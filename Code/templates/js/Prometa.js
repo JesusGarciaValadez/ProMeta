@@ -130,7 +130,7 @@
                 animation: google.maps.Animation.DROP,
                 position: point,
                 map: googleMap,
-               icon:'img/home/pointer.png'
+                //icon:'img/home/pointer.png'
            });
             var infoWindow  = new google.maps.InfoWindow({
                content: '',

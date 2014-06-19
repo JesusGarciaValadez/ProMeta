@@ -94,6 +94,9 @@ header,body,aside,video,audio,footer,section,article,code,canvas,ul,ol,li,menu,
 menuitem,nav,iframe,embed,object,*{
     outline: transparent thin none;
 }
+a{
+    outline: transparent none thin;
+}
 .alert_background {
     background: url('../img/background_lightbox.png') repeat scroll 0 0 transparent;
     display: none;
