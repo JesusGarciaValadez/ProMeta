@@ -10,7 +10,7 @@
 		"inputAbbreviatedPath": "\/apple-touch-icon-114x114-precomposed.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-114x114-precomposed.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-144x144-precomposed.png": {
 		"fileType": 32768,
@@ -20,7 +20,7 @@
 		"inputAbbreviatedPath": "\/apple-touch-icon-144x144-precomposed.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-144x144-precomposed.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-57x57-precomposed.png": {
 		"fileType": 32768,
@@ -30,7 +30,7 @@
 		"inputAbbreviatedPath": "\/apple-touch-icon-57x57-precomposed.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-57x57-precomposed.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-72x72-precomposed.png": {
 		"fileType": 32768,
@@ -40,7 +40,7 @@
 		"inputAbbreviatedPath": "\/apple-touch-icon-72x72-precomposed.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-72x72-precomposed.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
@@ -50,7 +50,7 @@
 		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/apple-touch-icon.png": {
 		"fileType": 32768,
@@ -60,7 +60,7 @@
 		"inputAbbreviatedPath": "\/apple-touch-icon.png",
 		"outputAbbreviatedPath": "\/apple-touch-icon.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/background-images-item.html": {
 		"fileType": 8192,
@@ -7284,7 +7284,27 @@
 		"inputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_1.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_1.jpg",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/assets\/img\/fondos\/bg_home_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.91026e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_2.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/fondos\/bg_home_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 942686,
+		"inputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_3.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_3.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/assets\/img\/home\/arrows.png": {
 		"fileType": 32768,
@@ -7536,13 +7556,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/img\/prometa\/mision.png": {
+	"\/assets\/img\/prometa\/Mision.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 42915,
-		"inputAbbreviatedPath": "\/assets\/img\/prometa\/mision.png",
-		"outputAbbreviatedPath": "\/assets\/img\/prometa\/mision.png",
+		"initialSize": 39097,
+		"inputAbbreviatedPath": "\/assets\/img\/prometa\/Mision.png",
+		"outputAbbreviatedPath": "\/assets\/img\/prometa\/Mision.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -7570,21 +7590,21 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 59557,
+		"initialSize": 68224,
 		"inputAbbreviatedPath": "\/assets\/img\/prometa\/valores.png",
 		"outputAbbreviatedPath": "\/assets\/img\/prometa\/valores.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/img\/prometa\/vision.png": {
+	"\/assets\/img\/prometa\/Vision.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 54916,
-		"inputAbbreviatedPath": "\/assets\/img\/prometa\/vision.png",
-		"outputAbbreviatedPath": "\/assets\/img\/prometa\/vision.png",
+		"initialSize": 55841,
+		"inputAbbreviatedPath": "\/assets\/img\/prometa\/Vision.png",
+		"outputAbbreviatedPath": "\/assets\/img\/prometa\/Vision.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/services\/banner_servicios.jpg": {
 		"fileType": 16384,
@@ -7698,8 +7718,8 @@
 		},
 	"\/assets\/js\/vendor\/jquery-1.8.3.min.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery-1.8.3.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery-1.8.3.min.min.js",
 		"outputPathIsSetByUser": 0,
@@ -7708,8 +7728,8 @@
 		},
 	"\/assets\/js\/vendor\/jquery-1.9.0.min.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery-1.9.0.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery-1.9.0.min.min.js",
 		"outputPathIsSetByUser": 0,
@@ -7719,7 +7739,7 @@
 	"\/assets\/js\/vendor\/jquery.form.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.form.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.form.min.js",
 		"outputPathIsSetByUser": 0,
@@ -7728,8 +7748,8 @@
 		},
 	"\/assets\/js\/vendor\/jquery.scrollTo-1.4.3.1-min.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.scrollTo-1.4.3.1-min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.scrollTo-1.4.3.1-min.min.js",
 		"outputPathIsSetByUser": 0,
@@ -7739,7 +7759,7 @@
 	"\/assets\/js\/vendor\/jquery.scrollTo-1.4.3.1.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.scrollTo-1.4.3.1.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.scrollTo-1.4.3.1.min.js",
 		"outputPathIsSetByUser": 0,
@@ -7749,7 +7769,7 @@
 	"\/assets\/js\/vendor\/jquery.tools.custom.min.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.tools.custom.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.tools.custom.min.min.js",
 		"outputPathIsSetByUser": 0,
@@ -7758,8 +7778,8 @@
 		},
 	"\/assets\/js\/vendor\/jquery.tools.min.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.tools.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.tools.min.min.js",
 		"outputPathIsSetByUser": 0,
@@ -7769,7 +7789,7 @@
 	"\/assets\/js\/vendor\/jquery.uniform.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.uniform.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.uniform.min.js",
 		"outputPathIsSetByUser": 0,
@@ -7779,7 +7799,7 @@
 	"\/assets\/js\/vendor\/jquery.validate.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.validate.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.validate.min.js",
 		"outputPathIsSetByUser": 0,
@@ -7788,8 +7808,8 @@
 		},
 	"\/assets\/js\/vendor\/jquery.validate.min.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.validate.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.validate.min.min.js",
 		"outputPathIsSetByUser": 0,
@@ -7798,8 +7818,8 @@
 		},
 	"\/assets\/js\/vendor\/modernizr-2.6.2.min.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/modernizr-2.6.2.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/modernizr-2.6.2.min.min.js",
 		"outputPathIsSetByUser": 0,
@@ -7808,8 +7828,8 @@
 		},
 	"\/assets\/js\/vendor\/prefixfree.min.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/prefixfree.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/prefixfree.min.min.js",
 		"outputPathIsSetByUser": 0,
@@ -8004,7 +8024,7 @@
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/jade\/alert_box.jade",
 		"outputAbbreviatedPath": "\/Code\/templates\/alert_box.html",
 		"outputPathIsSetByUser": 0,
@@ -8014,7 +8034,7 @@
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/jade\/footer.jade",
 		"outputAbbreviatedPath": "\/Code\/templates\/footer.html",
 		"outputPathIsSetByUser": 0,
@@ -8103,7 +8123,7 @@
 	"\/Code\/templates\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/js\/main.js",
 		"outputAbbreviatedPath": "\/assets\/js\/main.min.js",
 		"outputPathIsSetByUser": 0,
@@ -8113,7 +8133,7 @@
 	"\/Code\/templates\/js\/plugins.js": {
 		"fileType": 64,
 		"ignore": 0,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/js\/plugins.js",
 		"outputAbbreviatedPath": "\/assets\/js\/plugins.min.js",
 		"outputPathIsSetByUser": 0,
@@ -8122,8 +8142,8 @@
 		},
 	"\/Code\/templates\/js\/Prometa.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Code\/templates\/js\/Prometa.js",
 		"outputAbbreviatedPath": "\/assets\/js\/Prometa.min.js",
 		"outputPathIsSetByUser": 0,
@@ -8220,7 +8240,7 @@
 		"outputAbbreviatedPath": "\/assets\/css\/main.css",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
@@ -9079,22 +9099,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/includes\/elements\/modplugin\/1.include.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/includes\/elements\/modplugin\/1.include.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/includes\/elements\/modsnippet\/1.include.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/includes\/elements\/modsnippet\/1.include.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/action.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9103,19 +9107,11 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/category.cache.php": {
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/configcheck.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/category.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/content_type.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/content_type.cache.php",
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/configcheck.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -9135,19 +9131,19 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/dashboards.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/dashboards.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/default.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/default.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/element.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/element.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -9159,27 +9155,11 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/menu.cache.php": {
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/login.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/menu.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/namespace.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/namespace.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/propertyset.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/propertyset.cache.php",
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/login.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -9191,38 +9171,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/setting.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/setting.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/source.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/source.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/system_events.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/system_events.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/template.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/template.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/topmenu.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9231,35 +9179,19 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/tv_widget.cache.php": {
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/user.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/tv_widget.cache.php",
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/user.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/workspace.cache.php": {
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/welcome.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/workspace.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/tinymce\/default.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/tinymce\/default.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/media_sources\/web\/source.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/media_sources\/web\/source.cache.php",
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/welcome.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -9271,94 +9203,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/mgr\/smarty\/0db105ee057c2471e6ed9273ed54d12235a64676.file.url.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/0db105ee057c2471e6ed9273ed54d12235a64676.file.url.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/151b259888c9397a293d14425c5c2ec9f68393c3.file.image.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/151b259888c9397a293d14425c5c2ec9f68393c3.file.image.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/158e07e5728d196a0462d497f6a18a623dacacd6.file.url.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/158e07e5728d196a0462d497f6a18a623dacacd6.file.url.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/2fad89cd23e2af57d71f508f15226e92ceb5a77a.file.textarea.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/2fad89cd23e2af57d71f508f15226e92ceb5a77a.file.textarea.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/4243da72d0e090643b6085ae9ea610f3227eaf07.file.email.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/4243da72d0e090643b6085ae9ea610f3227eaf07.file.email.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/613415af5fdc0a23ffeb08165925fb00915aab7c.file.default.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/613415af5fdc0a23ffeb08165925fb00915aab7c.file.default.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/a2a52a36b91938addf66311f4ca62fa8ff4a29fc.file.image.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/a2a52a36b91938addf66311f4ca62fa8ff4a29fc.file.image.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/d3e1d36f0d12781cda45e3e81ed73c1bd88ac60f.file.empty.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/d3e1d36f0d12781cda45e3e81ed73c1bd88ac60f.file.empty.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/00ba1008a84b848554cc8fcb5e6390144a75afd7.file.textbox.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/00ba1008a84b848554cc8fcb5e6390144a75afd7.file.textbox.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/09fd2642410fd5ee51011b87f605c5ff9c9bb1ac.file.image.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/09fd2642410fd5ee51011b87f605c5ff9c9bb1ac.file.image.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/26e02ebd223b2e51a0226b0e7ed09a1786b97443.file.update.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/26e02ebd223b2e51a0226b0e7ed09a1786b97443.file.update.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/mgr\/smarty\/default\/33b6903548dc8856e0c16c74610e34858550d158.file.index.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9367,75 +9211,11 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/mgr\/smarty\/default\/3f2b024e4e7081f54c9f3673b4e86271a6b49502.file.update.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/3f2b024e4e7081f54c9f3673b4e86271a6b49502.file.update.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/443ad52bc013af26e00fb893e448ce5afdb2689d.file.view.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/443ad52bc013af26e00fb893e448ce5afdb2689d.file.view.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/47c2c06f5bf583960230713a914e88757852c62b.file.create.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/47c2c06f5bf583960230713a914e88757852c62b.file.create.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/49a4d2b687702077cf304c70588415d8f18295d8.file.tvs.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/49a4d2b687702077cf304c70588415d8f18295d8.file.tvs.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/mgr\/smarty\/default\/5e0762e955b65868c74ff2c991b3cb03e88c5657.file.header.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/5e0762e955b65868c74ff2c991b3cb03e88c5657.file.header.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/6aea37edd1c010f89a136dfb9a1a8a32959d77a3.file.create.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/6aea37edd1c010f89a136dfb9a1a8a32959d77a3.file.create.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/790dae6211a95def410f751296ba31976bb7ccb9.file.update.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/790dae6211a95def410f751296ba31976bb7ccb9.file.update.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/8723c0f16c865dc05f15c57be826f8768a47f4f8.file.url.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/8723c0f16c865dc05f15c57be826f8768a47f4f8.file.url.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/90e375b5f449487555d87aee4bb5fcb7bd3506f4.file.update.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/90e375b5f449487555d87aee4bb5fcb7bd3506f4.file.update.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -9455,38 +9235,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/mgr\/smarty\/default\/b59d1a38a11376fff3d94b8b42e775e889c0d444.file.email.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/b59d1a38a11376fff3d94b8b42e775e889c0d444.file.email.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/c17c4c7c4218b6a9576e79879adfe86b6d9a311b.file.create.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/c17c4c7c4218b6a9576e79879adfe86b6d9a311b.file.create.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/c791d1651b3e670907b18dea530cf4be0921a668.file.update.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/c791d1651b3e670907b18dea530cf4be0921a668.file.update.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/d0475b7bed3137a836f3b9abc1a931dbaf6ae1eb.file.textarea.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/d0475b7bed3137a836f3b9abc1a931dbaf6ae1eb.file.textarea.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/mgr\/smarty\/default\/d232cb474baf6fa3fcf0c040e8ab0cb64eec8d83.file.login.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9495,27 +9243,11 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/mgr\/smarty\/default\/dc16cd024e3862c4334cb0f2ddb27ca99b9bad9e.file.create.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/dc16cd024e3862c4334cb0f2ddb27ca99b9bad9e.file.create.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/mgr\/smarty\/default\/dccbbbc1136db567fdb1ea0b0fbd6a9cfe9dc4e8.file.index.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/dccbbbc1136db567fdb1ea0b0fbd6a9cfe9dc4e8.file.index.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/e0597986f1ed0f349e64289805e50e9d5b8edeb7.file.text.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/e0597986f1ed0f349e64289805e50e9d5b8edeb7.file.text.tpl.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -9551,264 +9283,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/phpthumb\/localhost__src0190cf7a5bacff3ec8198cc559687e8e_par71afcac92ca706582b97329357996be7_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src0190cf7a5bacff3ec8198cc559687e8e_par71afcac92ca706582b97329357996be7_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src0190cf7a5bacff3ec8198cc559687e8e_par71afcac92ca706582b97329357996be7_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src01a6fdb8687b77d7dc6630a308940c3b_par729f559b3497657b454835cd57b60ffd_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 306,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src01a6fdb8687b77d7dc6630a308940c3b_par729f559b3497657b454835cd57b60ffd_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src01a6fdb8687b77d7dc6630a308940c3b_par729f559b3497657b454835cd57b60ffd_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src10c121b4ed68bf0f9576b16c3517d542_par301c18ff0a12b95b5368d1e0ca46eee7_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 90,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src10c121b4ed68bf0f9576b16c3517d542_par301c18ff0a12b95b5368d1e0ca46eee7_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src10c121b4ed68bf0f9576b16c3517d542_par301c18ff0a12b95b5368d1e0ca46eee7_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src10e8f891997318b92a13dccf7e4bfe79_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9050,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src10e8f891997318b92a13dccf7e4bfe79_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src10e8f891997318b92a13dccf7e4bfe79_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src2ebc804fef871c5a5166c656c357a21a_par2dc71c701705385c9d703d913eee53e2_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 70,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src2ebc804fef871c5a5166c656c357a21a_par2dc71c701705385c9d703d913eee53e2_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src2ebc804fef871c5a5166c656c357a21a_par2dc71c701705385c9d703d913eee53e2_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src325f6e900d1f6ab60925a2e0aafac329_par8b00a57d9fb30e3599648e79c944029f_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2031,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src325f6e900d1f6ab60925a2e0aafac329_par8b00a57d9fb30e3599648e79c944029f_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src325f6e900d1f6ab60925a2e0aafac329_par8b00a57d9fb30e3599648e79c944029f_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src3fcf602ef671999ad3f01e9051f51eab_parf2c21c87039246218370fd632c269f14_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1777,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src3fcf602ef671999ad3f01e9051f51eab_parf2c21c87039246218370fd632c269f14_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src3fcf602ef671999ad3f01e9051f51eab_parf2c21c87039246218370fd632c269f14_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src427fd2bfc05ef70310406413f0bbac49_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5180,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src427fd2bfc05ef70310406413f0bbac49_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src427fd2bfc05ef70310406413f0bbac49_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src431f6a810fcf4ac1882e5776cd4c0d34_par9d904dbb867f82e93f3e8460910668c4_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1508,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src431f6a810fcf4ac1882e5776cd4c0d34_par9d904dbb867f82e93f3e8460910668c4_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src431f6a810fcf4ac1882e5776cd4c0d34_par9d904dbb867f82e93f3e8460910668c4_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src53f967df77573aec6e1ff1644e4a532c_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1394138921.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9050,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src53f967df77573aec6e1ff1644e4a532c_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1394138921.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src53f967df77573aec6e1ff1644e4a532c_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1394138921.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src53f967df77573aec6e1ff1644e4a532c_paradf896d45f319fa323d889e84ccb98c5_dat1394138921.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3300,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src53f967df77573aec6e1ff1644e4a532c_paradf896d45f319fa323d889e84ccb98c5_dat1394138921.jpeg",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src53f967df77573aec6e1ff1644e4a532c_paradf896d45f319fa323d889e84ccb98c5_dat1394138921.jpeg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src625f41c7dca912f7388b094eb454e269_pare97b635c5cef3a4ca509ccf55ce04dbf_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2456,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src625f41c7dca912f7388b094eb454e269_pare97b635c5cef3a4ca509ccf55ce04dbf_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src625f41c7dca912f7388b094eb454e269_pare97b635c5cef3a4ca509ccf55ce04dbf_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src82833fe606ab2d5392fb8542b51b4b42_par0e3e33869d201b1cd96c0e1d854f3f98_dat1392752435.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1555,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src82833fe606ab2d5392fb8542b51b4b42_par0e3e33869d201b1cd96c0e1d854f3f98_dat1392752435.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src82833fe606ab2d5392fb8542b51b4b42_par0e3e33869d201b1cd96c0e1d854f3f98_dat1392752435.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src8f5c25bf81a1109ff09cc11cb9887bfa_par71afcac92ca706582b97329357996be7_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src8f5c25bf81a1109ff09cc11cb9887bfa_par71afcac92ca706582b97329357996be7_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src8f5c25bf81a1109ff09cc11cb9887bfa_par71afcac92ca706582b97329357996be7_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src97f1eb2f302fbbfdde6fc9ba6779bb41_par84357dc519b0c1e1eac25c74443ef951_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 848,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src97f1eb2f302fbbfdde6fc9ba6779bb41_par84357dc519b0c1e1eac25c74443ef951_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src97f1eb2f302fbbfdde6fc9ba6779bb41_par84357dc519b0c1e1eac25c74443ef951_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__src9934dc84df9f054067465d482982d28f_par2dc71c701705385c9d703d913eee53e2_dat1392751977.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 70,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src9934dc84df9f054067465d482982d28f_par2dc71c701705385c9d703d913eee53e2_dat1392751977.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__src9934dc84df9f054067465d482982d28f_par2dc71c701705385c9d703d913eee53e2_dat1392751977.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__srca8e8601a5861ff80dc66660247cedd78_parffaa9f5f88713e96677b9e07f049c02c_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 215,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srca8e8601a5861ff80dc66660247cedd78_parffaa9f5f88713e96677b9e07f049c02c_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srca8e8601a5861ff80dc66660247cedd78_parffaa9f5f88713e96677b9e07f049c02c_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__srcae9da0f286781ac043091f13ea8d8730_par06a75e2385dbbfe810ffb595e07a24a9_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3053,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srcae9da0f286781ac043091f13ea8d8730_par06a75e2385dbbfe810ffb595e07a24a9_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srcae9da0f286781ac043091f13ea8d8730_par06a75e2385dbbfe810ffb595e07a24a9_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__srcb71ac90f6b0e2c8e1a331e67064cc3ad_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4170,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srcb71ac90f6b0e2c8e1a331e67064cc3ad_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srcb71ac90f6b0e2c8e1a331e67064cc3ad_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__srcbc21ef340e856e6dd62ec0cb24edf736_parf2c828b091178a08525fe39e4cb71097_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 498,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srcbc21ef340e856e6dd62ec0cb24edf736_parf2c828b091178a08525fe39e4cb71097_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srcbc21ef340e856e6dd62ec0cb24edf736_parf2c828b091178a08525fe39e4cb71097_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__srcbdcdfd08fdb6aa593d14d595242dd35f_par9d904dbb867f82e93f3e8460910668c4_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1508,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srcbdcdfd08fdb6aa593d14d595242dd35f_par9d904dbb867f82e93f3e8460910668c4_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srcbdcdfd08fdb6aa593d14d595242dd35f_par9d904dbb867f82e93f3e8460910668c4_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__srccc0e2ab036dc0121e6b26841a84b0c48_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5198,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srccc0e2ab036dc0121e6b26841a84b0c48_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srccc0e2ab036dc0121e6b26841a84b0c48_par02a1b054e8467fb1e234c8a8fd8d10d2_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__srccdb86b396b0fe7b6644bae68a172dec1_par9d904dbb867f82e93f3e8460910668c4_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1508,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srccdb86b396b0fe7b6644bae68a172dec1_par9d904dbb867f82e93f3e8460910668c4_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srccdb86b396b0fe7b6644bae68a172dec1_par9d904dbb867f82e93f3e8460910668c4_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__srce4a14267ee0b6218cfbe05449de8ffb2_par568e149e54df6986744f36e2d886641a_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6299,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srce4a14267ee0b6218cfbe05449de8ffb2_par568e149e54df6986744f36e2d886641a_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srce4a14267ee0b6218cfbe05449de8ffb2_par568e149e54df6986744f36e2d886641a_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/phpthumb\/localhost__srcfe6fb19707864ecb2495e9d349cd2fae_parbb31c7d04ce217b8b65744e7f7ddd1ae_dat1390256401.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4064,
-		"inputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srcfe6fb19707864ecb2495e9d349cd2fae_parbb31c7d04ce217b8b65744e7f7ddd1ae_dat1390256401.png",
-		"outputAbbreviatedPath": "\/core\/cache\/phpthumb\/localhost__srcfe6fb19707864ecb2495e9d349cd2fae_parbb31c7d04ce217b8b65744e7f7ddd1ae_dat1390256401.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/ext-gen339-tree.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/ext-gen339-tree.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-leftbar-tabs.msg.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9825,110 +9299,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tree-element.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tree-element.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-1.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-1.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-10.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-10.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-11.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-11.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-2.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-2.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-3.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-3.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-4.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-4.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-5.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-5.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-6.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-6.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-7.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-7.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-8.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-8.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-9.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-9.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-undefined.msg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/modx-tv-tabpanel-undefined.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/cache\/registry\/state\/ys\/user-1\/undefined-sort-default.msg.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9942,22 +9312,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/registry\/state\/ys\/user-1\/undefined-sort.msg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/scripts\/elements\/modplugin\/1.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/scripts\/elements\/modplugin\/1.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/scripts\/elements\/modsnippet\/1.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/scripts\/elements\/modsnippet\/1.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -32577,6 +31931,16 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4048,
+		"inputAbbreviatedPath": "\/favicon.png",
+		"outputAbbreviatedPath": "\/favicon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -39502,7 +38866,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Jesús Antonio García Valadez",
+"lastSavedByUser": "Jesús García Valadez",
 "manualImportLinks": {
 	},
 "projectAttributes": {
