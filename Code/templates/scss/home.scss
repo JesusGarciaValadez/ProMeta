@@ -983,15 +983,16 @@ hr{
                 }
                 #consultancy{
                     
-                    h4{ width: 160px; }
+                    h4{
+                        text-transform: unset;
+                        width: 160px;
+                    }
                     ul{ 
                         @extend .clearfix;
                         height: 240px;
                         >li {
                             min-height: 200px !important;
-                            span{
-                                
-                            }
+                            span{}
                             ul{
                                 @extend .clearfix;
                                 height: auto;
@@ -1003,14 +1004,23 @@ hr{
                 }
                 #services_of_energy{
                     
+                    $consultancy_categories: 4;
+                    h4{
+                        padding: 0 5%;
+                        width: 90%;
+                    }
                     ul{
                         min-height: em( 148, 16 ) !important;
                         li{
                             list-style: none inside;
                             margin: 0;
                             min-height: em( 127, 16 ) !important;
+                            width: 880px / $consultancy_categories;
                             ul{
+                                margin: 0;
                                 min-height: em( 0, 16 ) !important;
+                                padding: 0;
+                                width: 100%;
                                 li{
                                     background: none !important;
                                     list-style: none inside;
@@ -1019,7 +1029,7 @@ hr{
                                     min-height: em( 0, 16 ) !important;
                                 }
                             }
-                            .large_title{ padding: 0; width: 65%; }
+                            .large_title{ padding: 0 5%; width: 90%; }
                         }
                     }
                     img{
