@@ -11,7 +11,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-114x114-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/apple-touch-icon-144x144-precomposed.png": {
 		"fileType": 32768,
@@ -22,7 +22,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-144x144-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/apple-touch-icon-57x57-precomposed.png": {
 		"fileType": 32768,
@@ -33,7 +33,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-57x57-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/apple-touch-icon-72x72-precomposed.png": {
 		"fileType": 32768,
@@ -44,7 +44,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-72x72-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
@@ -55,7 +55,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/apple-touch-icon.png": {
 		"fileType": 32768,
@@ -66,7 +66,7 @@
 		"outputAbbreviatedPath": "\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/background-images-item.html": {
 		"fileType": 8192,
@@ -8064,27 +8064,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/img\/fondos\/bg_home_2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.91026e+06,
-		"inputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_2.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_2.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/img\/fondos\/bg_home_3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 942686,
-		"inputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_3.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/fondos\/bg_home_3.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/assets\/img\/fondos\/mountain_lake-wide_2.jpg": {
 		"fileType": 16384,
@@ -8372,19 +8352,14 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/img\/prometa\/Mision.png": {
+	"\/assets\/img\/prometa\/mision.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 39097,
-<<<<<<< HEAD
-		"inputAbbreviatedPath": "\/assets\/img\/prometa\/Mision.png",
-		"outputAbbreviatedPath": "\/assets\/img\/prometa\/Mision.png",
-=======
 		"inputAbbreviatedPath": "\/assets\/img\/prometa\/mision.png",
 		"outputAbbreviatedPath": "\/assets\/img\/prometa\/mision.png",
 		"outputPathIsOutsideProject": 0,
->>>>>>> 30efc3daa1220d2dae2ed20427737fec5435d7e0
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -8421,21 +8396,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/img\/prometa\/Vision.png": {
+	"\/assets\/img\/prometa\/vision.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 55841,
-<<<<<<< HEAD
-		"inputAbbreviatedPath": "\/assets\/img\/prometa\/Vision.png",
-		"outputAbbreviatedPath": "\/assets\/img\/prometa\/Vision.png",
-=======
 		"inputAbbreviatedPath": "\/assets\/img\/prometa\/vision.png",
 		"outputAbbreviatedPath": "\/assets\/img\/prometa\/vision.png",
 		"outputPathIsOutsideProject": 0,
->>>>>>> 30efc3daa1220d2dae2ed20427737fec5435d7e0
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/services\/banner_servicios.jpg": {
 		"fileType": 16384,
@@ -8670,8 +8640,8 @@
 		},
 	"\/assets\/js\/vendor\/jquery-1.8.3.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery-1.8.3.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery-1.8.3.min.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -8681,8 +8651,8 @@
 		},
 	"\/assets\/js\/vendor\/jquery-1.9.0.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery-1.9.0.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery-1.9.0.min.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -8693,7 +8663,7 @@
 	"\/assets\/js\/vendor\/jquery.form.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.form.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.form.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -8703,8 +8673,8 @@
 		},
 	"\/assets\/js\/vendor\/jquery.scrollTo-1.4.3.1-min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.scrollTo-1.4.3.1-min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.scrollTo-1.4.3.1-min.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -8715,7 +8685,7 @@
 	"\/assets\/js\/vendor\/jquery.scrollTo-1.4.3.1.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.scrollTo-1.4.3.1.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.scrollTo-1.4.3.1.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -8726,7 +8696,7 @@
 	"\/assets\/js\/vendor\/jquery.tools.custom.min.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.tools.custom.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.tools.custom.min.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -8736,8 +8706,8 @@
 		},
 	"\/assets\/js\/vendor\/jquery.tools.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.tools.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.tools.min.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -8748,7 +8718,7 @@
 	"\/assets\/js\/vendor\/jquery.uniform.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.uniform.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.uniform.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -8759,7 +8729,7 @@
 	"\/assets\/js\/vendor\/jquery.validate.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.validate.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.validate.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -8769,8 +8739,8 @@
 		},
 	"\/assets\/js\/vendor\/jquery.validate.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/jquery.validate.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/jquery.validate.min.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -8780,8 +8750,8 @@
 		},
 	"\/assets\/js\/vendor\/modernizr-2.6.2.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/modernizr-2.6.2.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/modernizr-2.6.2.min.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -8791,8 +8761,8 @@
 		},
 	"\/assets\/js\/vendor\/prefixfree.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/assets\/js\/vendor\/prefixfree.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/prefixfree.min.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -9020,7 +8990,7 @@
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/Code\/templates\/jade\/alert_box.jade",
 		"outputAbbreviatedPath": "\/Code\/templates\/alert_box.html",
 		"outputPathIsOutsideProject": 0,
@@ -9031,7 +9001,7 @@
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/Code\/templates\/jade\/footer.jade",
 		"outputAbbreviatedPath": "\/Code\/templates\/footer.html",
 		"outputPathIsOutsideProject": 0,
@@ -9129,7 +9099,7 @@
 	"\/Code\/templates\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/Code\/templates\/js\/main.js",
 		"outputAbbreviatedPath": "\/assets\/js\/main.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -9140,7 +9110,7 @@
 	"\/Code\/templates\/js\/plugins.js": {
 		"fileType": 64,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/Code\/templates\/js\/plugins.js",
 		"outputAbbreviatedPath": "\/assets\/js\/plugins.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -9150,8 +9120,8 @@
 		},
 	"\/Code\/templates\/js\/Prometa.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/Code\/templates\/js\/Prometa.js",
 		"outputAbbreviatedPath": "\/assets\/js\/Prometa.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -9259,7 +9229,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
@@ -10221,50 +10191,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/context_settings\/web\/context.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
-<<<<<<< HEAD
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/action.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/action.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/configcheck.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/configcheck.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/context.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/context.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/dashboard.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/dashboard.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-=======
-		"outputPathIsOutsideProject": 0,
->>>>>>> 30efc3daa1220d2dae2ed20427737fec5435d7e0
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/dashboards.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/dashboards.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -10319,83 +10245,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/default.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
-<<<<<<< HEAD
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/file.cache.php": {
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/element.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/file.cache.php",
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/element.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/login.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/login.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/resource.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/resource.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/topmenu.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/topmenu.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/user.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/user.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/welcome.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/welcome.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/menu\/mgr\/menus\/en.cache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/menu\/mgr\/menus\/en.cache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/33b6903548dc8856e0c16c74610e34858550d158.file.index.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/33b6903548dc8856e0c16c74610e34858550d158.file.index.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/5e0762e955b65868c74ff2c991b3cb03e88c5657.file.header.tpl.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/cache\/mgr\/smarty\/default\/5e0762e955b65868c74ff2c991b3cb03e88c5657.file.header.tpl.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/cache\/mgr\/smarty\/default\/a07b225bcc61d53317f6c949634bef1789471b04.file.footer.tpl.php": {
-=======
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -10435,11 +10293,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/source.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/source.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/topmenu.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/topmenu.cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/tv_widget.cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/cache\/lexicon_topics\/lexicon\/en\/core\/tv_widget.cache.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -10490,7 +10366,6 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/core\/cache\/mgr\/smarty\/default\/2c9342d9a53ac485a88ff9165e71e628be5a0a1e.file.index.tpl.php": {
->>>>>>> 30efc3daa1220d2dae2ed20427737fec5435d7e0
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -10508,9 +10383,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-<<<<<<< HEAD
-	"\/core\/cache\/mgr\/smarty\/default\/d232cb474baf6fa3fcf0c040e8ab0cb64eec8d83.file.login.tpl.php": {
-=======
 	"\/core\/cache\/mgr\/smarty\/default\/631a12afcd22153a922caa247bf1602ddc128bf8.file.tvs.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -10548,7 +10420,6 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/core\/cache\/mgr\/smarty\/default\/96818c78d8ad4dc41cced5317b37f84b8398eecb.file.footer.tpl.php": {
->>>>>>> 30efc3daa1220d2dae2ed20427737fec5435d7e0
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -10557,9 +10428,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-<<<<<<< HEAD
-	"\/core\/cache\/mgr\/smarty\/default\/dccbbbc1136db567fdb1ea0b0fbd6a9cfe9dc4e8.file.index.tpl.php": {
-=======
 	"\/core\/cache\/mgr\/smarty\/default\/97a12b0b827f1207b462c710406c1630d3b64a90.file.index.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -10570,7 +10438,6 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/core\/cache\/mgr\/smarty\/default\/c4490cfd4ff060ab0776730882f0269a1f59a760.file.textarea.tpl.php": {
->>>>>>> 30efc3daa1220d2dae2ed20427737fec5435d7e0
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -10579,9 +10446,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-<<<<<<< HEAD
-	"\/core\/cache\/packages\/mgr\/providers\/updates\/1\/breadcrumbs-1.1.0-pl.cache.php": {
-=======
 	"\/core\/cache\/mgr\/smarty\/default\/d08141359114ae0b5b12f19bd2c3b3aed0790a76.file.header.tpl.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -10592,7 +10456,6 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/core\/cache\/mgr\/smarty\/default\/da044b86c0427b7e6f3b02fb97e4d60846864bf7.file.url.tpl.php": {
->>>>>>> 30efc3daa1220d2dae2ed20427737fec5435d7e0
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -10628,8 +10491,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-<<<<<<< HEAD
-=======
 	"\/core\/cache\/phpthumb\/localhost__src0190cf7a5bacff3ec8198cc559687e8e_par71afcac92ca706582b97329357996be7_dat1390256401.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -11194,7 +11055,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
->>>>>>> 30efc3daa1220d2dae2ed20427737fec5435d7e0
 	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-leftbar-tabs.msg.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -11213,8 +11073,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-<<<<<<< HEAD
-=======
 	"\/core\/cache\/registry\/state\/ys\/user-1\/modx-tree-element.msg.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -11332,7 +11190,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
->>>>>>> 30efc3daa1220d2dae2ed20427737fec5435d7e0
 	"\/core\/cache\/registry\/state\/ys\/user-1\/undefined-sort-default.msg.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -11351,11 +11208,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-	"\/core\/cache\/setup\/smarty\/1152185f09f9480fea0296e229ef20b25c411326.file.complete.tpl.php": {
-=======
 	"\/core\/cache\/resource\/web\/resources\/3.cache.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -11365,9 +11217,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
->>>>>>> 1c68bb88ebaf204a6a67952e08ab59c33bc5d70a
 	"\/core\/cache\/setup\/smarty\/723261b12e787483e602624d8170ed8d8778b0b3.file.complete.tpl.php": {
->>>>>>> 30efc3daa1220d2dae2ed20427737fec5435d7e0
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -36647,16 +36497,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/favicon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4048,
-		"inputAbbreviatedPath": "\/favicon.png",
-		"outputAbbreviatedPath": "\/favicon.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -44311,131 +44151,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-<<<<<<< HEAD
-		}
-	},
-"hooks": [
-	],
-"lastSavedByUser": "Jesús García Valadez",
-"manualImportLinks": {
-	},
-"projectAttributes": {
-	"bowerAbbreviatedPath": "",
-	"displayValue": "Pro-Meta",
-	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-facepalm"
-	},
-"projectSettings": {
-	"alwaysUseExternalServer": 1,
-	"animateCSSInjections": 1,
-	"autoApplyPSLanguageSettingsStyle": 0,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
-	"autoSyncProjectSettingsFile": 1,
-	"browserRefreshDelay": 0,
-	"coffeeAutoOutputPathRelativePath": "..\/..\/..\/assets\/js",
-	"coffeeAutoOutputPathReplace1": "",
-	"coffeeAutoOutputPathReplace2": "",
-	"coffeeAutoOutputPathStyle": 2,
-	"coffeeCreateSourceMap": 1,
-	"coffeeLintFlags2": {
-		"arrow_spacing": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"camel_case_classes": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"colon_assignment_spacing": {
-			"active": 0,
-			"flagValue": 1
-			},
-		"cyclomatic_complexity": {
-			"active": 0,
-			"flagValue": 10
-			},
-		"duplicate_key": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"empty_constructor_needs_parens": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"indentation": {
-			"active": 1,
-			"flagValue": 2
-			},
-		"line_endings": {
-			"active": 0,
-			"flagValue": 0
-			},
-		"max_line_length": {
-			"active": 0,
-			"flagValue": 150
-			},
-		"missing_fat_arrows": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"newlines_after_classes": {
-			"active": 0,
-			"flagValue": 3
-			},
-		"no-unnecessary_fat_arrows": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"no_backticks": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"no_empty_param_list": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"no_implicit_braces": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"no_implicit_parens": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"no_plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"no_stand_alone_at": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"no_tabs": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"no_throwing_strings": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"no_trailing_semicolons": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"no_trailing_whitespace": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"non_empty_constructor_needs_parens": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space_operators": {
-			"active": 0,
-			"flagValue": -1
-			}
-=======
->>>>>>> 30efc3daa1220d2dae2ed20427737fec5435d7e0
 		},
 	"\/setup_\/assets\/css\/960.css": {
 		"fileType": 16,
