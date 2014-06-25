@@ -1,1 +1,0 @@
-[2014-03-25 02:27:48] (ERROR in xPDOConnection::connect @ /Applications/MAMP/htdocs/ProMeta/core/xpdo/xpdo.class.php : 3054) SQLSTATE[42000] [1049] Unknown database 'prometa_web'

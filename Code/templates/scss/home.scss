@@ -76,14 +76,16 @@
             img{}
         }
         p{
-            @include font-mask( #7C7B78, em( 12, 16 ), em( 13.5, 12 ), normal );
+            @include font-mask( #FFF, em( 16, 16 ), em( 24, 16 ), normal );
+            box-sizing: border-box;
             display: block;
-            height: em( 53, 12 );
+            height: 53px;
             margin: 0 auto;
-            text-align: justify;
+            padding: 0 10%;
+            text-align: left;
             text-overflow: ellipsis;
             overflow: hidden;
-            width: em( 368, 12 );
+            width: 100%;
         }
         a{
             background: url('../img/home/arrows.png') no-repeat scroll 0 0 transparent;
@@ -732,15 +734,15 @@ hr{
                 width: 918px;
                 li{
                     float: left;
-                    height: 144px;
+                    height: 100%;
                     list-style: none inside;
                     margin: 0;
                     padding: 0;
-                    width: 306px;
+                    width: (918px / 4);
                     a{
                         @extend .clearfix;
                         display: block;
-                        height: 143px;
+                        height: 100%;
                         img{}
                     }
                     hr{
@@ -798,7 +800,7 @@ hr{
                 margin: 0 auto;
                 padding: 0 0 17px;
                 li,dt,dd{
-                    @include font-mask( #000, em( 13, 16 ), em( 14, 13 ), bold );
+                    @include font-mask( #000, em( 15, 16 ), em( 22.5, 15 ), bold );
                     list-style: none inside;
                     margin: 5px 0;
                     text-align: center;
@@ -807,8 +809,9 @@ hr{
             }
         }
     }
-    #services_subtitle{
-        background: url("../img/services/banner_servicios.jpg") repeat-x scroll 0 0 transparent;
+    .consultancy{ background: url("../img/services/banner_consulting.jpg") repeat-x scroll 0 0 transparent; }
+    .eficiency{ background: url("../img/services/banner_energia.jpg") repeat-x scroll 0 0 transparent; }
+    .services_subtitle{
         background-size: 100% 100%;
         .information{
             height: 215px;
@@ -882,6 +885,7 @@ hr{
             }
             .prev{ background-position:-100px 0px !important; left: 31px; }
             .next{ background-position:-119px 0px !important; right: 31px; }
+            .disabled{ display: none !important; }
             .items{
                 height: 567px;
                 margin: 0 auto;
@@ -985,7 +989,7 @@ hr{
                     
                     h4{
                         text-transform: unset;
-                        width: 160px;
+                        width: 170px;
                     }
                     ul{ 
                         @extend .clearfix;
@@ -1029,7 +1033,7 @@ hr{
                                     min-height: em( 0, 16 ) !important;
                                 }
                             }
-                            .large_title{ padding: 0 5%; width: 90%; }
+                            .large_title{ padding: 0 5%; width: 200px; }
                         }
                     }
                     img{
@@ -1040,7 +1044,7 @@ hr{
                     .presentation_links{
                         display: inline-block;
                         height: 21px;
-                        margin: 13px 0;
+                        margin: 13px 20px 13px 0;
                         width: 50%;
                         p{
                             @include font-mask( $text_gray, em( 13, 16 ), em( 21, 13 ), normal );
