@@ -218,9 +218,9 @@ AddDefaultCharset utf-8
 
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
-  # Options +SymLinksIfOwnerMatch
+    Options +SymLinksIfOwnerMatch
     RewriteEngine On
-  # RewriteBase /ProMeta/
+    RewriteBase /ProMeta/
 </IfModule>
 
 # ------------------------------------------------------------------------------
