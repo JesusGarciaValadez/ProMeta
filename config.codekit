@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17625",
+"creatorBuild": "17670",
 "files": {
 	"\/apple-touch-icon-114x114-precomposed.png": {
 		"fileType": 32768,
@@ -8253,6 +8253,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/prometa\/administracion-publica.bak.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6728,
+		"inputAbbreviatedPath": "\/assets\/img\/prometa\/administracion-publica.bak.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/prometa\/administracion-publica.bak.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/prometa\/administracion-publica.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8293,6 +8304,17 @@
 		"initialSize": 922,
 		"inputAbbreviatedPath": "\/assets\/img\/prometa\/divider.png",
 		"outputAbbreviatedPath": "\/assets\/img\/prometa\/divider.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/prometa\/fotovoltaico.bak.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6937,
+		"inputAbbreviatedPath": "\/assets\/img\/prometa\/fotovoltaico.bak.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/prometa\/fotovoltaico.bak.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -8451,11 +8473,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/prometa\/servicios.bak.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7695,
+		"inputAbbreviatedPath": "\/assets\/img\/prometa\/servicios.bak.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/prometa\/servicios.bak.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/prometa\/servicios.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8526,
+		"initialSize": 7567,
 		"inputAbbreviatedPath": "\/assets\/img\/prometa\/servicios.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/prometa\/servicios.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -8484,6 +8517,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/assets\/img\/prometa\/vision.bak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52139,
+		"inputAbbreviatedPath": "\/assets\/img\/prometa\/vision.bak.png",
+		"outputAbbreviatedPath": "\/assets\/img\/prometa\/vision.bak.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/assets\/img\/prometa\/vision.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -8504,7 +8548,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/services\/banner_consulting.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/services\/banner_energia.jpg": {
 		"fileType": 16384,
@@ -8515,7 +8559,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/services\/banner_energia.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/services\/banner_servicios.jpg": {
 		"fileType": 16384,
@@ -8535,6 +8579,17 @@
 		"initialSize": 956,
 		"inputAbbreviatedPath": "\/assets\/img\/services\/bullet.png",
 		"outputAbbreviatedPath": "\/assets\/img\/services\/bullet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/assets\/img\/services\/energy_team_blanco.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3230,
+		"inputAbbreviatedPath": "\/assets\/img\/services\/energy_team_blanco.png",
+		"outputAbbreviatedPath": "\/assets\/img\/services\/energy_team_blanco.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
