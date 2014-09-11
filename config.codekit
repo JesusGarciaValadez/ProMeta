@@ -16540,15 +16540,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/model\/aws\/lib\/requestcore\/README.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/model\/aws\/lib\/requestcore\/README.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/model\/aws\/lib\/requestcore\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -16606,15 +16597,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/model\/aws\/LICENSE.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/model\/aws\/LICENSE.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/model\/aws\/LICENSE.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -16636,15 +16618,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/core\/model\/aws\/NOTICE.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/model\/aws\/NOTICE.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/core\/model\/aws\/NOTICE.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -16654,15 +16627,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/model\/aws\/NOTICE.md",
 		"outputAbbreviatedPath": "\/core\/model\/aws\/NOTICE.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/core\/model\/aws\/README.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/core\/model\/aws\/README.html",
-		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -26893,6 +26857,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/packages\/breadcrumbs-1.1.0-pl\/preserved.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/breadcrumbs-1.1.0-pl\/preserved.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/packages\/core\/manifest.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -26952,6 +26925,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/packages\/getresources-1.6.1-pl\/modSnippet\/8602b11ae850890acd8e9af0bb1862f7\/0\/getresources\/snippet.getresources.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/getresources-1.6.1-pl\/preserved.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/getresources-1.6.1-pl\/preserved.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -35061,6 +35043,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/core\/packages\/tinymce-4.3.3-pl\/preserved.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/tinymce-4.3.3-pl\/preserved.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/core\/packages\/wayfinder-2.3.3-pl\/manifest.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -35327,6 +35318,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/core\/packages\/wayfinder-2.3.3-pl\/modSnippet\/f60ad37c018f54d4d06ac4c6b2d062db\/0\/wayfinder\/wayfinder.snippet.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/core\/packages\/wayfinder-2.3.3-pl\/preserved.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/core\/packages\/wayfinder-2.3.3-pl\/preserved.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -38687,34 +38687,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/manager\/assets\/modext\/widgets\/windows-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/widgets\/windows-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/widgets\/windows-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
 	"\/manager\/assets\/modext\/widgets\/windows.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/manager\/assets\/modext\/widgets\/windows.js",
 		"outputAbbreviatedPath": "\/manager\/assets\/modext\/widgets\/windows-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/manager\/assets\/modext\/workspace\/combos-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/combos-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/combos-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -38731,34 +38709,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/manager\/assets\/modext\/workspace\/index-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/index-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/index-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
 	"\/manager\/assets\/modext\/workspace\/index.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/index.js",
 		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/index-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/manager\/assets\/modext\/workspace\/lexicon\/combos-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/combos-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/combos-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -38775,34 +38731,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/manager\/assets\/modext\/workspace\/lexicon\/index-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/index-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/index-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
 	"\/manager\/assets\/modext\/workspace\/lexicon\/index.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/index.js",
 		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/index-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/manager\/assets\/modext\/workspace\/lexicon\/language.grid-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/language.grid-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/language.grid-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -38819,34 +38753,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.grid-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.grid-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.grid-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
 	"\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.grid.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.grid.js",
 		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.grid-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.panel-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.panel-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.panel-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -38863,34 +38775,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.topic.grid-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.topic.grid-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.topic.grid-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
 	"\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.topic.grid.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.topic.grid.js",
 		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/lexicon\/lexicon.topic.grid-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/manager\/assets\/modext\/workspace\/namespace\/index-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/namespace\/index-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/namespace\/index-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -38907,34 +38797,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/manager\/assets\/modext\/workspace\/namespace\/modx.namespace.panel-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/namespace\/modx.namespace.panel-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/namespace\/modx.namespace.panel-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
 	"\/manager\/assets\/modext\/workspace\/namespace\/modx.namespace.panel.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/namespace\/modx.namespace.panel.js",
 		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/namespace\/modx.namespace.panel-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/manager\/assets\/modext\/workspace\/package.browser.panels-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.browser.panels-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.browser.panels-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -38951,34 +38819,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/manager\/assets\/modext\/workspace\/package.browser.tree-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.browser.tree-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.browser.tree-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
 	"\/manager\/assets\/modext\/workspace\/package.browser.tree.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.browser.tree.js",
 		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.browser.tree-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/manager\/assets\/modext\/workspace\/package.containers-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.containers-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.containers-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -38995,34 +38841,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/manager\/assets\/modext\/workspace\/package.grid-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.grid-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.grid-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
 	"\/manager\/assets\/modext\/workspace\/package.grid.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.grid.js",
 		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.grid-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/manager\/assets\/modext\/workspace\/package.panels-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.panels-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.panels-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -39039,34 +38863,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/manager\/assets\/modext\/workspace\/package.windows-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.windows-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.windows-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
 	"\/manager\/assets\/modext\/workspace\/package.windows.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.windows.js",
 		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package.windows-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/manager\/assets\/modext\/workspace\/package\/index-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package\/index-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package\/index-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -39083,34 +38885,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/manager\/assets\/modext\/workspace\/package\/package.panel-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package\/package.panel-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package\/package.panel-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
 	"\/manager\/assets\/modext\/workspace\/package\/package.panel.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package\/package.panel.js",
 		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package\/package.panel-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/manager\/assets\/modext\/workspace\/package\/package.versions.grid-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package\/package.versions.grid-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/package\/package.versions.grid-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -39127,34 +38907,12 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/manager\/assets\/modext\/workspace\/provider.grid-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/provider.grid-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/provider.grid-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
 	"\/manager\/assets\/modext\/workspace\/provider.grid.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/provider.grid.js",
 		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/provider.grid-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/manager\/assets\/modext\/workspace\/workspace.panel-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/workspace.panel-min.js",
-		"outputAbbreviatedPath": "\/manager\/assets\/modext\/workspace\/workspace.panel-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -45299,51 +45057,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/setup_\/lang\/nl\/upgrades.inc.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/setup_\/lang\/pt-br\/default.inc.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/setup_\/lang\/pt-br\/default.inc.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/setup_\/lang\/pt-br\/drivers.inc.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/setup_\/lang\/pt-br\/drivers.inc.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/setup_\/lang\/pt-br\/preload.inc.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/setup_\/lang\/pt-br\/preload.inc.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/setup_\/lang\/pt-br\/test.inc.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/setup_\/lang\/pt-br\/test.inc.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/setup_\/lang\/pt-br\/upgrades.inc.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/setup_\/lang\/pt-br\/upgrades.inc.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

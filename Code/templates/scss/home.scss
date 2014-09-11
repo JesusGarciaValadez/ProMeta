@@ -806,11 +806,12 @@ hr{
                     text-align: center;
                     span{ color: $red; }
                 }
+                dd{ font-weight: normal; }
             }
         }
     }
-    .consultancy, .eficiency{ background: url("../img/services/banner_consulting.jpg") repeat-x scroll 0 0 transparent; }
-    //.eficiency{ background: url("../img/services/banner_energia.jpg") repeat-x scroll 0 0 transparent; }
+    .consultancy{ background: url("../img/services/banner_energia.jpg") repeat-x scroll 0 0 transparent; }
+    .eficiency{ background: url("../img/services/banner_consulting.jpg") repeat-x scroll 0 0 transparent; }
     .services_subtitle{
         background-size: 100% 100%;
         .information{
@@ -823,8 +824,9 @@ hr{
                     float: left;
                     height: 77px;
                     margin: 0;
+                    max-width: 1970px;
                     padding: 87px 0 51px;
-                    width: 1024px;
+                    width: 960px;
                     h2,h3{
                         display: block;
                         margin: 0;
