@@ -1,11 +1,9 @@
 #wrapper_background{
-    @extend .clearfix;
     display: table;
     height: 100%;
     position: relative;
     width: 100%;
     #timer{
-        @extend .clearfix;
         background: url("../img/home/red_background.png") repeat-x scroll center top transparent;
         display: block;
         height: 13px;
@@ -15,7 +13,6 @@
         width: 100%;
         z-index: 10;
         #counter{
-            @extend .clearfix;
             background: url("../img/home/red_background.png") repeat-x scroll center bottom transparent;
             display: block;
             height: 13px;
@@ -27,7 +24,6 @@
         }
     }
     figure{
-        @extend .clearfix;
         display: none;
         height: 100%;
         position: absolute;
@@ -42,7 +38,6 @@
     .current{ display: block; }
 }
 .wrapper{
-    @extend .clearfix;
     display: block;
     margin: 0 auto;
     position: relative;
@@ -103,7 +98,6 @@
     }
 }
 #nav{
-    @extend .clearfix;
     background: #000;
     height: 55px;
     left: 0;
@@ -117,7 +111,6 @@
         width: 1024px;
         z-index: 10;
         ul{
-            @extend .clearfix;
             height: 100%;
             margin: 0;
             padding: 0;
@@ -182,7 +175,6 @@
     }
 }
 .disclaimers{
-    @extend .clearfix;
     float: right;
     margin: 0;
     padding: 0;
@@ -195,12 +187,14 @@
             @include font-mask( #FFF, em( 12, 16 ), em( 39, 12 ), normal );
             display: block;
             margin: 0;
+            opacity: 1;
             padding: 0;
             text-align: center;
             text-decoration: none;
+            &.alert_trigger{ cursor: pointer; }
         }
         p{
-            @include font-mask( $text_gray, em( 12, 16 ), em( 39, 12 ), normal );
+            @include font-mask( #FFF, em( 12, 16 ), em( 39, 12 ), normal );
             display: block;
             margin: 0;
             padding: 0;
@@ -280,7 +274,6 @@
             margin: 0 auto;
             width: 1024px;
             .contact_ways{
-                @extend .clearfix;
                 display: inline-block;
                 margin: 0;
                 padding: 0;
@@ -291,7 +284,7 @@
                     margin: 0;
                     padding: 0 23px 0 0;
                     p, a{
-                        @include font-mask( #5C5A58, em( 12, 16 ), em( 40, 12 ), normal );
+                        @include font-mask( #FFF, em( 12, 16 ), em( 40, 12 ), normal );
                         display: block;
                         margin: 0;
                         padding: 0;
@@ -327,6 +320,31 @@
                 .google_profile{
                     background-position: -45px 0;
                     margin: 0;
+                }
+            }
+        }
+    }
+    #privacy-policy{
+        height: 1085px;
+        left: 50% !important;
+        margin: 0 0 0 ( -700px / 2 );
+        position: absolute !important;
+        width: 700px;
+        div{
+            pointer-events: none;
+            p, ol, ol li, ul, ul li, strong, a{
+                margin: 15px auto;
+                padding: 0;
+                pointer-events: none;
+                width: 100%;
+                &::selection, &::-moz-selection{
+                    background-color: transparent;
+                }
+            }
+            ol, ul{
+
+                li{
+                    list-style-position: inside;
                 }
             }
         }
@@ -662,9 +680,7 @@ hr{
     #pro-meta_description{
         
         .information{
-            @extend .clearfix;
             ul{
-                @extend .clearfix;
                 display: block;
                 margin: 0 auto 37px;
                 padding: 22px 0 0 10px;
@@ -727,7 +743,6 @@ hr{
         .information{
             
             ul{
-                @extend .clearfix;
                 display: block;
                 margin: 0 auto;
                 padding: 0 0 15px;
@@ -740,9 +755,9 @@ hr{
                     padding: 0;
                     width: (918px / 4);
                     a{
-                        @extend .clearfix;
                         display: block;
                         height: 100%;
+                        opacity: 1;
                         img{}
                     }
                     hr{
@@ -780,6 +795,20 @@ hr{
         margin: 107px 0 0;
         .information{
             
+        }
+    }
+    .alert_background{
+        min-height: 1503px;
+    }
+    #rubros{
+        height: 525px;
+        left: 50% !important;
+        margin: 0 0 0 ( -700px / 2 );
+        width: 700px;
+        img{
+            height: 100%;
+            pointer-events: none;
+            width: 100%;
         }
     }
 }
@@ -899,14 +928,12 @@ hr{
                     height: 100%;
                     width: 880px;
                     ul{
-                        @extend .clearfix;
                         display: block;
                         min-height: 108px;
                         margin: 0 auto;
                         padding: 0;
                         width: 880px;
                         li{
-                            @extend .clearfix;
                             background: url("../img/services/short_line.png") no-repeat scroll right center transparent;
                             float: left;
                             min-height: 108px;
@@ -994,13 +1021,11 @@ hr{
                         width: 170px;
                     }
                     ul{ 
-                        @extend .clearfix;
                         height: 240px;
                         >li {
                             min-height: 200px !important;
                             span{}
                             ul{
-                                @extend .clearfix;
                                 height: auto;
                                 .double{ height: 31px; }
                                 li{ min-height: inherit !important; }

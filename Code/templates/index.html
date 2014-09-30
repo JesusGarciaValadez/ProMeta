@@ -1,11 +1,10 @@
 [[$head]]
 
-    <body id="home">
-        <div id="wrapper_background">
-            <div id="timer">
-                <div id="counter"></div>
+    <body id="home" class="clearfix">
+        <div id="wrapper_background" class="clearfix">
+            <div id="timer" class="clearfix">
+                <div id="counter" class="clearfix"></div>
             </div>
-            <figure class="page">
 [[!getResources? 
     &parents=`1`
     &tplPath=`[[++assets_path]]../Code/chunks/`
@@ -17,33 +16,44 @@
     &showHidden=`1`
     &includeContent=`0`
  ]]
-            </figure>
         </div>
-        <div class="wrapper" id="header">
+        <div class="wrapper clearfix" id="header">
             <header>
                 <figure class="page">
                     <img src="[[++site_url]]assets/img/home/logo.png" alt="logo" width="132" height="80" id="logo" />
                     <img src="[[++site_url]]assets/img/home/prometa_logo.png" width="370" height="68" alt="Pro-Meta" />
                 </figure>
                 <h1>[[*longtitle]]</h1>
-                [[*content]]
+                <div>
+[[!getResources?
+    &parents=`1`
+    &tplPath=`[[++assets_path]]../Code/chunks/`
+    &tpl=`@FILE content-home-item.html`
+    &includeTVs=`1`
+    &processTVs=`1`
+    &tvPrefix=``
+    &showUnpublished=`1`
+    &showHidden=`1`
+    &includeContent=`1`
+ ]]
+                </div>
                 <a href="" class="left" title="Anterior"></a>
                 <a href="" class="right" title="Siguiente"></a>
             </header>
         </div>
 [[$navigation]]
-        <div class="wrapper section light_grey" id="contact_title">
+        <div class="wrapper section light_grey clearfix" id="contact_title">
             <section class="information">
                 <img src="[[++site_url]]assets/img/prometa/prometa_logo_interna.png" alt="Pro-Meta Soluciones" width="400" height="78">
             </section>
         </div>
-        <div class="wrapper section white" id="contact_description">
+        <div class="wrapper section white clearfix" id="contact_description">
             <section class="information">
                 <h2>[[*contactFormTitle]]</h2>
                 <p>[[*contactFormDescription]]</p>
             </section>
         </div>
-        <div class="wrapper section black" id="contact_form">
+        <div class="wrapper section black clearfix" id="contact_form">
             <section class="information">
                 <form action="index.html" method="post" accept-charset="utf-8" name="contact_us_form">
                     <fieldset>
@@ -103,7 +113,7 @@
                 </div>
             </section>
         </div>
-        <div class="wrapper black" id="footer">
+        <div class="wrapper black clearfix" id="footer">
             <footer>
                 <a href="http://www.energyteam.mx/" title="Energy Team" target="_blank">
                     <img src="[[++site_url]]assets/img/home/logo_prometa_contacto.png" alt="Pro-Meta Logo" width="167" height="32" class="pro_meta_footer_logo" />

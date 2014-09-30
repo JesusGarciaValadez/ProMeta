@@ -1,4 +1,4 @@
-//  @codekit-append "plugins.js"
+//  @codekit-prepend "plugins.js"
 /**
  *
  *  @function
@@ -310,7 +310,7 @@
                     ( $( '.alert_box a.close' ).exists() ) ? true : $( '.alert_box' ).prepend( Prometa.closer );
                     $( '.alert_box' ).centerWidth();
                     $( '.alert_box' ).centerHeight();
-                    ( $( '.alert_box p' ).text() == '' ) ? $( '.alert_box p' ).remove() : false;
+                    //( $( '.alert_box p' ).text() == '' ) ? $( '.alert_box p' ).remove() : false;
                 },
                 onLoad: function() {
                     $( '.alert_background' ).fadeIn( 100 );
@@ -320,14 +320,14 @@
                     $( '.alert_box' ).fadeOut( 10, function ( ) {
                         
                         $( '.alert_background' ).fadeOut( 10 );
-                        $( '.alert_box h2' ).text( '' );
+                        /*$( '.alert_box h2' ).text( '' );
                         $( '.alert_box h4' ).text( '' );
                         ( $( '.alert_box p' ).exists() ) ? $( '.alert_box p' ).remove( ) : false;
                         ( $( '.alert_box form' ).exists() ) ? $( '.alert_box form' ).remove( ) : false;
                         ( $( '.alert_box table' ).exists() ) ? $( '.alert_box table' ).remove( ) : false;
                         ( $( '.alert_box div' ).exists() ) ? $( '.alert_box div' ).remove( ) : false;
                         ( $( '.alert_box button' ).exists() ) ? $( '.alert_box button' ).remove( ) : false;
-                        ( $( '.alert_box div.confirm' ).exists() ) ? $( '.alert_box div.confirm' ).remove( ) : false;
+                        ( $( '.alert_box div.confirm' ).exists() ) ? $( '.alert_box div.confirm' ).remove( ) : false;*/
                     } );
                 },
                 onClose: function ( e ) {}

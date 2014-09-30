@@ -23,12 +23,12 @@
 
 // Place any jQuery/helper plugins in here.
 
-jQuery.fn.exists            = function(){return this.length>0;}
-jQuery.fn.centerWidth       = function(){
+jQuery.fn.exists            = function() { return this.length > 0; };
+jQuery.fn.centerWidth       = function() {
     var winWidth;
-    if ( $.browser.msie && $.browser.version == '8.0' ) {
+    if ( $.browser.msie && $.browser.version === '8.0' ) {
         
-        winWidth    = $(window).width() / 2;
+        winWidth    = $( window ).width() / 2;
     } else {
         
         winWidth    = window.innerWidth / 2;
@@ -44,12 +44,12 @@ jQuery.fn.centerWidth       = function(){
     var elemLeft    = winWidth - elemWidth;
     
     this.css( 'left', elemLeft + 'px' );
-}
+};
 jQuery.fn.centerHeight      = function(){
     var winHeight;
-    if ( $.browser.msie && $.browser.version == '8.0' ) {
+    if ( $.browser.msie && $.browser.version === '8.0' ) {
         
-        winHeight = $(window).height() / 2;
+        winHeight = $( window ).height() / 2;
     } else {
         
         winHeight = window.innerHeight / 2;
@@ -59,6 +59,12 @@ jQuery.fn.centerHeight      = function(){
     var elemTop = winHeight - elemHeight;
 
     this.css( 'top', elemTop + 'px' );
-}
-//
-//  @codekit-append "../../../assets/js/vendor/jquery.uniform.js", "../../../assets/js/vendor/jquery.form.js", "../../../assets/js/vendor/jquery.validate.js", "../../../assets/js/vendor/additional-methods.js", "../../../assets/js/vendor/jquery.tools.custom.min.js", "../../../assets/js/vendor/jquery.scrollTo-1.4.3.1.js", "Prometa.js";
+};
+//  @codekit-prepend "vendor/jquery-1.8.3.min.js";
+//  @codekit-append "vendor/jquery.uniform.js";
+//  @codekit-append "vendor/jquery.form.js";
+//  @codekit-append "vendor/jquery.validate.js"
+//  @codekit-append "vendor/additional-methods.js";
+//  @codekit-append "vendor/jquery.tools.custom.min.js";
+//  @codekit-append "vendor/jquery.scrollTo-1.4.3.1.js";
+//  @codekit-append "Prometa.js";

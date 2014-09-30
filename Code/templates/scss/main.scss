@@ -13,7 +13,6 @@ textarea {
 }
 
 body {
-    @extend .clearfix;
     display: table;
     height: 100%;
     font-size: 1em;
@@ -108,7 +107,6 @@ a{
     z-index: 16;
 }
 .alert_box {
-    @extend .clearfix;
     background-color: #FFF;
     border-radius: 10px;
     box-shadow: 1px 3px 7px #AAA;
@@ -140,11 +138,14 @@ a{
             
         }
     }
-    p{
+    p, ol, ul{
         color: #000;
-        font: normal 0.875em/1em $helveticaNeueLT;
+        font: normal 0.875em/1.5em $helveticaNeueLT;
         padding: 20px 0 0;
         width: 100%;
+        li{
+            font-size: 1em;
+        }
     }
 }
 .alert_trigger{
