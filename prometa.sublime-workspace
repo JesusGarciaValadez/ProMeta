@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"un",
+				"unset"
+			],
+			[
+				"poin",
+				"pointer-events"
+			],
+			[
 				"list-",
 				"list-style-position"
 			],
@@ -62,10 +70,6 @@
 			[
 				"back",
 				"background-color"
-			],
-			[
-				"un",
-				"unanchored"
 			],
 			[
 				"_css",
@@ -164,21 +168,23 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/pro-meta.kit",
-		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/footer.html",
-		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/servicios.kit",
 		"/Applications/MAMP/htdocs/ProMeta/Code/templates/scss/home.scss",
-		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/head.html",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/index.kit",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/scss/main.scss",
 		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/privacy_policy_alert.kit",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/pro-meta.kit",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/servicios.kit",
+		"/Applications/MAMP/htdocs/ProMeta/Code/templates/index.html",
+		"/Applications/MAMP/htdocs/ProMeta/Code/snippets/controller.php",
+		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/footer.html",
+		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/head.html",
 		"/Applications/MAMP/htdocs/ProMeta/Code/templates/javascript/plugins.js",
 		"/Applications/MAMP/htdocs/ProMeta/Code/templates/javascript/main.js",
 		"/Applications/MAMP/htdocs/ProMeta/Code/templates/javascript/vendor/jquery-1.8.3.min.js",
 		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/html-end.html",
 		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/html-end-home.html",
 		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/background-images-item.html",
-		"/Applications/MAMP/htdocs/ProMeta/Code/templates/kit/index.kit",
 		"/Applications/MAMP/htdocs/ProMeta/Code/chunks/navigation.html",
-		"/Applications/MAMP/htdocs/ProMeta/Code/templates/scss/main.scss",
 		"/Applications/MAMP/htdocs/ProMeta/Code/templates/servicios.html",
 		"/Applications/MAMP/htdocs/ProMeta/Code/templates/javascript/Prometa.js",
 		"/Applications/MAMP/htdocs/ProMeta/Code/templates/javascript/main.min.js",
@@ -289,9 +295,7 @@
 		"/Applications/MAMP/htdocs/minvielle_photography/Code/templates/kit/footer.kit",
 		"/Applications/MAMP/htdocs/minvielle_photography/Code/templates/kit/header.kit",
 		"/Applications/MAMP/htdocs/minvielle_photography/Code/templates/kit/head.kit",
-		"/Applications/MAMP/htdocs/minvielle_photography/index.html",
-		"/Applications/MAMP/htdocs/preset/Code/templates/kit/head.kit",
-		"/Applications/MAMP/htdocs/preset/Code/templates/javascript/plugins.js"
+		"/Applications/MAMP/htdocs/minvielle_photography/index.html"
 	],
 	"find":
 	{
@@ -299,7 +303,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			"<open files>",
@@ -321,6 +325,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"privacy-policy",
 			"/plus-care/agentes/",
 			"}",
 			"{",

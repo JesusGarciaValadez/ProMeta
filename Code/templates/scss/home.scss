@@ -234,6 +234,37 @@
         a{}
     }
 }
+#privacy-policy{
+    height: 1085px;
+    left: 50% !important;
+    margin: 0 0 0 ( -700px / 2 );
+    position: absolute !important;
+    width: 700px;
+    div{
+        pointer-events: none;
+        p, ol, ol li, ul, ul li, strong{
+            margin: 15px auto;
+            padding: 0;
+            pointer-events: none;
+            width: 100%;
+            &::selection, &::-moz-selection{
+                background-color: transparent;
+            }
+        }
+        p{
+
+            a{
+                pointer-events: auto;
+            }
+        }
+        ol, ul{
+
+            li{
+                list-style-position: inside;
+            }
+        }
+    }
+}
 .intern{
     
     #nav{
@@ -320,31 +351,6 @@
                 .google_profile{
                     background-position: -45px 0;
                     margin: 0;
-                }
-            }
-        }
-    }
-    #privacy-policy{
-        height: 1085px;
-        left: 50% !important;
-        margin: 0 0 0 ( -700px / 2 );
-        position: absolute !important;
-        width: 700px;
-        div{
-            pointer-events: none;
-            p, ol, ol li, ul, ul li, strong, a{
-                margin: 15px auto;
-                padding: 0;
-                pointer-events: none;
-                width: 100%;
-                &::selection, &::-moz-selection{
-                    background-color: transparent;
-                }
-            }
-            ol, ul{
-
-                li{
-                    list-style-position: inside;
                 }
             }
         }
@@ -499,6 +505,14 @@ hr{
                             resize: none;
                             width: 260px;
                         }
+                        .alert_trigger{
+                            @include font-mask( #FFF, em( 13, 16 ), em( 30, 16 ), bold );
+                            cursor: pointer;
+                            display: block;
+                            float: left;
+                            opacity: 1;
+                            filter: alpha(opacity = 1);
+                        }
                         #contact_submit{
                             @include font-mask( #FFF, em( 13, 16 ), em( 13, 16 ), bold );
                             background: #bb2131;
@@ -627,6 +641,9 @@ hr{
                 padding: 0 50px 0 0;
             }
         }
+    }
+    .alert_background{
+        height: 2054px !important;
     }
 }
 #pro-meta{

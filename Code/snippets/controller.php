@@ -40,14 +40,14 @@ if ( ! empty( $_GET['action'] ) ) {
                 $toPass[ 'contact_area' ]       = $_POST[ 'contact_area' ];
                 $toPass[ 'contact_message' ]    = $_POST[ 'contact_message' ];
                 
-                /*$cc = array( 
+                $cc = array( 
                         array( 
-                            'mail'  => 'jgarcia@cmvasfalto.com.mx', 
-                            'name'  => 'Jesús'), 
+                            'mail'  => 'm.marighi@pro-meta.com.mx', 
+                            'name'  => 'MMarighi'), 
                         array(
-                            'mail'  => 'vdavila@cmv.com.mx', 
-                            'name'  => 'Vico')
-                    );*/
+                            'mail'  => 'f.corona@pro-meta.com.mx', 
+                            'name'  => 'FCorona')
+                    );
                 
                 $doInsert   = new Review( $dbh, '' );
                 $doInsert   = $doInsert->insertInit( 
