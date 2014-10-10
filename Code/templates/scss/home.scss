@@ -245,14 +245,14 @@
         p, ol, ol li, ul, ul li, strong{
             margin: 15px auto;
             padding: 0;
-            pointer-events: none;
+            pointer-events: auto;
             width: 100%;
-            &::selection, &::-moz-selection{
-                background-color: transparent;
+            &:selection, &::selection, &::-moz-selection{
+                background-color: transparent !important;
             }
         }
         p{
-
+            
             a{
                 pointer-events: auto;
             }
