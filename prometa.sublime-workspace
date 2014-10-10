@@ -303,7 +303,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"<open files>",
@@ -447,6 +447,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"bole",
+				"/Applications/MAMP/htdocs/boletin_axa/boletinaxa.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
