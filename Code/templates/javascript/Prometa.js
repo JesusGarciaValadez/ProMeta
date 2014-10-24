@@ -205,6 +205,7 @@
                                
                                 $('textarea' ).val( 'Ninguno' );
                             }
+                            $( '.result' ).remove();
                         },
                         //  !Function for handle data from server
                         success: function showResponseLogin( responseText, statusText, xhr, form ) {
@@ -214,18 +215,21 @@
                             
                             if( responseText && ( responseText.success == 'true' || responseText.success == true ) ) {
                                 
-                                $( '.alert_box' ).addClass( 'thank_you_message' );
+                                $( '.result' ).addClass( 'thank_you_message' );
                                 var _title      = 'Gracias';
-                                var _markup     = '<p>Nos comunicaremos con usted a la brevedad.</p>';
-                                Prometa.openAlert( _title, _markup );
-                                $( 'textarea' ).val( "" );
+                                var _markup     = '<p class="result">Nos comunicaremos con usted a la brevedad.</p>';
+                                
+                                $( 'form fieldset .input' ).eq( 5 ).append( _markup );
+                                
+                                $( 'textarea, input[type="text"]' ).val( "" );
                                 //$( form ).fadeOut( 300 );
                             } else {
                                 
-                                $( '.alert_box' ).addClass( 'error_message' );
+                                $( '.result' ).addClass( 'error_message' );
                                 var _title  = 'Error';
-                                var _markup = '<p>La encuesta no fue procesada correctamente. Por favor, contacta al administrador.</p>';
-                                Prometa.openAlert( _title, _markup );
+                                var _markup = '<p class="result">La encuesta no fue procesada correctamente. Por favor, contacta al administrador.</p>';
+                                
+                                $( 'form fieldset .input' ).eq( 5 ).append( _markup );
                             }
                             //Prometa.smoothScroll( 'body' );
                         },
@@ -235,10 +239,10 @@
                         error: function( jqXHR, textStatus, errorThrown ) {
                             //console.log(textStatus);
                             //console.log(errorThrown);
-                            $( '.alert_box' ).addClass( 'error' );
+                            $( '.result' ).addClass( 'error' );
                             var _title  = 'Error';
-                            var _markup = '<p>La encuesta no fue procesada correctamente. Por favor, reporta este error al administrador.</p>';
-                            Prometa.openAlert( _title, _markup );
+                            var _markup = '<p class="result">La encuesta no fue procesada correctamente. Por favor, reporta este error al administrador.</p>';
+                            $( 'form fieldset .input' ).eq( 5 ).append( _markup );
                         },
                         cache: false
                     } );

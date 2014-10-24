@@ -414,14 +414,23 @@
         
         //  Handler de contenido de textarea
         if ( $( 'textarea' ).exists() ) {
-           
+            
             $( 'textarea' ).val( 'Mensaje' );
             Prometa.toggleValue( 'textarea', "Mensaje" );
         }
         
+        //  Hace el efecto de placeholder manejando los values de los inputs
+        if ( $( 'input[type="text"]' ).exists() ) {
+            
+            $( 'input[type="text"]' ).map( function ( index, DOMElement ) {
+                var _value  = $( DOMElement ).val();
+                Prometa.toggleValue( $( DOMElement ), _value );
+            } );
+        }
+        
         //  Carruseles y efectos del Home
         if ( $( '#one' ).exists() ) {
-           
+            
             Prometa.inicializeCarrousel( '#header_scrollable', {
                 speed: 1000,
                 circular: true,

@@ -523,6 +523,9 @@ hr{
                             text-align: center;
                             width: 120px;
                         }
+                        .result{
+                            @include font-mask( $red, em( 13, 16 ), em( 13, 16 ), bold );
+                        }
                     }
                 }
             }
